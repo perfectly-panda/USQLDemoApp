@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CSSRelatedInfo>
+  <OptimizerPlanInfo signatureVersion="1">
+    <TableScan present="False" occurrence="0" />
+    <PartitionSeek present="False" occurrence="0" />
+    <PartitionRange present="False" occurrence="0" />
+    <IndexSeek present="False" occurrence="0" />
+    <IndexRange present="True" occurrence="4" />
+    <Join present="True" occurrence="2" />
+    <GroupByAgg present="True" occurrence="6" />
+    <UDProcessor present="False" occurrence="0" />
+    <UDReducer present="False" occurrence="0" />
+    <UDCombiner present="False" occurrence="0" />
+    <UDMultiProcessor present="False" occurrence="0" />
+    <Top present="False" occurrence="0" />
+    <Costs>
+      <ExtractCardinality>113</ExtractCardinality>
+      <InputSize>9281</InputSize>
+      <OutputCardinality>45.55</OutputCardinality>
+      <NumTable>4</NumTable>
+      <DataTransferVolume>0</DataTransferVolume>
+      <Latency>-1</Latency>
+      <TotalCost>-1</TotalCost>
+      <EstimatedNumEdges>0</EstimatedNumEdges>
+    </Costs>
+    <OptimizerTrees>
+<InputTree>
+    <LogOp Id="LogOp_Sequence">
+      <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+      <LogOp Id="LogOp_Output" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output/Series.csv" XMode="All" Out="SeriesName" Udf="IOutputter">
+        <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+        <LogOp Id="LogOp_RestrRemap" Remove="SeriesName" Remap="SeriesName#SeriesName">
+          <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+          <LogOp Id="LogOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__series" CSRoot="Common" TotalConsumers="2">
+            <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="7.5" AvgRowLength="24"/></OpInfo>
+            <LogOp Id="LogOp_GbAgg" AggregateType="Normal" Out="SeriesName" By="SeriesName">
+              <OpInfo><TableGroupProperties Grp="2.0" Remotable="False" Card="7.5" AvgRowLength="24"/></OpInfo>
+              <LogOp Id="LogOp_Get" USqlTableName="localcomputeaccount.StarTrekData.dbo.SeriesSynonyms" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c63313b6-345d-40fc-8ca4-5b10764bce59\475aac1c-b116-4a85-bc16-83c3cfa48795.ss" XMode="Parallel" PartitionType="Hash" Partitioning="SeriesName" Partitions="2" PS="1:Base1" SortColumn="Synonym ASC" StreamId="8569d94e-81b6-4fe1-8087-af85d7d18556">
+                <OpInfo><TableGroupProperties Grp="0.0" Remotable="False" Card="30" AvgRowLength="37"/></OpInfo>
+              </LogOp>
+              <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="1.0"/></OpInfo>
+              </AncOp>
+            </LogOp>
+          </LogOp>
+        </LogOp>
+      </LogOp>
+      <LogOp Id="LogOp_Output" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output/Ratings.csv" XMode="All" Out="SeriesName,RatingName,Rating" Udf="IOutputter">
+        <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+        <LogOp Id="LogOp_RestrRemap" Remove="SeriesName,RatingName,Rating" Remap="Rating#Rating,RatingName#RatingName,SeriesName#SeriesName">
+          <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+          <LogOp Id="LogOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__ratings" CSRoot="Common" TotalConsumers="2">
+            <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="14" AvgRowLength="39"/></OpInfo>
+            <LogOp Id="LogOp_GbAgg" AggregateType="Normal" Out="SeriesName,RatingName,Rating" By="SeriesName,RatingName,Rating">
+              <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="14" AvgRowLength="39"/></OpInfo>
+              <LogOp Id="LogOp_UnionAll" Out="RatingID,SeriesName,RatingName,Rating">
+                <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="56" AvgRowLength="43"/></OpInfo>
+                <LogOp Id="LogOp_Get" USqlTableName="localcomputeaccount.StarTrekData.dbo.Ratings" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\553953da-2f74-48b2-ba2a-5282b510e8af\7622242d-70ba-48ed-843b-a35d1e417f6b.ss" XMode="Parallel" PartitionType="Hash" Partitioning="SeriesName" Partitions="2" PS="2:Base2" SortColumn="RatingID ASC" StreamId="8569d94e-81b6-4fe1-8087-af85d7d18556">
+                  <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="28" AvgRowLength="43"/></OpInfo>
+                </LogOp>
+                <LogOp Id="LogOp_Get" USqlTableName="localcomputeaccount.StarTrekData.dbo.Ratings" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\553953da-2f74-48b2-ba2a-5282b510e8af\2f0c15cf-edb8-4b7b-a1c0-1920734059ac.ss" XMode="Parallel" PartitionType="Hash" Partitioning="SeriesName" Partitions="2" PS="3:Base3" SortColumn="RatingID ASC" StreamId="8569d94e-81b6-4fe1-8087-af85d7d18556">
+                  <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="28" AvgRowLength="43"/></OpInfo>
+                </LogOp>
+              </LogOp>
+              <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="1.0"/></OpInfo>
+              </AncOp>
+            </LogOp>
+          </LogOp>
+        </LogOp>
+      </LogOp>
+      <LogOp Id="LogOp_Output" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output/Twitter.csv" XMode="All" Out="SeriesName,Tweet,RetweetCount,Sentiment" Udf="IOutputter">
+        <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+        <LogOp Id="LogOp_RestrRemap" Remove="Tweet,RetweetCount,Sentiment,SeriesName" Remap="RetweetCount#RetweetCount,Sentiment#Sentiment,SeriesName#SeriesName,Tweet#Tweet">
+          <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+          <LogOp Id="LogOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__twitter" CSRoot="Common" TotalConsumers="2">
+            <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="5.4" AvgRowLength="141"/></OpInfo>
+            <LogOp Id="LogOp_GbAgg" AggregateType="Normal" Out="SeriesName,Tweet,RetweetCount,Sentiment" By="SeriesName,Tweet,RetweetCount,Sentiment">
+              <OpInfo><TableGroupProperties Grp="26.0" Remotable="False" Card="5.4" AvgRowLength="141"/></OpInfo>
+              <LogOp Id="LogOp_Select">
+                <OpInfo><TableGroupProperties Grp="25.0" Remotable="False" Card="21.6" AvgRowLength="208"/></OpInfo>
+                <LogOp Id="LogOp_Get" USqlTableName="localcomputeaccount.StarTrekData.dbo.TwitterResults" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c3d38532-6bf4-44a9-8913-11e3029178c6\4a8da529-c536-4425-af0c-5acef3b8bc5f.ss" XMode="Parallel" PartitionType="Hash" Partitioning="SeriesName" Partitions="2" PS="4:Base4" SortColumn="TweetID ASC" StreamId="8569d94e-81b6-4fe1-8087-af85d7d18556">
+                  <OpInfo><TableGroupProperties Grp="21.0" Remotable="False" Card="27" AvgRowLength="208"/></OpInfo>
+                </LogOp>
+                <ScaOp Id="ScaOp_Comp" CompOp="x_cmpNe"><OpInfo><ScalarGroupProperties Grp="24.0"/></OpInfo>
+                  <ScaOp Id="ScaOp_Identifier" Column="SeriesName"><OpInfo><ScalarGroupProperties Grp="22.0"/></OpInfo>
+                  </ScaOp>
+                  <ScaOp Id="ScaOp_Const" TI="String,Nullable,Var" Value="&quot;Unknown&quot;" Parameter="0"><OpInfo><ScalarGroupProperties Grp="23.0"/></OpInfo>
+                  </ScaOp>
+                </ScaOp>
+              </LogOp>
+              <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="1.0"/></OpInfo>
+              </AncOp>
+            </LogOp>
+          </LogOp>
+        </LogOp>
+      </LogOp>
+      <LogOp Id="LogOp_Output" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output/ScoredTwitter.csv" XMode="All" Out="SeriesName,TweetScore,RetweetScore" Udf="IOutputter">
+        <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+        <LogOp Id="LogOp_RestrRemap" Remove="SeriesName,TweetScore,RetweetScore" Remap="RetweetScore#RetweetScore,SeriesName#SeriesName,TweetScore#TweetScore">
+          <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+          <LogOp Id="LogOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__scoredTweets" CSRoot="Common" TotalConsumers="2">
+            <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="1.35" AvgRowLength="30"/></OpInfo>
+            <LogOp Id="LogOp_SequenceProject" Remove="TweetCount,RetweetCount">
+              <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="1.35" AvgRowLength="30"/></OpInfo>
+              <LogOp Id="LogOp_RestrRemap" Remove="TweetCount,TweetCount1" Remap="TweetCount#TweetCount1">
+                <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="1.35" AvgRowLength="30"/></OpInfo>
+                <LogOp Id="LogOp_Project">
+                  <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="1.35" AvgRowLength="38"/></OpInfo>
+                  <LogOp Id="LogOp_GbAgg" AggregateType="Normal" Out="TweetCount,RetweetCount,SeriesName" By="SeriesName">
+                    <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="1.35" AvgRowLength="30"/></OpInfo>
+                    <LogOp Id="LogOp_RestrRemap" Remove="Tweet,RetweetCount,Sentiment,SeriesName" Remap="RetweetCount#RetweetCount,Sentiment#Sentiment,SeriesName#SeriesName,Tweet#Tweet">
+                      <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="5.4" AvgRowLength="141"/></OpInfo>
+                      <LogOp Id="LogOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__twitter" CSRoot="Common" TotalConsumers="2">
+                        <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="5.4" AvgRowLength="141"/></OpInfo>
+                      </LogOp>
+                    </LogOp>
+                    <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="35.0"/></OpInfo>
+                      <AncOp Id="AncOp_PrjEl" Column="TweetCount"><OpInfo><ScalarGroupProperties Grp="31.0"/></OpInfo>
+                        <ScaOp Id="ScaOp_AggFunc" AggregateName="stopCountBig" Distinct="False"><OpInfo><ScalarGroupProperties Grp="30.0"/></OpInfo>
+                          <ScaOp Id="ScaOp_Identifier" Column="Tweet"><OpInfo><ScalarGroupProperties Grp="29.0"/></OpInfo>
+                          </ScaOp>
+                        </ScaOp>
+                      </AncOp>
+                      <AncOp Id="AncOp_PrjEl" Column="RetweetCount"><OpInfo><ScalarGroupProperties Grp="34.0"/></OpInfo>
+                        <ScaOp Id="ScaOp_AggFunc" AggregateName="stopAccum" Distinct="False"><OpInfo><ScalarGroupProperties Grp="33.0"/></OpInfo>
+                          <ScaOp Id="ScaOp_Identifier" Column="RetweetCount"><OpInfo><ScalarGroupProperties Grp="32.0"/></OpInfo>
+                          </ScaOp>
+                        </ScaOp>
+                      </AncOp>
+                    </AncOp>
+                  </LogOp>
+                  <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="40.0"/></OpInfo>
+                    <AncOp Id="AncOp_PrjEl" Column="TweetCount1"><OpInfo><ScalarGroupProperties Grp="39.0"/></OpInfo>
+                      <ScaOp Id="ScaOp_Convert"><OpInfo><ScalarGroupProperties Grp="38.0"/></OpInfo>
+                        <ScaOp Id="ScaOp_Identifier" Column="TweetCount"><OpInfo><ScalarGroupProperties Grp="37.0"/></OpInfo>
+                        </ScaOp>
+                      </ScaOp>
+                    </AncOp>
+                  </AncOp>
+                </LogOp>
+              </LogOp>
+              <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="Unknown"/></OpInfo>
+                <AncOp Id="AncOp_PrjEl" Column="TweetScore"><OpInfo><ScalarGroupProperties Grp="44.0"/></OpInfo>
+                  <ScaOp Id="ScaOp_SeqFunc" SortColumn="TweetCount ASC" Name="row_number"><OpInfo><ScalarGroupProperties Grp="43.0"/></OpInfo>
+                  </ScaOp>
+                </AncOp>
+                <AncOp Id="AncOp_PrjEl" Column="RetweetScore"><OpInfo><ScalarGroupProperties Grp="48.0"/></OpInfo>
+                  <ScaOp Id="ScaOp_SeqFunc" SortColumn="RetweetCount ASC" Name="row_number"><OpInfo><ScalarGroupProperties Grp="47.0"/></OpInfo>
+                  </ScaOp>
+                </AncOp>
+              </AncOp>
+            </LogOp>
+          </LogOp>
+        </LogOp>
+      </LogOp>
+      <LogOp Id="LogOp_Output" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output/ScoredRatings.csv" XMode="All" Out="SeriesName,Score" Udf="IOutputter">
+        <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+        <LogOp Id="LogOp_RestrRemap" Remove="SeriesName,Score" Remap="Score#Score,SeriesName#SeriesName">
+          <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+          <LogOp Id="LogOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__scoredRatings" CSRoot="Common" TotalConsumers="2">
+            <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="14" AvgRowLength="33"/></OpInfo>
+            <LogOp Id="LogOp_SequenceProject" Remove="RatingName,Rating">
+              <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="14" AvgRowLength="33"/></OpInfo>
+              <LogOp Id="LogOp_RestrRemap" Remove="SeriesName,RatingName,Rating" Remap="Rating#Rating,RatingName#RatingName,SeriesName#SeriesName">
+                <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="14" AvgRowLength="39"/></OpInfo>
+                <LogOp Id="LogOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__ratings" CSRoot="Common" TotalConsumers="2">
+                  <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="14" AvgRowLength="39"/></OpInfo>
+                </LogOp>
+              </LogOp>
+              <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="Unknown"/></OpInfo>
+                <AncOp Id="AncOp_PrjEl" Column="Score"><OpInfo><ScalarGroupProperties Grp="11.0"/></OpInfo>
+                  <ScaOp Id="ScaOp_SeqFunc" PartitionColumn="RatingName" SortColumn="Rating ASC" Name="row_number"><OpInfo><ScalarGroupProperties Grp="10.0"/></OpInfo>
+                  </ScaOp>
+                </AncOp>
+              </AncOp>
+            </LogOp>
+          </LogOp>
+        </LogOp>
+      </LogOp>
+      <LogOp Id="LogOp_Output" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output/Analysis.csv" XMode="All" Out="SeriesName,OverallScore,RatingsScore,TweetScore,RetweetScore" Udf="IOutputter">
+        <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+        <LogOp Id="LogOp_Project">
+          <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+          <LogOp Id="LogOp_RestrRemap" Remove="TweetScore,RetweetScore,Expr_0,Expr_1,TweetScore3,RetweetScore4" Remap="RetweetScore#RetweetScore4,TweetScore#TweetScore3">
+            <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+            <LogOp Id="LogOp_Project">
+              <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+              <LogOp Id="LogOp_GbAgg" AggregateType="Normal" Out="Expr_0,Expr_1,SeriesName,TweetScore,RetweetScore" By="SeriesName,TweetScore,RetweetScore">
+                <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False"/></OpInfo>
+                <LogOp Id="LogOp_LeftOuterJoin">
+                  <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="13.2" AvgRowLength="87"/></OpInfo>
+                  <LogOp Id="LogOp_LeftOuterJoin">
+                    <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="12.2" AvgRowLength="57"/></OpInfo>
+                    <LogOp Id="LogOp_RestrRemap" Remove="SeriesName" Remap="SeriesName#SeriesName">
+                      <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="7.5" AvgRowLength="24"/></OpInfo>
+                      <LogOp Id="LogOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__series" CSRoot="Common" TotalConsumers="2">
+                        <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="7.5" AvgRowLength="24"/></OpInfo>
+                      </LogOp>
+                    </LogOp>
+                    <LogOp Id="LogOp_RestrRemap" Remove="SeriesName" Remap="SeriesName1#SeriesName">
+                      <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="14" AvgRowLength="33"/></OpInfo>
+                      <LogOp Id="LogOp_RestrRemap" Remove="SeriesName,Score" Remap="Score#Score,SeriesName#SeriesName">
+                        <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="14" AvgRowLength="33"/></OpInfo>
+                        <LogOp Id="LogOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__scoredRatings" CSRoot="Common" TotalConsumers="2">
+                          <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="14" AvgRowLength="33"/></OpInfo>
+                        </LogOp>
+                      </LogOp>
+                    </LogOp>
+                    <ScaOp Id="ScaOp_Comp" CompOp="x_cmpEq"><OpInfo><ScalarGroupProperties Grp="19.0"/></OpInfo>
+                      <ScaOp Id="ScaOp_Identifier" Column="SeriesName"><OpInfo><ScalarGroupProperties Grp="17.0"/></OpInfo>
+                      </ScaOp>
+                      <ScaOp Id="ScaOp_Identifier" Column="SeriesName1"><OpInfo><ScalarGroupProperties Grp="18.0"/></OpInfo>
+                      </ScaOp>
+                    </ScaOp>
+                  </LogOp>
+                  <LogOp Id="LogOp_RestrRemap" Remove="SeriesName" Remap="SeriesName2#SeriesName">
+                    <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="1.35" AvgRowLength="30"/></OpInfo>
+                    <LogOp Id="LogOp_RestrRemap" Remove="SeriesName,TweetScore,RetweetScore" Remap="RetweetScore#RetweetScore,SeriesName#SeriesName,TweetScore#TweetScore">
+                      <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="1.35" AvgRowLength="30"/></OpInfo>
+                      <LogOp Id="LogOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__scoredTweets" CSRoot="Common" TotalConsumers="2">
+                        <OpInfo><TableGroupProperties Grp="Unknown" Remotable="False" Card="1.35" AvgRowLength="30"/></OpInfo>
+                      </LogOp>
+                    </LogOp>
+                  </LogOp>
+                  <ScaOp Id="ScaOp_Comp" CompOp="x_cmpEq"><OpInfo><ScalarGroupProperties Grp="55.0"/></OpInfo>
+                    <ScaOp Id="ScaOp_Identifier" Column="SeriesName"><OpInfo><ScalarGroupProperties Grp="17.0"/></OpInfo>
+                    </ScaOp>
+                    <ScaOp Id="ScaOp_Identifier" Column="SeriesName2"><OpInfo><ScalarGroupProperties Grp="54.0"/></OpInfo>
+                    </ScaOp>
+                  </ScaOp>
+                </LogOp>
+                <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="61.0"/></OpInfo>
+                  <AncOp Id="AncOp_PrjEl" Column="Expr_0"><OpInfo><ScalarGroupProperties Grp="59.0"/></OpInfo>
+                    <ScaOp Id="ScaOp_AggFunc" AggregateName="stopAccum" Distinct="False"><OpInfo><ScalarGroupProperties Grp="58.0"/></OpInfo>
+                      <ScaOp Id="ScaOp_Identifier" Column="Score"><OpInfo><ScalarGroupProperties Grp="57.0"/></OpInfo>
+                      </ScaOp>
+                    </ScaOp>
+                  </AncOp>
+                  <AncOp Id="AncOp_PrjEl" Column="Expr_1"><OpInfo><ScalarGroupProperties Grp="60.0"/></OpInfo>
+                    <ScaOp Id="ScaOp_AggFunc" AggregateName="stopAccum" Distinct="False"><OpInfo><ScalarGroupProperties Grp="58.0"/></OpInfo>
+                      <ScaOp Id="ScaOp_Identifier" Column="Score"><OpInfo><ScalarGroupProperties Grp="57.0"/></OpInfo>
+                      </ScaOp>
+                    </ScaOp>
+                  </AncOp>
+                </AncOp>
+              </LogOp>
+              <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="69.0"/></OpInfo>
+                <AncOp Id="AncOp_PrjEl" Column="RatingsScore"><OpInfo><ScalarGroupProperties Grp="64.0"/></OpInfo>
+                  <ScaOp Id="ScaOp_Udf" Udf="Expr_0 == null ? 0 : Expr_1" UsedColumn="Expr_0,Expr_1"><OpInfo><ScalarGroupProperties Grp="63.0"/></OpInfo>
+                  </ScaOp>
+                </AncOp>
+                <AncOp Id="AncOp_PrjEl" Column="TweetScore3"><OpInfo><ScalarGroupProperties Grp="66.0"/></OpInfo>
+                  <ScaOp Id="ScaOp_Udf" Udf="TweetScore == null ? 0 : TweetScore" UsedColumn="TweetScore"><OpInfo><ScalarGroupProperties Grp="65.0"/></OpInfo>
+                  </ScaOp>
+                </AncOp>
+                <AncOp Id="AncOp_PrjEl" Column="RetweetScore4"><OpInfo><ScalarGroupProperties Grp="68.0"/></OpInfo>
+                  <ScaOp Id="ScaOp_Udf" Udf="RetweetScore == null ? 0 : RetweetScore" UsedColumn="RetweetScore"><OpInfo><ScalarGroupProperties Grp="67.0"/></OpInfo>
+                  </ScaOp>
+                </AncOp>
+              </AncOp>
+            </LogOp>
+          </LogOp>
+          <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="74.0"/></OpInfo>
+            <AncOp Id="AncOp_PrjEl" Column="OverallScore"><OpInfo><ScalarGroupProperties Grp="73.0"/></OpInfo>
+              <ScaOp Id="ScaOp_Udf" Udf="RatingsScore + TweetScore + RetweetScore" UsedColumn="RatingsScore,TweetScore,RetweetScore"><OpInfo><ScalarGroupProperties Grp="72.0"/></OpInfo>
+              </ScaOp>
+            </AncOp>
+          </AncOp>
+        </LogOp>
+      </LogOp>
+    </LogOp>
+</InputTree>
+<OutputTree>
+    <PhyOp Id="PhyOp_Sequence">
+      <OpInfo><TableGroupProperties Grp="87.1" Remotable="False" Card="0" CardFromHint="True" AvgRowLength="1" PrtnSkewFactor="1" HT="18134882873183324067:237::5:18112751100481623469" HTS="13614267756009484565"/><Costs TotalCosts="10.1428" BubbleCost="10.1428" BubblePartitions="389"/></OpInfo>
+      <PhyOp Id="PhyOp_Output" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output/Series.csv" XMode="Serial" Out="SeriesName" Udf="IOutputter">
+        <OpInfo><TableGroupProperties Grp="84.1" Remotable="False" Card="7.5" AvgRowLength="24" PrtnSkewFactor="1" HT="13285837243165171044:228::4:14019985387842862173" HTS="12021543005008117849"/><Costs TotalCosts="5.01366" BubbleCost="5.01366" BubblePartitions="399"/></OpInfo>
+        <PhyOp Id="PhyOp_RestrRemap">
+          <OpInfo><TableGroupProperties Grp="83.1" Remotable="False" Card="7.5" AvgRowLength="24" PrtnSkewFactor="1" HT="14019985387842862173:120::3:17433054587402407707" HTS="8766625895445229378"/><Costs TotalCosts="5.00349" BubbleCost="5.00349" BubblePartitions="399"/></OpInfo>
+          <PhyOp Id="PhyOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__series" CSRoot="Common" TotalConsumers="2">
+            <OpInfo><TableGroupProperties Grp="3.1" Remotable="False" Card="7.5" AvgRowLength="24" PrtnSkewFactor="1" HT="17433054587402407707:166::2:5438874885311923077" HTS="3279915711574875530"/><Costs TotalCosts="5.00349" BubbleCost="5.00349" BubblePartitions="399"/></OpInfo>
+            <PhyOp Id="PhyOp_StreamGbAgg" AggregateType="Global" GroupOnly="False" On="SeriesName ASC" SortColumn="SeriesName ASC">
+              <OpInfo><TableGroupProperties Grp="2.2" Remotable="False" Card="7.5" AvgRowLength="24" PrtnSkewFactor="1" HT="5438874885311923077:109:0:1:3140205160866207723" HTS="1085641343451992439"/><Costs TotalCosts="5.00349" BubbleCost="5.00349" BubblePartitions="399"/></OpInfo>
+              <PhyOp Id="PhyOp_Sort" SortColumn="SeriesName ASC">
+                <OpInfo><TableGroupProperties Grp="88.2" Remotable="False" Card="15" AvgRowLength="24" PrtnSkewFactor="1" HT="13980833944719607495:109:1:1:3140205160866207723" HTS="8697120390911286730"/><Costs TotalCosts="5.00349" BubbleCost="5.00349" BubblePartitions="399"/></OpInfo>
+                <PhyOp Id="PhyOp_HashGbAgg" AggregateType="Local" By="SeriesName">
+                  <OpInfo><TableGroupProperties Grp="88.3" Remotable="False" Card="15" AvgRowLength="24" PrtnSkewFactor="1" HT="13980833944719607495:109:1:1:3140205160866207723" HTS="8697120390911286730"/><Costs TotalCosts="5.00338" BubbleCost="5.00338" BubblePartitions="399"/></OpInfo>
+                  <PhyOp Id="PhyOp_Range" USqlTableName="localcomputeaccount.StarTrekData.dbo.SeriesSynonyms" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c63313b6-345d-40fc-8ca4-5b10764bce59\475aac1c-b116-4a85-bc16-83c3cfa48795.ss" XMode="Parallel" PartitionType="Hash" Partitioning="SeriesName" Partitions="2" PS="1:Base1" SortColumn="Synonym ASC" StreamId="8569d94e-81b6-4fe1-8087-af85d7d18556" Direction="ASC">
+                    <OpInfo><TableGroupProperties Grp="0.3" Remotable="False" Card="30" AvgRowLength="24" PrtnSkewFactor="1.38065" HT="7063437039132183900:197::0:0" HTS="17178145615988690548"/><Costs TotalCosts="5.00337" BubbleCost="5.00337" BubblePartitions="399"/></OpInfo>
+                  </PhyOp>
+                  <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="1.0"/></OpInfo>
+                  </AncOp>
+                </PhyOp>
+              </PhyOp>
+              <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="1.0"/></OpInfo>
+              </AncOp>
+            </PhyOp>
+          </PhyOp>
+        </PhyOp>
+      </PhyOp>
+      <PhyOp Id="PhyOp_Output" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output/Ratings.csv" XMode="Serial" Out="SeriesName,RatingName,Rating" Udf="IOutputter">
+        <OpInfo><TableGroupProperties Grp="78.1" Remotable="False" Card="14" AvgRowLength="39" PrtnSkewFactor="1" HT="4012667162529998232:228::4:6631564895966203787" HTS="5264314091395260036"/><Costs TotalCosts="10.1314" BubbleCost="10.1314" BubblePartitions="398"/></OpInfo>
+        <PhyOp Id="PhyOp_RestrRemap">
+          <OpInfo><TableGroupProperties Grp="77.1" Remotable="False" Card="14" AvgRowLength="39" PrtnSkewFactor="1" HT="6631564895966203787:120::3:15186286353332423043" HTS="3526167370600350535"/><Costs TotalCosts="10.1212" BubbleCost="10.1212" BubblePartitions="398"/></OpInfo>
+          <PhyOp Id="PhyOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__ratings" CSRoot="Common" TotalConsumers="2">
+            <OpInfo><TableGroupProperties Grp="8.1" Remotable="False" Card="14" AvgRowLength="39" PrtnSkewFactor="1" HT="15186286353332423043:166::2:1018381830115649032" HTS="4963794633087092956"/><Costs TotalCosts="10.1212" BubbleCost="10.1212" BubblePartitions="398"/></OpInfo>
+            <PhyOp Id="PhyOp_StreamGbAgg" AggregateType="Normal" GroupOnly="False" On="RatingName ASC,Rating ASC,SeriesName ASC" SortColumn="RatingName ASC,Rating ASC,SeriesName ASC">
+              <OpInfo><TableGroupProperties Grp="7.3" Remotable="False" Card="14" AvgRowLength="39" PrtnSkewFactor="1" HT="1018381830115649032:109:0:1:3646702106281648167" HTS="3212033538374868295"/><Costs TotalCosts="10.1212" BubbleCost="10.1212" BubblePartitions="398"/></OpInfo>
+              <PhyOp Id="PhyOp_UnionAll" Out="RatingID,SeriesName,RatingName,Rating" ParametricBranches="2" SortColumn="RatingName ASC,Rating ASC,SeriesName ASC">
+                <OpInfo><TableGroupProperties Grp="6.1" Remotable="False" Card="56" AvgRowLength="39" PrtnSkewFactor="1" HT="7569933984547624344:17::1:9647279600559058711" HTS="5644746243501411629"/><Costs TotalCosts="10.1212" BubbleCost="10.1212" BubblePartitions="398"/></OpInfo>
+                <PhyOp Id="PhyOp_Sort" SortColumn="RatingName ASC,Rating ASC,SeriesName ASC">
+                  <OpInfo><TableGroupProperties Grp="5.2" Remotable="False" Card="28" AvgRowLength="39" PrtnSkewFactor="1" HT="9647279600559058711:197::0:0" HTS="4601066531118888507"/><Costs TotalCosts="5.00389" BubbleCost="5.00389" BubblePartitions="399"/></OpInfo>
+                  <PhyOp Id="PhyOp_Range" USqlTableName="localcomputeaccount.StarTrekData.dbo.Ratings" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\553953da-2f74-48b2-ba2a-5282b510e8af\7622242d-70ba-48ed-843b-a35d1e417f6b.ss" XMode="Parallel" PartitionType="Hash" Partitioning="SeriesName" Partitions="2" PS="2:Base2" SortColumn="RatingID ASC" StreamId="8569d94e-81b6-4fe1-8087-af85d7d18556" ParamTables="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\553953da-2f74-48b2-ba2a-5282b510e8af\7622242d-70ba-48ed-843b-a35d1e417f6b.ss,C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\553953da-2f74-48b2-ba2a-5282b510e8af\2f0c15cf-edb8-4b7b-a1c0-1920734059ac.ss" Direction="ASC">
+                    <OpInfo><TableGroupProperties Grp="5.3" Remotable="False" Card="28" AvgRowLength="39" PrtnSkewFactor="1" HT="9647279600559058711:197::0:0" HTS="4601066531118888507"/><Costs TotalCosts="5.00376" BubbleCost="5.00376" BubblePartitions="399"/></OpInfo>
+                  </PhyOp>
+                </PhyOp>
+              </PhyOp>
+              <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="1.0"/></OpInfo>
+              </AncOp>
+            </PhyOp>
+          </PhyOp>
+        </PhyOp>
+      </PhyOp>
+      <PhyOp Id="PhyOp_Output" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output/Twitter.csv" XMode="Serial" Out="SeriesName,Tweet,RetweetCount,Sentiment" Udf="IOutputter">
+        <OpInfo><TableGroupProperties Grp="86.1" Remotable="False" Card="5.4" AvgRowLength="141" PrtnSkewFactor="1" HT="5120492593817137871:228::4:8437629015539164677" HTS="6364161954161430669"/><Costs TotalCosts="5.01643" BubbleCost="5.01643" BubblePartitions="399"/></OpInfo>
+        <PhyOp Id="PhyOp_RestrRemap">
+          <OpInfo><TableGroupProperties Grp="85.1" Remotable="False" Card="5.4" AvgRowLength="141" PrtnSkewFactor="1" HT="8437629015539164677:120::3:6312377087178806464" HTS="4506758825587297035"/><Costs TotalCosts="5.00627" BubbleCost="5.00627" BubblePartitions="399"/></OpInfo>
+          <PhyOp Id="PhyOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__twitter" CSRoot="Common" TotalConsumers="2">
+            <OpInfo><TableGroupProperties Grp="27.1" Remotable="False" Card="5.4" AvgRowLength="141" PrtnSkewFactor="1" HT="6312377087178806464:166::2:6478030181658005137" HTS="18285784242530177974"/><Costs TotalCosts="5.00627" BubbleCost="5.00627" BubblePartitions="399"/></OpInfo>
+            <PhyOp Id="PhyOp_StreamGbAgg" AggregateType="Normal" GroupOnly="False" On="SeriesName ASC,Tweet ASC,RetweetCount ASC,Sentiment ASC" SortColumn="SeriesName ASC,Tweet ASC,RetweetCount ASC,Sentiment ASC">
+              <OpInfo><TableGroupProperties Grp="26.3" Remotable="False" Card="5.4" AvgRowLength="141" PrtnSkewFactor="1" HT="6478030181658005137:109:0:1:14143329500960599202" HTS="14639163487695181749"/><Costs TotalCosts="5.00627" BubbleCost="5.00627" BubblePartitions="399"/></OpInfo>
+              <PhyOp Id="PhyOp_Sort" SortColumn="SeriesName ASC,Tweet ASC,RetweetCount ASC,Sentiment ASC">
+                <OpInfo><TableGroupProperties Grp="25.2" Remotable="False" Card="21.6" AvgRowLength="141" PrtnSkewFactor="1" HT="18066561379226575379:35::2:16794628572476099160" HTS="16588723717508822881"/><Costs TotalCosts="5.00626" BubbleCost="5.00626" BubblePartitions="399"/></OpInfo>
+                <PhyOp Id="PhyOp_Filter">
+                  <OpInfo><TableGroupProperties Grp="25.3" Remotable="False" Card="21.6" AvgRowLength="141" PrtnSkewFactor="1" HT="18066561379226575379:35::2:16794628572476099160" HTS="16588723717508822881"/><Costs TotalCosts="5.00613" BubbleCost="5.00613" BubblePartitions="399"/></OpInfo>
+                  <PhyOp Id="PhyOp_Range" USqlTableName="localcomputeaccount.StarTrekData.dbo.TwitterResults" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c3d38532-6bf4-44a9-8913-11e3029178c6\4a8da529-c536-4425-af0c-5acef3b8bc5f.ss" XMode="Parallel" PartitionType="Hash" Partitioning="SeriesName" Partitions="2" PS="4:Base4" SortColumn="TweetID ASC" StreamId="8569d94e-81b6-4fe1-8087-af85d7d18556" Direction="ASC">
+                    <OpInfo><TableGroupProperties Grp="21.3" Remotable="False" Card="27" AvgRowLength="141" PrtnSkewFactor="1.2509" HT="10229494351519220532:197::0:0" HTS="7746639223844466289"/><Costs TotalCosts="5.00612" BubbleCost="5.00612" BubblePartitions="399"/></OpInfo>
+                  </PhyOp>
+                  <ScaOp Id="ScaOp_Comp" CompOp="x_cmpNe"><OpInfo><ScalarGroupProperties Grp="24.0"/></OpInfo>
+                    <ScaOp Id="ScaOp_Identifier" Column="SeriesName"><OpInfo><ScalarGroupProperties Grp="22.0"/></OpInfo>
+                    </ScaOp>
+                    <ScaOp Id="ScaOp_Const" TI="String,Nullable,Var" Value="&quot;Unknown&quot;" Parameter="0"><OpInfo><ScalarGroupProperties Grp="23.0"/></OpInfo>
+                    </ScaOp>
+                  </ScaOp>
+                </PhyOp>
+              </PhyOp>
+              <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="1.0"/></OpInfo>
+              </AncOp>
+            </PhyOp>
+          </PhyOp>
+        </PhyOp>
+      </PhyOp>
+      <PhyOp Id="PhyOp_Output" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output/ScoredTwitter.csv" XMode="Serial" Out="SeriesName,TweetScore,RetweetScore" Udf="IOutputter">
+        <OpInfo><TableGroupProperties Grp="82.1" Remotable="False" Card="1.35" AvgRowLength="30" PrtnSkewFactor="1" HT="8129693878426590266:228::7:9980039687215069119" HTS="4074400428257492774"/><Costs TotalCosts="5.01663" BubbleCost="5.01663" BubblePartitions="399"/></OpInfo>
+        <PhyOp Id="PhyOp_RestrRemap">
+          <OpInfo><TableGroupProperties Grp="81.1" Remotable="False" Card="1.35" AvgRowLength="30" PrtnSkewFactor="1" HT="9980039687215069119:120::6:10149024520071517332" HTS="1592702970550158481"/><Costs TotalCosts="5.00647" BubbleCost="5.00647" BubblePartitions="399"/></OpInfo>
+          <PhyOp Id="PhyOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__scoredTweets" CSRoot="Common" TotalConsumers="2">
+            <OpInfo><TableGroupProperties Grp="52.2" Remotable="False" Card="1.35" AvgRowLength="30" PrtnSkewFactor="1" HT="10149024520071517332:166::5:14121822450916303697" HTS="11046635258953565471"/><Costs TotalCosts="5.00647" BubbleCost="5.00647" BubblePartitions="399"/></OpInfo>
+            <PhyOp Id="PhyOp_RestrRemap">
+              <OpInfo><TableGroupProperties Grp="51.3" Remotable="False" Card="1.35" AvgRowLength="30" PrtnSkewFactor="1" HT="14121822450916303697:120::4:17911205407698643701" HTS="15508465956754952848"/><Costs TotalCosts="5.00647" BubbleCost="5.00647" BubblePartitions="399"/></OpInfo>
+              <PhyOp Id="PhyOp_ComputeSequence" LgOption="Normal">
+                <OpInfo><TableGroupProperties Grp="50.3" Remotable="False" Card="1.35" AvgRowLength="30" PrtnSkewFactor="1" HT="17911205407698643701:24:0:3:7062899616391744180" HTS="11347681454623826193"/><Costs TotalCosts="5.00647" BubbleCost="5.00647" BubblePartitions="399"/></OpInfo>
+                <PhyOp Id="PhyOp_Sort" SortColumn="RetweetCount ASC">
+                  <OpInfo><TableGroupProperties Grp="46.2" Remotable="False" Card="1.35" AvgRowLength="30" PrtnSkewFactor="1" HT="11238482801491874920:24:0:3:14722294873040017098" HTS="6557843910361172935"/><Costs TotalCosts="5.00647" BubbleCost="5.00647" BubblePartitions="399"/></OpInfo>
+                  <PhyOp Id="PhyOp_ComputeSequence" LgOption="Normal">
+                    <OpInfo><TableGroupProperties Grp="46.3" Remotable="False" Card="1.35" AvgRowLength="30" PrtnSkewFactor="1" HT="11238482801491874920:24:0:3:14722294873040017098" HTS="6557843910361172935"/><Costs TotalCosts="5.00637" BubbleCost="5.00637" BubblePartitions="399"/></OpInfo>
+                    <PhyOp Id="PhyOp_RestrRemap">
+                      <OpInfo><TableGroupProperties Grp="42.1" Remotable="False" Card="1.35" AvgRowLength="30" PrtnSkewFactor="1" HT="13870143074465340230:120::5:11230432454476075085" HTS="9640608222429927668"/><Costs TotalCosts="5.00637" BubbleCost="5.00637" BubblePartitions="399"/></OpInfo>
+                      <PhyOp Id="PhyOp_ComputeScalar">
+                        <OpInfo><TableGroupProperties Grp="41.1" Remotable="False" Card="1.35" AvgRowLength="38" PrtnSkewFactor="1" HT="11230432454476075085:212::4:5408095289691073213" HTS="9883985390612647916"/><Costs TotalCosts="5.00637" BubbleCost="5.00637" BubblePartitions="399"/></OpInfo>
+                        <PhyOp Id="PhyOp_Sort" SortColumn="TweetCount ASC">
+                          <OpInfo><TableGroupProperties Grp="36.2" Remotable="False" Card="1.35" AvgRowLength="30" PrtnSkewFactor="1" HT="14039585556459294947:109:0:4:4260464084674544393" HTS="16323095931937090446"/><Costs TotalCosts="5.00637" BubbleCost="5.00637" BubblePartitions="399"/></OpInfo>
+                          <PhyOp Id="PhyOp_StreamGbAgg" AggregateType="Normal" GroupOnly="False" On="SeriesName ASC" SortColumn="SeriesName ASC">
+                            <OpInfo><TableGroupProperties Grp="36.4" Remotable="False" Card="1.35" AvgRowLength="30" PrtnSkewFactor="1" HT="14039585556459294947:109:0:4:4260464084674544393" HTS="16323095931937090446"/><Costs TotalCosts="5.00627" BubbleCost="5.00627" BubblePartitions="399"/></OpInfo>
+                            <PhyOp Id="PhyOp_RestrRemap">
+                              <OpInfo><TableGroupProperties Grp="28.1" Remotable="False" Card="5.4" AvgRowLength="134" PrtnSkewFactor="1" HT="8437629015539164677:120::3:6312377087178806464" HTS="4506758825587297035"/><Costs TotalCosts="5.00627" BubbleCost="5.00627" BubblePartitions="399"/></OpInfo>
+                              <PhyOp Id="PhyOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__twitter" CSRoot="Common" TotalConsumers="2">
+                                <OpInfo><TableGroupProperties Grp="27.1" Remotable="False" Card="5.4" AvgRowLength="141" PrtnSkewFactor="1" HT="6312377087178806464:166::2:6478030181658005137" HTS="18285784242530177974"/><Costs TotalCosts="5.00627" BubbleCost="5.00627" BubblePartitions="399"/></OpInfo>
+                              </PhyOp>
+                            </PhyOp>
+                            <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="35.0"/></OpInfo>
+                              <AncOp Id="AncOp_PrjEl" Column="TweetCount"><OpInfo><ScalarGroupProperties Grp="31.0"/></OpInfo>
+                                <ScaOp Id="ScaOp_AggFunc" AggregateName="stopCountBig" Distinct="False"><OpInfo><ScalarGroupProperties Grp="30.0"/></OpInfo>
+                                  <ScaOp Id="ScaOp_Identifier" Column="Tweet"><OpInfo><ScalarGroupProperties Grp="29.0"/></OpInfo>
+                                  </ScaOp>
+                                </ScaOp>
+                              </AncOp>
+                              <AncOp Id="AncOp_PrjEl" Column="RetweetCount"><OpInfo><ScalarGroupProperties Grp="34.0"/></OpInfo>
+                                <ScaOp Id="ScaOp_AggFunc" AggregateName="stopAccum" Distinct="False"><OpInfo><ScalarGroupProperties Grp="33.0"/></OpInfo>
+                                  <ScaOp Id="ScaOp_Identifier" Column="RetweetCount"><OpInfo><ScalarGroupProperties Grp="32.0"/></OpInfo>
+                                  </ScaOp>
+                                </ScaOp>
+                              </AncOp>
+                            </AncOp>
+                          </PhyOp>
+                        </PhyOp>
+                        <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="40.0"/></OpInfo>
+                          <AncOp Id="AncOp_PrjEl" Column="TweetCount1"><OpInfo><ScalarGroupProperties Grp="39.0"/></OpInfo>
+                            <ScaOp Id="ScaOp_Convert"><OpInfo><ScalarGroupProperties Grp="38.0"/></OpInfo>
+                              <ScaOp Id="ScaOp_Identifier" Column="TweetCount"><OpInfo><ScalarGroupProperties Grp="37.0"/></OpInfo>
+                              </ScaOp>
+                            </ScaOp>
+                          </AncOp>
+                        </AncOp>
+                      </PhyOp>
+                    </PhyOp>
+                    <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="45.0"/></OpInfo>
+                      <AncOp Id="AncOp_PrjEl" Column="TweetScore"><OpInfo><ScalarGroupProperties Grp="44.0"/></OpInfo>
+                        <ScaOp Id="ScaOp_SeqFunc" SortColumn="TweetCount ASC" Name="row_number"><OpInfo><ScalarGroupProperties Grp="43.0"/></OpInfo>
+                        </ScaOp>
+                      </AncOp>
+                    </AncOp>
+                  </PhyOp>
+                </PhyOp>
+                <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="49.0"/></OpInfo>
+                  <AncOp Id="AncOp_PrjEl" Column="RetweetScore"><OpInfo><ScalarGroupProperties Grp="48.0"/></OpInfo>
+                    <ScaOp Id="ScaOp_SeqFunc" SortColumn="RetweetCount ASC" Name="row_number"><OpInfo><ScalarGroupProperties Grp="47.0"/></OpInfo>
+                    </ScaOp>
+                  </AncOp>
+                </AncOp>
+              </PhyOp>
+            </PhyOp>
+          </PhyOp>
+        </PhyOp>
+      </PhyOp>
+      <PhyOp Id="PhyOp_Output" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output/ScoredRatings.csv" XMode="Serial" Out="SeriesName,Score" Udf="IOutputter">
+        <OpInfo><TableGroupProperties Grp="80.1" Remotable="False" Card="14" AvgRowLength="33" PrtnSkewFactor="1" HT="2121253703108083252:228::7:11577076798915868081" HTS="1342294445273071149"/><Costs TotalCosts="10.1314" BubbleCost="10.1314" BubblePartitions="398"/></OpInfo>
+        <PhyOp Id="PhyOp_RestrRemap">
+          <OpInfo><TableGroupProperties Grp="79.1" Remotable="False" Card="14" AvgRowLength="33" PrtnSkewFactor="1" HT="11577076798915868081:120::6:3432482324543720899" HTS="11310053356911786696"/><Costs TotalCosts="10.1212" BubbleCost="10.1212" BubblePartitions="398"/></OpInfo>
+          <PhyOp Id="PhyOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__scoredRatings" CSRoot="Common" TotalConsumers="2">
+            <OpInfo><TableGroupProperties Grp="15.2" Remotable="False" Card="14" AvgRowLength="33" PrtnSkewFactor="1" HT="3432482324543720899:166::5:4964160177536085076" HTS="14242129208049324796"/><Costs TotalCosts="10.1212" BubbleCost="10.1212" BubblePartitions="398"/></OpInfo>
+            <PhyOp Id="PhyOp_RestrRemap">
+              <OpInfo><TableGroupProperties Grp="14.3" Remotable="False" Card="14" AvgRowLength="33" PrtnSkewFactor="1" HT="4964160177536085076:120::4:10724634953980887910" HTS="12796860919546850134"/><Costs TotalCosts="10.1212" BubbleCost="10.1212" BubblePartitions="398"/></OpInfo>
+              <PhyOp Id="PhyOp_ComputeSequence" LgOption="Normal">
+                <OpInfo><TableGroupProperties Grp="13.2" Remotable="False" Card="14" AvgRowLength="33" PrtnSkewFactor="1" HT="10724634953980887910:24:0:3:5688410553675684735" HTS="1028216811204806778"/><Costs TotalCosts="10.1212" BubbleCost="10.1212" BubblePartitions="398"/></OpInfo>
+                <PhyOp Id="PhyOp_RestrRemap">
+                  <OpInfo><TableGroupProperties Grp="9.1" Remotable="False" Card="14" AvgRowLength="39" PrtnSkewFactor="1" HT="6631564895966203787:120::3:15186286353332423043" HTS="3526167370600350535"/><Costs TotalCosts="10.1212" BubbleCost="10.1212" BubblePartitions="398"/></OpInfo>
+                  <PhyOp Id="PhyOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__ratings" CSRoot="Common" TotalConsumers="2">
+                    <OpInfo><TableGroupProperties Grp="8.1" Remotable="False" Card="14" AvgRowLength="39" PrtnSkewFactor="1" HT="15186286353332423043:166::2:1018381830115649032" HTS="4963794633087092956"/><Costs TotalCosts="10.1212" BubbleCost="10.1212" BubblePartitions="398"/></OpInfo>
+                  </PhyOp>
+                </PhyOp>
+                <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="12.0"/></OpInfo>
+                  <AncOp Id="AncOp_PrjEl" Column="Score"><OpInfo><ScalarGroupProperties Grp="11.0"/></OpInfo>
+                    <ScaOp Id="ScaOp_SeqFunc" PartitionColumn="RatingName" SortColumn="Rating ASC" Name="row_number"><OpInfo><ScalarGroupProperties Grp="10.0"/></OpInfo>
+                    </ScaOp>
+                  </AncOp>
+                </AncOp>
+              </PhyOp>
+            </PhyOp>
+          </PhyOp>
+        </PhyOp>
+      </PhyOp>
+      <PhyOp Id="PhyOp_Output" Table="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output/Analysis.csv" XMode="Serial" Out="SeriesName,OverallScore,RatingsScore,TweetScore,RetweetScore" Udf="IOutputter">
+        <OpInfo><TableGroupProperties Grp="76.1" Remotable="False" Card="3.3" AvgRowLength="56" PrtnSkewFactor="1" HT="3889550593144194420:228::4:6486821357012574117" HTS="1213833485275843391"/><Costs TotalCosts="10.1428" BubbleCost="10.1428" BubblePartitions="396"/></OpInfo>
+        <PhyOp Id="PhyOp_ComputeScalar">
+          <OpInfo><TableGroupProperties Grp="75.1" Remotable="False" Card="3.3" AvgRowLength="56" PrtnSkewFactor="1" HT="6486821357012574117:212::3:769372144558637643" HTS="11013628175881528044"/><Costs TotalCosts="10.1327" BubbleCost="10.1327" BubblePartitions="396"/></OpInfo>
+          <PhyOp Id="PhyOp_RestrRemap">
+            <OpInfo><TableGroupProperties Grp="71.1" Remotable="False" Card="3.3" AvgRowLength="48" PrtnSkewFactor="1" HT="4561895759682468177:120::4:14332774041685927028" HTS="3806207849931172656"/><Costs TotalCosts="10.1327" BubbleCost="10.1327" BubblePartitions="396"/></OpInfo>
+            <PhyOp Id="PhyOp_ComputeScalar">
+              <OpInfo><TableGroupProperties Grp="70.1" Remotable="False" Card="3.3" AvgRowLength="48" PrtnSkewFactor="1" HT="14332774041685927028:212::3:6616555857410695993" HTS="5744770887348188781"/><Costs TotalCosts="10.1327" BubbleCost="10.1327" BubblePartitions="396"/></OpInfo>
+              <PhyOp Id="PhyOp_StreamGbAgg" AggregateType="Normal" GroupOnly="False" On="SeriesName ASC,TweetScore ASC,RetweetScore ASC" SortColumn="SeriesName ASC,TweetScore ASC,RetweetScore ASC">
+                <OpInfo><TableGroupProperties Grp="62.3" Remotable="False" Card="3.3" AvgRowLength="56" PrtnSkewFactor="1" HT="5839516943396981258:109:0:4:5440268864787333207" HTS="16589788112085224726"/><Costs TotalCosts="10.1327" BubbleCost="10.1327" BubblePartitions="396"/></OpInfo>
+                <PhyOp Id="PhyOp_Sort" SortColumn="SeriesName ASC,TweetScore ASC,RetweetScore ASC">
+                  <OpInfo><TableGroupProperties Grp="56.1" Remotable="False" Card="13.2" AvgRowLength="48" PrtnSkewFactor="1" HT="7753177121868658632:251::2:106394791250348557" HTS="13983987813990849710"/><Costs TotalCosts="10.1327" BubbleCost="10.1327" BubblePartitions="396"/></OpInfo>
+                  <PhyOp Id="PhyOp_HashJoin" Build="Right" JoinType="x_jtLeftOuter" ParallelJoinType="Serial" LeftKey="SeriesName" RightKey="SeriesName2">
+                    <OpInfo><TableGroupProperties Grp="56.3" Remotable="False" Card="13.2" AvgRowLength="48" PrtnSkewFactor="1" HT="7753177121868658632:251::2:106394791250348557" HTS="13983987813990849710"/><Costs TotalCosts="10.1326" BubbleCost="10.1326" BubblePartitions="396"/></OpInfo>
+                    <PhyOp Id="PhyOp_HashJoin" Build="Right" JoinType="x_jtLeftOuter" ParallelJoinType="Serial" LeftKey="SeriesName" RightKey="SeriesName1">
+                      <OpInfo><TableGroupProperties Grp="20.4" Remotable="False" Card="12.2" AvgRowLength="32" PrtnSkewFactor="1" HT="4060122165944366994:251::2:2179489762706296151" HTS="15730036046910032184"/><Costs TotalCosts="10.1269" BubbleCost="10.1269" BubblePartitions="397"/></OpInfo>
+                      <PhyOp Id="PhyOp_RestrRemap">
+                        <OpInfo><TableGroupProperties Grp="4.1" Remotable="False" Card="7.5" AvgRowLength="24" PrtnSkewFactor="1" HT="14019985387842862173:120::3:17433054587402407707" HTS="8766625895445229378"/><Costs TotalCosts="5.00349" BubbleCost="5.00349" BubblePartitions="399"/></OpInfo>
+                        <PhyOp Id="PhyOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__series" CSRoot="Common" TotalConsumers="2">
+                          <OpInfo><TableGroupProperties Grp="3.1" Remotable="False" Card="7.5" AvgRowLength="24" PrtnSkewFactor="1" HT="17433054587402407707:166::2:5438874885311923077" HTS="3279915711574875530"/><Costs TotalCosts="5.00349" BubbleCost="5.00349" BubblePartitions="399"/></OpInfo>
+                        </PhyOp>
+                      </PhyOp>
+                      <PhyOp Id="PhyOp_RestrRemap">
+                        <OpInfo><TableGroupProperties Grp="16.3" Remotable="False" Card="14" AvgRowLength="33" PrtnSkewFactor="1" HT="4709207162937829928:120::6:3432482324543720899" HTS="14665668059286877032"/><Costs TotalCosts="10.1212" BubbleCost="10.1212" BubblePartitions="398"/></OpInfo>
+                        <PhyOp Id="PhyOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__scoredRatings" CSRoot="Common" TotalConsumers="2">
+                          <OpInfo><TableGroupProperties Grp="15.2" Remotable="False" Card="14" AvgRowLength="33" PrtnSkewFactor="1" HT="3432482324543720899:166::5:4964160177536085076" HTS="14242129208049324796"/><Costs TotalCosts="10.1212" BubbleCost="10.1212" BubblePartitions="398"/></OpInfo>
+                        </PhyOp>
+                      </PhyOp>
+                      <ScaOp Id="ScaOp_Comp" CompOp="x_cmpEq"><OpInfo><ScalarGroupProperties Grp="19.0"/></OpInfo>
+                        <ScaOp Id="ScaOp_Identifier" Column="SeriesName"><OpInfo><ScalarGroupProperties Grp="17.0"/></OpInfo>
+                        </ScaOp>
+                        <ScaOp Id="ScaOp_Identifier" Column="SeriesName1"><OpInfo><ScalarGroupProperties Grp="18.0"/></OpInfo>
+                        </ScaOp>
+                      </ScaOp>
+                    </PhyOp>
+                    <PhyOp Id="PhyOp_RestrRemap">
+                      <OpInfo><TableGroupProperties Grp="53.3" Remotable="False" Card="1.35" AvgRowLength="30" PrtnSkewFactor="1" HT="5920997424411216494:120::6:10149024520071517332" HTS="7565764088310649545"/><Costs TotalCosts="5.00647" BubbleCost="5.00647" BubblePartitions="399"/></OpInfo>
+                      <PhyOp Id="PhyOp_Spool" Name="__SCOPE_PARAMETER_PREFIX__scoredTweets" CSRoot="Common" TotalConsumers="2">
+                        <OpInfo><TableGroupProperties Grp="52.2" Remotable="False" Card="1.35" AvgRowLength="30" PrtnSkewFactor="1" HT="10149024520071517332:166::5:14121822450916303697" HTS="11046635258953565471"/><Costs TotalCosts="5.00647" BubbleCost="5.00647" BubblePartitions="399"/></OpInfo>
+                      </PhyOp>
+                    </PhyOp>
+                    <ScaOp Id="ScaOp_Comp" CompOp="x_cmpEq"><OpInfo><ScalarGroupProperties Grp="55.0"/></OpInfo>
+                      <ScaOp Id="ScaOp_Identifier" Column="SeriesName"><OpInfo><ScalarGroupProperties Grp="17.0"/></OpInfo>
+                      </ScaOp>
+                      <ScaOp Id="ScaOp_Identifier" Column="SeriesName2"><OpInfo><ScalarGroupProperties Grp="54.0"/></OpInfo>
+                      </ScaOp>
+                    </ScaOp>
+                  </PhyOp>
+                </PhyOp>
+                <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="61.0"/></OpInfo>
+                  <AncOp Id="AncOp_PrjEl" Column="Expr_0"><OpInfo><ScalarGroupProperties Grp="59.0"/></OpInfo>
+                    <ScaOp Id="ScaOp_AggFunc" AggregateName="stopAccum" Distinct="False"><OpInfo><ScalarGroupProperties Grp="58.0"/></OpInfo>
+                      <ScaOp Id="ScaOp_Identifier" Column="Score"><OpInfo><ScalarGroupProperties Grp="57.0"/></OpInfo>
+                      </ScaOp>
+                    </ScaOp>
+                  </AncOp>
+                  <AncOp Id="AncOp_PrjEl" Column="Expr_1"><OpInfo><ScalarGroupProperties Grp="60.0"/></OpInfo>
+                    <ScaOp Id="ScaOp_AggFunc" AggregateName="stopAccum" Distinct="False"><OpInfo><ScalarGroupProperties Grp="58.0"/></OpInfo>
+                      <ScaOp Id="ScaOp_Identifier" Column="Score"><OpInfo><ScalarGroupProperties Grp="57.0"/></OpInfo>
+                      </ScaOp>
+                    </ScaOp>
+                  </AncOp>
+                </AncOp>
+              </PhyOp>
+              <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="69.0"/></OpInfo>
+                <AncOp Id="AncOp_PrjEl" Column="RatingsScore"><OpInfo><ScalarGroupProperties Grp="64.0"/></OpInfo>
+                  <ScaOp Id="ScaOp_Udf" Udf="Expr_0 == null ? 0 : Expr_1" UsedColumn="Expr_0,Expr_1"><OpInfo><ScalarGroupProperties Grp="63.0"/></OpInfo>
+                  </ScaOp>
+                </AncOp>
+                <AncOp Id="AncOp_PrjEl" Column="TweetScore3"><OpInfo><ScalarGroupProperties Grp="66.0"/></OpInfo>
+                  <ScaOp Id="ScaOp_Udf" Udf="TweetScore == null ? 0 : TweetScore" UsedColumn="TweetScore"><OpInfo><ScalarGroupProperties Grp="65.0"/></OpInfo>
+                  </ScaOp>
+                </AncOp>
+                <AncOp Id="AncOp_PrjEl" Column="RetweetScore4"><OpInfo><ScalarGroupProperties Grp="68.0"/></OpInfo>
+                  <ScaOp Id="ScaOp_Udf" Udf="RetweetScore == null ? 0 : RetweetScore" UsedColumn="RetweetScore"><OpInfo><ScalarGroupProperties Grp="67.0"/></OpInfo>
+                  </ScaOp>
+                </AncOp>
+              </AncOp>
+            </PhyOp>
+          </PhyOp>
+          <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="74.0"/></OpInfo>
+            <AncOp Id="AncOp_PrjEl" Column="OverallScore"><OpInfo><ScalarGroupProperties Grp="73.0"/></OpInfo>
+              <ScaOp Id="ScaOp_Udf" Udf="RatingsScore + TweetScore + RetweetScore" UsedColumn="RatingsScore,TweetScore,RetweetScore"><OpInfo><ScalarGroupProperties Grp="72.0"/></OpInfo>
+              </ScaOp>
+            </AncOp>
+          </AncOp>
+        </PhyOp>
+      </PhyOp>
+    </PhyOp>
+</OutputTree>
+</OptimizerTrees>
+  </OptimizerPlanInfo>
+  <ScopeCounters>
+    <Counter Name="Overall" Value="28.0714354" Unit="second" Intervals="0" />
+    <Counter Name="ResourcesDownloading" Value="0" Unit="second" Intervals="0" />
+    <Counter Name="FrontEndRun" Value="3.9866786" Unit="second" Intervals="1" />
+    <Counter Name="AstBuilder" Value="2.1111163" Unit="second" Intervals="1" />
+    <Counter Name="SyntaxVerifier" Value="0.1334632" Unit="second" Intervals="1" />
+    <Counter Name="DdlResolver" Value="1.6841955" Unit="second" Intervals="1" />
+    <Counter Name="RoslynStartup" Value="0.1485748" Unit="second" Intervals="4" />
+    <Counter Name="SMS" Value="0.1088242" Unit="second" Intervals="2" />
+    <Counter Name="ConstantFolding" Value="0.9571438" Unit="second" Intervals="12" />
+    <Counter Name="ResourceReferencePass" Value="0.00354" Unit="second" Intervals="1" />
+    <Counter Name="InputOutputPass" Value="0.0707422" Unit="second" Intervals="1" />
+    <Counter Name="SStreamMetadataWait" Value="0.5160315" Unit="second" Intervals="2" />
+    <Counter Name="SStreamMetadataAsync" Value="2.10712" Unit="second" Intervals="4" />
+    <Counter Name="BinderPass" Value="1.0452269" Unit="second" Intervals="1" />
+    <Counter Name="ExpressionBinding" Value="0.9236842" Unit="second" Intervals="18" />
+    <Counter Name="OneColumnBinding" Value="0.0044699" Unit="second" Intervals="9" />
+    <Counter Name="QualifiedColumnBinding" Value="0.003366" Unit="second" Intervals="2" />
+    <Counter Name="SimpleAggregateBinding" Value="0.0044405" Unit="second" Intervals="1" />
+    <Counter Name="RoslynFirstCall" Value="0.3041035" Unit="second" Intervals="1" />
+    <Counter Name="RoslynBinding" Value="0.5984553" Unit="second" Intervals="12" />
+    <Counter Name="RoslynParsing" Value="0.0660718" Unit="second" Intervals="12" />
+    <Counter Name="RoslynPreSemantic" Value="0.0178244" Unit="second" Intervals="12" />
+    <Counter Name="RoslynSemantic" Value="0.2827342" Unit="second" Intervals="12" />
+    <Counter Name="RoslynPostSemantic" Value="0.230667" Unit="second" Intervals="12" />
+    <Counter Name="SemanticAnalyzerPass" Value="0.0911298" Unit="second" Intervals="1" />
+    <Counter Name="ErrorReporterPass" Value="0.0441598" Unit="second" Intervals="1" />
+    <Counter Name="GenerateOptTreePass" Value="0.4115154" Unit="second" Intervals="1" />
+    <Counter Name="OptimizerWait" Value="2.05E-05" Unit="second" Intervals="1" />
+    <Counter Name="Playback" Value="0.2868751" Unit="second" Intervals="2" />
+    <Counter Name="Optimizer" Value="1.1091404" Unit="second" Intervals="1" />
+    <Counter Name="CodeGeneration" Value="1.1453548" Unit="second" Intervals="1" />
+    <Counter Name="AlgebraAndManagedCodeGen" Value="0.3816081" Unit="second" Intervals="1" />
+    <Counter Name="ComputeSignature" Value="4.49E-05" Unit="second" Intervals="1" />
+    <Counter Name="PostProcessExecutionPlan" Value="0.0058256" Unit="second" Intervals="1" />
+    <Counter Name="CreateSplitersOrSpools" Value="0.0855555" Unit="second" Intervals="1" />
+    <Counter Name="ReplaceFusionPipelinesWithAdapters" Value="6.3E-06" Unit="second" Intervals="1" />
+    <Counter Name="CreateWhereSelectEnumerators" Value="0.0315783" Unit="second" Intervals="1" />
+    <Counter Name="ComputePayloadMetadata" Value="0.0003979" Unit="second" Intervals="1" />
+    <Counter Name="SStreamStageProcessing" Value="0.0040719" Unit="second" Intervals="1" />
+    <Counter Name="ValidateStages" Value="0.0028986" Unit="second" Intervals="1" />
+    <Counter Name="CompileToAlgebra" Value="0.0708937" Unit="second" Intervals="1" />
+    <Counter Name="AnnotateIntermediateResults" Value="0.0044924" Unit="second" Intervals="1" />
+    <Counter Name="CreateCppReadyStage" Value="0.0416719" Unit="second" Intervals="1" />
+    <Counter Name="AdornAllWithMemoryModel" Value="0.0923134" Unit="second" Intervals="1" />
+    <Counter Name="SplitScopeVertices" Value="0.0336032" Unit="second" Intervals="1" />
+    <Counter Name="EstimateMemorySize" Value="0.0016558" Unit="second" Intervals="1" />
+    <Counter Name="CalculateBubbles" Value="0.0002527" Unit="second" Intervals="1" />
+    <Counter Name="ManagedCodeEmission" Value="0.0046478" Unit="second" Intervals="1" />
+    <Counter Name="NativeCodeGeneration" Value="0.755043" Unit="second" Intervals="1" />
+    <Counter Name="CodeCompiling" Value="20.3366451" Unit="second" Intervals="1" />
+    <Counter Name="EmitCompilationResult" Value="0.2591414" Unit="second" Intervals="1" />
+    <Counter Name="Table Files Read" Value="4" Unit="count" />
+    <Counter Name="CQO - Init" Value="0.0139416462148122" Unit="second" />
+    <Counter Name="CQO - CopyIn" Value="0.286400436368309" Unit="second" />
+    <Counter Name="CQO - Search - Init" Value="0.000179911133956969" Unit="second" />
+    <Counter Name="CQO - Search - NNF" Value="0.0105125791127085" Unit="second" />
+    <Counter Name="CQO - Search - PreOptimization" Value="0.00531617845284806" Unit="second" />
+    <Counter Name="CQO - Search - Simplification" Value="0.0273606701410375" Unit="second" />
+    <Counter Name="CQO - Search - Join Reordering" Value="0.00765013430477896" Unit="second" />
+    <Counter Name="CQO - Search - Expression Sharing" Value="0.000917155672019768" Unit="second" />
+    <Counter Name="CQO - Search - Optimization" Value="0.0149169796719974" Unit="second" />
+    <Counter Name="CQO - Search - Subtotal" Value="0.091776678320848" Unit="second" />
+    <Counter Name="CQO - Showplan" Value="0.010584934677452" Unit="second" />
+    <Counter Name="CQO - Stage Generation" Value="0.347949599739632" Unit="second" />
+    <Counter Name="CQO - PostOptimization" Value="0.00684640086938424" Unit="second" />
+    <Counter Name="Working Set" Value="164340" Unit="KB" />
+    <Counter Name="Peak Working Set" Value="177420" Unit="KB" />
+    <Counter Name="Private Memory" Value="200536" Unit="KB" />
+    <Counter Name="Virtual Memory" Value="798132" Unit="KB" />
+    <Counter Name="Total CPU" Value="8.578125" Unit="second" />
+    <Counter Name="CQO - Total" Value="0.77924841006329" Unit="second" />
+  </ScopeCounters>
+</CSSRelatedInfo>

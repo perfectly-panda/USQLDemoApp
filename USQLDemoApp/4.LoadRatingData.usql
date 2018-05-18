@@ -1,0 +1,62 @@
+﻿USE DATABASE StarTrekData;
+
+REFERENCE ASSEMBLY master.[TextSentiment];
+
+DECLARE @input string = "Source/GoogleResults.csv";
+DECLARE @output string = "Output/Temp2.csv";
+
+@data =
+    EXTRACT SeriesName string,
+            ResultsCount float?,
+            Imdb float?,
+            Hulu float?,
+            RottenTomatoes float?,
+            TVcom float?
+    FROM @input
+    USING Extractors.Csv(skipFirstNRows : 1, silent: true, quoting: true);
+
+@unpivot =
+    SELECT SeriesName,
+           "Google Results" AS RatingName,
+           (float)ResultsCount AS Rating
+    FROM @data
+    UNION
+    SELECT SeriesName,
+           "Google Results" AS RatingName,
+           (float)ResultsCount AS Rating
+    FROM @data
+    WHERE ResultsCount != null
+    UNION
+        SELECT 
+            SeriesName,
+            "IMDB" AS RatingName,
+            (float)Imdb AS Rating
+        FROM @data WHERE Imdb != null
+    UNION
+        SELECT 
+            SeriesName,
+            "Hulu/TV.com" AS RatingName,
+            (float)Hulu * 2 AS Rating
+        FROM @data WHERE Hulu != null
+    UNION
+        SELECT 
+            SeriesName,
+            "RottenTomatoes" AS RatingName,
+            (float)RottenTomatoes AS Rating
+        FROM @data WHERE RottenTomatoes != null
+    UNION
+        SELECT 
+            SeriesName,
+            "Hulu/TV.com" AS RatingName,
+            (float)TVcom AS Rating
+        FROM @data WHERE TVcom != null;
+
+@getID =
+    SELECT (int)ROW_NUMBER() OVER(ORDER BY SeriesName) AS RatingID,
+           SeriesName,
+           RatingName,
+           Rating
+    FROM @unpivot;
+
+INSERT INTO dbo.Ratings (RatingID, SeriesName, RatingName, Rating)
+                            SELECT RatingID, SeriesName, RatingName, Rating FROM @getID;

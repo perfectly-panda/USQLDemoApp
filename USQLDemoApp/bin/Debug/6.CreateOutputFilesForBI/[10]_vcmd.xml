@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vertexCommand command="Start" jobType="None" managedMemorySize="0" vertexArg="ScopeEngine.dll -scopeVertex SV10_Combine -vertexNumber 0">
+  <inputs>
+    <input name="SV1_Extract_out0" path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV1_Extract_out0" blockAligned="True" globalStartOffset="0" localStartOffset="0" localEndOffset="189" length="189" />
+    <input name="SV6_Split_out0" path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV6_Split_out0" blockAligned="True" globalStartOffset="0" localStartOffset="0" localEndOffset="980" length="980" />
+    <input name="SV9_Split_out0" path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV9_Split_out0" blockAligned="True" globalStartOffset="0" localStartOffset="0" localEndOffset="178" length="178" />
+  </inputs>
+  <outputs>
+    <output path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV10_Combine_out0" isFirstOutputPiece="True" />
+  </outputs>
+</vertexCommand>

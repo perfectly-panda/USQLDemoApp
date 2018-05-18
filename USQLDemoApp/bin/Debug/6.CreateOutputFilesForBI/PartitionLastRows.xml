@@ -1,0 +1,18 @@
+<SStreams>
+  <SStream id="GetSStream_0">
+    <Partition id="0" LastRowId="9" />
+    <Partition id="1" LastRowId="21" />
+  </SStream>
+  <SStream id="GetSStream_4">
+    <Partition id="0" LastRowId="9" />
+    <Partition id="1" LastRowId="21" />
+  </SStream>
+  <SStream id="GetSStream_6">
+    <Partition id="0" LastRowId="9" />
+    <Partition id="1" LastRowId="21" />
+  </SStream>
+  <SStream id="GetSStream_13">
+    <Partition id="0" LastRowId="9" />
+    <Partition id="1" LastRowId="21" />
+  </SStream>
+</SStreams>

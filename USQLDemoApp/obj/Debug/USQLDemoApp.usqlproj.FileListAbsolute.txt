@@ -1,0 +1,2 @@
+C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\Algebra.xml
+C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\obj\Debug\Algebra.xml

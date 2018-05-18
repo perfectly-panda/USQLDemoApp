@@ -1,0 +1,73 @@
+﻿DECLARE @NewtonSoft string = "Assemblies/Newtonsoft.Json.dll";
+DECLARE @AssemblyPath string = "Assemblies/USQLDemoAssembly.dll";
+
+CREATE DATABASE IF NOT EXISTS StarTrekData;
+USE DATABASE StarTrekData;
+
+DROP ASSEMBLY IF EXISTS [Newtonsoft.Json];
+CREATE ASSEMBLY [Newtonsoft.Json]
+FROM @NewtonSoft;
+
+DROP ASSEMBLY IF EXISTS USQLDemoAssembly;
+CREATE ASSEMBLY USQLDemoAssembly
+FROM @AssemblyPath;
+
+
+CREATE TABLE IF NOT EXISTS dbo.StarTrekSeries (
+    SeriesName string,
+    INDEX idx_Series CLUSTERED (SeriesName)
+    DISTRIBUTED BY HASH(SeriesName)
+);
+
+TRUNCATE TABLE dbo.StarTrekSeries;
+ 
+CREATE TABLE IF NOT EXISTS dbo.SeriesSynonyms (
+    SeriesName string,
+    Synonym string,
+    INDEX idx_Synonyms CLUSTERED (Synonym)
+    DISTRIBUTED BY HASH(SeriesName)
+);
+
+TRUNCATE TABLE dbo.SeriesSynonyms;
+
+CREATE TABLE IF NOT EXISTS dbo.TwitterResults
+(
+    TweetID Int64,
+    CreatedAt string,
+    UserName string,
+    ScreenName string,
+    Tweet string,
+    RetweetCount int,
+    FavoriteCount int,
+    Sentiment string,
+    SeriesName string,
+    INDEX idx_TwitterResults CLUSTERED (TweetID)
+    DISTRIBUTED BY HASH(SeriesName)
+);
+
+TRUNCATE TABLE dbo.TwitterResults;
+
+CREATE TABLE IF NOT EXISTS dbo.SubredditResults (
+    SubredditID int,
+    DisplayName string,
+    Title string,
+    Description string,
+    SubscriberCount int,
+    Sentiment string,
+    SeriesName string,
+    INDEX idx_Subreddits CLUSTERED (SubredditID)
+    DISTRIBUTED BY HASH(SeriesName)
+);
+
+TRUNCATE TABLE dbo.SubredditResults;
+
+CREATE TABLE IF NOT EXISTS dbo.Ratings (
+    RatingID int,
+    SeriesName string,
+    RatingName string,
+    Rating float,
+    INDEX idx_Subreddits CLUSTERED (RatingID)
+    DISTRIBUTED BY HASH(SeriesName)
+);
+
+

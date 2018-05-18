@@ -1,0 +1,125 @@
+﻿USE DATABASE StarTrekData;
+
+REFERENCE ASSEMBLY [Newtonsoft.Json];
+REFERENCE ASSEMBLY [USQLDemoAssembly];
+REFERENCE ASSEMBLY master.[TextSentiment];
+
+DECLARE @input string = "Source/twitterStarTrek.{*}.json";
+DECLARE @output string = "Output/Temp.csv";
+
+@json =
+    EXTRACT
+        id Int64,
+        created_at string,
+        user string,
+        text string,
+        retweet_count int,
+        favorite_count int
+    FROM @input
+    USING new USQLDemo.JsonExtractor("statuses.[*]");
+
+//we get duplicates because of retweets. Since the sample size is small, we will only keep one copy rather than stripping out retweets.
+@clean =
+    SELECT (long)MAX(id) AS id,
+           text
+    FROM @json
+    GROUP BY text;
+
+@cleanJson =
+    SELECT j.id AS TweetID,
+           j.created_at AS CreatedAt,
+           USQLDemo.JsonFunctions.JsonTuple(user) AS user,
+           j.text AS Text,
+           j.retweet_count AS RetweetCount,
+           j.favorite_count AS FavoriteCount
+    FROM @json AS j
+         INNER JOIN
+             @clean AS c
+         ON j.id == c.id;
+
+@expandUser =
+    SELECT TweetID,
+           CreatedAt,
+           user["name"]AS UserName,
+           user["screen_name"]AS ScreenName,
+           Text,
+           RetweetCount,
+           FavoriteCount
+    FROM @cleanJson;
+
+@sentiment =
+    PROCESS @expandUser
+    PRODUCE 
+        TweetID,
+        CreatedAt,
+        UserName,
+        ScreenName,
+        Text,
+        RetweetCount,
+        FavoriteCount,
+        Sentiment string,
+        Conf double
+    READONLY 
+         TweetID,
+         CreatedAt,
+         UserName,
+         ScreenName,
+         Text,
+         RetweetCount,
+         FavoriteCount
+    USING new Cognition.Text.SentimentAnalyzer();
+
+@synonyms =
+    SELECT SeriesName,
+           Synonym
+    FROM dbo.SeriesSynonyms;
+
+@series =
+    SELECT DISTINCT TweetID,
+           SeriesName
+    FROM @sentiment AS sent
+         CROSS JOIN
+             @synonyms AS syn
+    WHERE sent.Text.Contains(Synonym);
+
+@result =
+    SELECT DISTINCT
+        a.TweetID,
+         CreatedAt,
+        UserName,
+        ScreenName,
+        Text,
+        RetweetCount,
+        FavoriteCount,
+        Sentiment,
+        SeriesName == null ? "Unknown" : SeriesName AS SeriesName
+    FROM @sentiment AS a
+    LEFT JOIN @series AS b
+    ON a.TweetID == b.TweetID;
+            
+    
+
+
+INSERT INTO dbo.TwitterResults
+(
+    TweetID,
+    CreatedAt,
+    UserName,
+    ScreenName,
+    Tweet,
+    RetweetCount,
+    FavoriteCount,
+    Sentiment,
+    SeriesName 
+)
+SELECT 
+    TweetID,
+    CreatedAt,
+    UserName,
+    ScreenName,
+    Text,
+    RetweetCount,
+    FavoriteCount,
+    Sentiment,
+    SeriesName 
+FROM @result;

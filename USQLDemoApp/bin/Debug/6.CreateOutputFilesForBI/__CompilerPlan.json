@@ -1,0 +1,177 @@
+﻿{
+"CompilerPlanStart":"5\/15\/2018 8:32:25 PM"
+},
+{
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Source\\Repos\\Data Lake SQL Saturday\\USQLDemoApp\\USQLDemoApp\\Files -cosmosCluster localhost -apEnvironment Default -apCluster localhost -Off EnableScopeVertexResourceMode -On ForceShadowCopy -On ADL -Off Sirius -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -Off PolarisScaleUp -buckets 1 -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+},
+{
+"statementText":"\/\/ Auto-generated header code\/\/ Auto-generated header code ended\/\/ User scriptUSE DATABASE"
+,
+{
+"NodeName":"UseDatabaseStatement"
+},
+{
+"Name":"StarTrekData"
+}}
+,
+{
+"statementText":"DECLARE @outputSeries string = \"Output\/Series.csv\""
+,
+{
+"NodeName":"DeclareVariableStatement"
+},
+{
+"Name":"@outputSeries"
+}}
+,
+{
+"statementText":"DECLARE @outputRatings string = \"Output\/Ratings.csv\""
+,
+{
+"NodeName":"DeclareVariableStatement"
+},
+{
+"Name":"@outputRatings"
+}}
+,
+{
+"statementText":"DECLARE @outputTwitter string = \"Output\/Twitter.csv\""
+,
+{
+"NodeName":"DeclareVariableStatement"
+},
+{
+"Name":"@outputTwitter"
+}}
+,
+{
+"statementText":"DECLARE @outputScoredTwitter string = \"Output\/ScoredTwitter.csv\""
+,
+{
+"NodeName":"DeclareVariableStatement"
+},
+{
+"Name":"@outputScoredTwitter"
+}}
+,
+{
+"statementText":"DECLARE @outputScoredRatings string = \"Output\/ScoredRatings.csv\""
+,
+{
+"NodeName":"DeclareVariableStatement"
+},
+{
+"Name":"@outputScoredRatings"
+}}
+,
+{
+"statementText":"DECLARE @outputFinalAnalysis string = \"Output\/Analysis.csv\""
+,
+{
+"NodeName":"DeclareVariableStatement"
+},
+{
+"Name":"@outputFinalAnalysis"
+}}
+,
+{
+"statementText":"    SELECT DISTINCT SeriesName    FROM dbo.SeriesSynonyms"
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"    SELECT DISTINCT SeriesName,           RatingName,           Rating    FROM dbo.Ratings"
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"    SELECT DISTINCT SeriesName,         Tweet,        RetweetCount,        Sentiment    FR"
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"    SELECT        SeriesName,        ROW_NUMBER() OVER(PARTITION BY RatingName ORDER BY Rating"
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"    SELECT        SeriesName,        COUNT(Tweet) AS TweetCount,        SUM(RetweetCount) AS"
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"    SELECT SeriesName,           ROW_NUMBER() OVER(ORDER BY TweetCount) AS TweetScore,        "
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"    SELECT s.SeriesName,           SUM(Score) == null? 0 : SUM(Score) AS RatingsScore,        "
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"    SELECT SeriesName,           RatingsScore + TweetScore + RetweetScore AS OverallScore,    "
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"OUTPUT @seriesTO @outputSeriesUSING Outputters.Csv(outputHeader: true)"
+,
+{
+"NodeName":"OutputStatement"
+}}
+,
+{
+"statementText":"OUTPUT @ratingsTO @outputRatingsUSING Outputters.Csv(outputHeader: true)"
+,
+{
+"NodeName":"OutputStatement"
+}}
+,
+{
+"statementText":"OUTPUT @twitterTO @outputTwitterUSING Outputters.Csv(outputHeader: true)"
+,
+{
+"NodeName":"OutputStatement"
+}}
+,
+{
+"statementText":"OUTPUT @scoredTweetsTO @outputScoredTwitterUSING Outputters.Csv(outputHeader: true)"
+,
+{
+"NodeName":"OutputStatement"
+}}
+,
+{
+"statementText":"OUTPUT @scoredRatingsTO @outputScoredRatingsUSING Outputters.Csv(outputHeader: true)"
+,
+{
+"NodeName":"OutputStatement"
+}}
+,
+{
+"statementText":"OUTPUT @finalResultsTO  @outputFinalAnalysisUSING Outputters.Csv(outputHeader: true)"
+,
+{
+"NodeName":"OutputStatement"
+}}
+,
+{
+"CompilerPlanEnd":"5\/15\/2018 8:32:25 PM"
+}

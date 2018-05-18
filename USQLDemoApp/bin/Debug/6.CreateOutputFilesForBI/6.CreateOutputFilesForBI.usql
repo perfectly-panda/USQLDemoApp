@@ -1,0 +1,111 @@
+// Auto-generated header code
+
+// Auto-generated header code ended
+// User script
+
+USE DATABASE StarTrekData;
+
+DECLARE @outputSeries string = "Output/Series.csv";
+DECLARE @outputRatings string = "Output/Ratings.csv";
+DECLARE @outputTwitter string = "Output/Twitter.csv";
+DECLARE @outputScoredTwitter string = "Output/ScoredTwitter.csv";
+DECLARE @outputScoredRatings string = "Output/ScoredRatings.csv";
+DECLARE @outputFinalAnalysis string = "Output/Analysis.csv";
+
+//get data
+@series =
+    SELECT DISTINCT SeriesName
+    FROM dbo.SeriesSynonyms;
+
+@ratings =
+    SELECT DISTINCT SeriesName,
+           RatingName,
+           Rating
+    FROM dbo.Ratings;
+
+@twitter =
+    SELECT DISTINCT SeriesName, 
+        Tweet,
+        RetweetCount,
+        Sentiment
+    FROM dbo.TwitterResults
+    WHERE SeriesName != "Unknown";
+
+//find an overall winner
+@scoredRatings =
+    SELECT
+        SeriesName,
+        ROW_NUMBER() OVER(PARTITION BY RatingName ORDER BY Rating) AS Score
+FROM @ratings;
+
+@sumTweets =
+    SELECT
+        SeriesName,
+        COUNT(Tweet) AS TweetCount,
+        SUM(RetweetCount) AS RetweetCount
+        FROM @twitter
+        GROUP BY SeriesName;
+
+@scoredTweets =
+    SELECT SeriesName,
+           ROW_NUMBER() OVER(ORDER BY TweetCount) AS TweetScore,
+           ROW_NUMBER() OVER(ORDER BY RetweetCount) AS RetweetScore
+    FROM @sumTweets;
+        
+
+@groupResults =
+    SELECT s.SeriesName,
+           SUM(Score) == null? 0 : SUM(Score) AS RatingsScore,
+           TweetScore == null? 0 : TweetScore AS TweetScore,
+           RetweetScore == null? 0 : RetweetScore AS RetweetScore
+    FROM @series AS s
+         LEFT JOIN
+             @scoredRatings AS r
+         ON s.SeriesName == r.SeriesName
+         LEFT JOIN
+             @scoredTweets AS t
+         ON s.SeriesName == t.SeriesName
+    GROUP BY s.SeriesName,
+            TweetScore,
+           RetweetScore;
+
+@finalResults =
+    SELECT SeriesName,
+           RatingsScore + TweetScore + RetweetScore AS OverallScore,
+           RatingsScore,
+           TweetScore,
+           RetweetScore
+    FROM @groupResults;
+
+
+
+
+OUTPUT @series
+TO @outputSeries
+USING Outputters.Csv(outputHeader: true);
+
+OUTPUT @ratings
+TO @outputRatings
+USING Outputters.Csv(outputHeader: true);
+
+OUTPUT @twitter
+TO @outputTwitter
+USING Outputters.Csv(outputHeader: true);
+
+OUTPUT @scoredTweets
+TO @outputScoredTwitter
+USING Outputters.Csv(outputHeader: true);
+
+OUTPUT @scoredRatings
+TO @outputScoredRatings
+USING Outputters.Csv(outputHeader: true);
+
+OUTPUT @finalResults
+TO  @outputFinalAnalysis
+USING Outputters.Csv(outputHeader: true);
+
+// User script ended
+// Auto-generated footer code
+
+// Auto-generated footer code ended
+

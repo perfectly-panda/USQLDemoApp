@@ -1,0 +1,107 @@
+﻿USE DATABASE StarTrekData;
+
+REFERENCE ASSEMBLY [Newtonsoft.Json];
+REFERENCE ASSEMBLY [USQLDemoAssembly];
+REFERENCE ASSEMBLY master.[TextSentiment];
+
+DECLARE @input string = "Source/subredditsStarTrek_{*}.json";
+DECLARE @output string = "Output/Temp.csv";
+
+@json =
+    EXTRACT
+        display_name string,
+        title string,
+        public_description string,
+        subscribers int
+    FROM @input
+    USING new USQLDemo.JsonExtractor("data.children.[*].data");
+
+@clean =
+    SELECT DISTINCT display_name,
+                    title,
+                    public_description,
+                    MIN(subscribers) AS subscribers
+    FROM @json
+    GROUP BY
+        display_name,
+        title,
+        public_description;
+
+@rename =
+    SELECT ROW_NUMBER() OVER(ORDER BY display_name) AS SubredditID,
+           display_name AS DisplayName,
+           title AS Title,
+           public_description AS Text,
+           subscribers AS SubscriberCount
+    FROM @clean;
+
+@sentiment =
+    PROCESS @rename
+    PRODUCE 
+        SubredditID,
+        DisplayName,
+        Title,
+        Text,
+        SubscriberCount,
+        Sentiment string,
+        Conf double
+    READONLY 
+        SubredditID,
+        DisplayName,
+        Title,
+        Text,
+        SubscriberCount
+    USING new Cognition.Text.SentimentAnalyzer(); // true returns confidence
+
+@synonyms =
+    SELECT SeriesName,
+           Synonym
+    FROM dbo.SeriesSynonyms;
+
+@series =
+    SELECT DISTINCT SubredditID,
+           DisplayName,
+           Title,
+           Text,
+           SubscriberCount,
+           Sentiment,
+           SeriesName
+    FROM @sentiment AS sent
+         CROSS JOIN
+             @synonyms AS syn
+    WHERE sent.Text.Contains(Synonym);
+
+@result =
+    SELECT DISTINCT
+        (int)a.SubredditID AS SubredditID,
+        a.DisplayName,
+        a.Title,
+        a.Text,
+        (int)a.SubscriberCount AS SubscriberCount,
+        a.Sentiment,
+        SeriesName == null ? "Unknown" : SeriesName AS SeriesName
+    FROM @sentiment AS a
+    LEFT JOIN @series AS b
+    ON a.SubredditID == b.SubredditID;
+            
+    
+
+
+INSERT INTO dbo.SubredditResults
+(
+    SubredditID,
+    DisplayName,
+    Title,
+    Description,
+    SubscriberCount,
+    Sentiment,
+    SeriesName
+)
+SELECT SubredditID,
+       DisplayName,
+       Title,
+       Text,
+       SubscriberCount,
+       Sentiment,
+       SeriesName
+FROM @result;

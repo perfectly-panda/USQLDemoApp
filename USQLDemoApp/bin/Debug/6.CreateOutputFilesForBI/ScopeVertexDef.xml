@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScopeVertices helperAssembly="__ScopeCodeGen__.dll" signatureVersion="1">
+  <ScopeVertex id="SV1_Extract" cppReady="true" nativeOnly="true">
+    <operator id="GetSStream_0" uid="1" assemblyName="ScopeRuntime.exe" className="ScopeRuntime.SStreamExtractor">
+      <input id="GetSStream_0" uid="1" sqlIpTableName="localcomputeaccount.StarTrekData.dbo.SeriesSynonyms" schema="SeriesName:string,Synonym:string" inputIndex="0" numberOfInputs="ALL" useInputDataName="true" />
+      <output id="GetSStream_0_Data0" uid="2" schema="SeriesName:string" />
+    </operator>
+    <operator id="Process_1" uid="3" assemblyName="__ScopeCodeGen__.dll" className="ScopeHashGrouper_1">
+      <input id="GetSStream_0_Data0" uid="2" schema="SeriesName:string" />
+      <output id="Process_1_Data0" uid="4" schema="SeriesName:string" />
+    </operator>
+    <operator id="Process_2" uid="5" assemblyName="__ScopeCodeGen__.dll" className="ScopeSorter_1" args="-keys SeriesName">
+      <input id="Process_1_Data0" uid="4" schema="SeriesName:string" />
+      <output id="Process_2_Data0" uid="6" schema="SeriesName:string" />
+    </operator>
+    <operator id="Process_3" uid="7" assemblyName="__ScopeCodeGen__.dll" className="SqlGrouper_1">
+      <input id="Process_2_Data0" uid="6" schema="SeriesName:string" />
+      <output id="SV1_Extract_out0" uid="8" schema="SeriesName:string" outputIndex="0" numberOfOutputs="1" />
+    </operator>
+  </ScopeVertex>
+  <ScopeVertex id="SV2_Process" cppReady="true" nativeOnly="true">
+    <operator id="Output_34" uid="68" assemblyName="Microsoft.Analytics.Interfaces.dll" className="Microsoft.Analytics.Interfaces.IOutputter">
+      <input id="SV1_Extract_out0" uid="8" schema="SeriesName:string" inputIndex="0" numberOfInputs="1" />
+      <output id="SV2_Process_out0" uid="68" schema="SeriesName:string" outputIndex="0" numberOfOutputs="1" finalOutput="true" />
+    </operator>
+  </ScopeVertex>
+  <ScopeVertex id="SV3_Extract" cppReady="true" nativeOnly="true">
+    <operator id="GetSStream_4" uid="9" assemblyName="ScopeRuntime.exe" className="ScopeRuntime.SStreamExtractor">
+      <input id="GetSStream_4" uid="9" sqlIpTableName="localcomputeaccount.StarTrekData.dbo.Ratings" schema="RatingID:int,SeriesName:string,RatingName:string,Rating:float" inputIndex="0" numberOfInputs="ALL" useInputDataName="true" />
+      <output id="GetSStream_4_Data0" uid="10" schema="SeriesName:string,RatingName:string,Rating:float" />
+    </operator>
+    <operator id="Process_5" uid="11" assemblyName="__ScopeCodeGen__.dll" className="ScopeSorter_2" args="-keys RatingName,Rating,SeriesName">
+      <input id="GetSStream_4_Data0" uid="10" schema="SeriesName:string,RatingName:string,Rating:float" />
+      <output id="SV3_Extract_out0" uid="12" schema="SeriesName:string,RatingName:string,Rating:float" outputIndex="0" numberOfOutputs="1" />
+    </operator>
+  </ScopeVertex>
+  <ScopeVertex id="SV4_Extract" cppReady="true" nativeOnly="true">
+    <operator id="GetSStream_6" uid="13" assemblyName="ScopeRuntime.exe" className="ScopeRuntime.SStreamExtractor">
+      <input id="GetSStream_6" uid="13" sqlIpTableName="localcomputeaccount.StarTrekData.dbo.Ratings" schema="RatingID:int,SeriesName:string,RatingName:string,Rating:float" inputIndex="0" numberOfInputs="ALL" useInputDataName="true" />
+      <output id="GetSStream_6_Data0" uid="14" schema="SeriesName:string,RatingName:string,Rating:float" />
+    </operator>
+    <operator id="Process_7" uid="15" assemblyName="__ScopeCodeGen__.dll" className="ScopeSorter_2" args="-keys RatingName,Rating,SeriesName">
+      <input id="GetSStream_6_Data0" uid="14" schema="SeriesName:string,RatingName:string,Rating:float" />
+      <output id="SV4_Extract_out0" uid="16" schema="SeriesName:string,RatingName:string,Rating:float" outputIndex="0" numberOfOutputs="1" />
+    </operator>
+  </ScopeVertex>
+  <ScopeVertex id="SV5_Combine" cppReady="true" nativeOnly="true">
+    <operator id="Aggregate_8" uid="17" assemblyName="__ScopeCodeGen__.dll" className="ScopeMerger_1" args="-key RatingName,Rating,SeriesName">
+      <input id="SV3_Extract_out0" uid="12" schema="SeriesName:string,RatingName:string,Rating:float" inputIndex="0" numberOfInputs="1" />
+      <input id="SV4_Extract_out0" uid="16" schema="SeriesName:string,RatingName:string,Rating:float" inputIndex="1" numberOfInputs="1" />
+      <output id="Aggregate_8_Data0" uid="18" schema="SeriesName:string,RatingName:string,Rating:float" />
+    </operator>
+    <operator id="Process_9" uid="19" assemblyName="__ScopeCodeGen__.dll" className="SqlGrouper_2">
+      <input id="Aggregate_8_Data0" uid="18" schema="SeriesName:string,RatingName:string,Rating:float" />
+      <output id="SV5_Combine_out0" uid="20" schema="SeriesName:string,RatingName:string,Rating:float" outputIndex="0" numberOfOutputs="1" />
+    </operator>
+  </ScopeVertex>
+  <ScopeVertex id="SV6_Split" cppReady="true" nativeOnly="true">
+    <operator id="Process_10" uid="21" assemblyName="__ScopeCodeGen__.dll" className="SequenceProject">
+      <input id="SV5_Combine_out0" uid="20" schema="SeriesName:string,RatingName:string,Rating:float" inputIndex="0" numberOfInputs="1" />
+      <output id="Process_10_Data0" uid="22" schema="Score:long?,SeriesName:string" />
+    </operator>
+    <operator id="Split_11" uid="23" assemblyName="ScopeRuntime.exe" className="ScopeRuntime.ScopeFilterSelectSplitter">
+      <input id="Process_10_Data0" uid="22" schema="Score:long?,SeriesName:string" />
+      <output id="SV6_Split_out0" uid="24" schema="Score:long?,SeriesName1:string" outputIndex="0" numberOfOutputs="1" assemblyName="__ScopeCodeGen__.dll" className="SqlSplitOutputter_1" />
+      <output id="SV6_Split_out1" uid="25" schema="SeriesName:string,Score:long?" outputIndex="1" numberOfOutputs="1" finalOutput="true" assemblyName="__ScopeCodeGen__.dll" className="SqlSplitOutputter_2" encoding="Text" args="" />
+    </operator>
+  </ScopeVertex>
+  <ScopeVertex id="SV7_Process" cppReady="true" nativeOnly="true">
+    <operator id="Output_31" uid="65" assemblyName="Microsoft.Analytics.Interfaces.dll" className="Microsoft.Analytics.Interfaces.IOutputter">
+      <input id="SV5_Combine_out0" uid="20" schema="SeriesName:string,RatingName:string,Rating:float" inputIndex="0" numberOfInputs="1" />
+      <output id="SV7_Process_out0" uid="65" schema="SeriesName:string,RatingName:string,Rating:float" outputIndex="0" numberOfOutputs="1" finalOutput="true" />
+    </operator>
+  </ScopeVertex>
+  <ScopeVertex id="SV8_Extract_Split" cppReady="true" nativeOnly="true">
+    <operator id="GetSStream_13" uid="28" assemblyName="ScopeRuntime.exe" className="ScopeRuntime.SStreamExtractor">
+      <input id="GetSStream_13" uid="28" sqlIpTableName="localcomputeaccount.StarTrekData.dbo.TwitterResults" schema="TweetID:long,CreatedAt:string,UserName:string,ScreenName:string,Tweet:string,RetweetCount:int,FavoriteCount:int,Sentiment:string,SeriesName:string" inputIndex="0" numberOfInputs="ALL" useInputDataName="true" />
+      <output id="GetSStream_13_Data0" uid="29" schema="Tweet:string,RetweetCount:int,Sentiment:string,SeriesName:string" />
+    </operator>
+    <operator id="Process_14" uid="30" assemblyName="__ScopeCodeGen__.dll" className="SqlFilterTransformer_15">
+      <input id="GetSStream_13_Data0" uid="29" schema="Tweet:string,RetweetCount:int,Sentiment:string,SeriesName:string" />
+      <output id="Process_14_Data0" uid="31" schema="Tweet:string,RetweetCount:int,Sentiment:string,SeriesName:string" />
+    </operator>
+    <operator id="Process_15" uid="32" assemblyName="__ScopeCodeGen__.dll" className="ScopeSorter_3" args="-keys SeriesName,Tweet,RetweetCount,Sentiment">
+      <input id="Process_14_Data0" uid="31" schema="Tweet:string,RetweetCount:int,Sentiment:string,SeriesName:string" />
+      <output id="Process_15_Data0" uid="33" schema="Tweet:string,RetweetCount:int,Sentiment:string,SeriesName:string" />
+    </operator>
+    <operator id="Process_16" uid="34" assemblyName="__ScopeCodeGen__.dll" className="SqlGrouper_3">
+      <input id="Process_15_Data0" uid="33" schema="Tweet:string,RetweetCount:int,Sentiment:string,SeriesName:string" />
+      <output id="Process_16_Data0" uid="35" schema="Tweet:string,RetweetCount:int,Sentiment:string,SeriesName:string" />
+    </operator>
+    <operator id="Split_17" uid="36" assemblyName="ScopeRuntime.exe" className="ScopeRuntime.ScopeFilterSelectSplitter">
+      <input id="Process_16_Data0" uid="35" schema="Tweet:string,RetweetCount:int,Sentiment:string,SeriesName:string" />
+      <output id="SV8_Extract_Split_out0" uid="37" schema="SeriesName:string,TweetCount:long,RetweetCount:long?" outputIndex="0" numberOfOutputs="1" assemblyName="__ScopeCodeGen__.dll" className="SqlSplitOutputter_3" />
+      <output id="SV8_Extract_Split_out1" uid="38" schema="SeriesName:string,Tweet:string,RetweetCount:int,Sentiment:string" outputIndex="1" numberOfOutputs="1" finalOutput="true" assemblyName="__ScopeCodeGen__.dll" className="SqlSplitOutputter_4" encoding="Text" args="" />
+    </operator>
+  </ScopeVertex>
+  <ScopeVertex id="SV9_Split" cppReady="true" nativeOnly="true">
+    <operator id="Process_18" uid="39" assemblyName="__ScopeCodeGen__.dll" className="SqlGrouper_4">
+      <input id="SV8_Extract_Split_out0" uid="37" schema="SeriesName:string,TweetCount:long,RetweetCount:long?" inputIndex="0" numberOfInputs="1" />
+      <output id="Process_18_Data0" uid="40" schema="SeriesName:string,TweetCount:long,RetweetCount:long?" />
+    </operator>
+    <operator id="Process_19" uid="41" assemblyName="__ScopeCodeGen__.dll" className="ScopeSorter_4" args="-keys TweetCount">
+      <input id="Process_18_Data0" uid="40" schema="SeriesName:string,TweetCount:long,RetweetCount:long?" />
+      <output id="Process_19_Data0" uid="42" schema="SeriesName:string,TweetCount:long,RetweetCount:long?" />
+    </operator>
+    <operator id="Process_20" uid="43" assemblyName="__ScopeCodeGen__.dll" className="SqlFilterTransformer_16">
+      <input id="Process_19_Data0" uid="42" schema="SeriesName:string,TweetCount:long,RetweetCount:long?" />
+      <output id="Process_20_Data0" uid="44" schema="SeriesName:string,RetweetCount:long?,TweetCount:long?" />
+    </operator>
+    <operator id="Process_21" uid="45" assemblyName="__ScopeCodeGen__.dll" className="SequenceProject">
+      <input id="Process_20_Data0" uid="44" schema="SeriesName:string,RetweetCount:long?,TweetCount:long?" />
+      <output id="Process_21_Data0" uid="46" schema="TweetScore:long?,SeriesName:string,RetweetCount:long?" />
+    </operator>
+    <operator id="Process_22" uid="47" assemblyName="__ScopeCodeGen__.dll" className="ScopeSorter_5" args="-keys RetweetCount">
+      <input id="Process_21_Data0" uid="46" schema="TweetScore:long?,SeriesName:string,RetweetCount:long?" />
+      <output id="Process_22_Data0" uid="48" schema="TweetScore:long?,SeriesName:string,RetweetCount:long?" />
+    </operator>
+    <operator id="Process_23" uid="49" assemblyName="__ScopeCodeGen__.dll" className="SequenceProject">
+      <input id="Process_22_Data0" uid="48" schema="TweetScore:long?,SeriesName:string,RetweetCount:long?" />
+      <output id="Process_23_Data0" uid="50" schema="RetweetScore:long?,SeriesName:string,TweetScore:long?" />
+    </operator>
+    <operator id="Split_24" uid="51" assemblyName="ScopeRuntime.exe" className="ScopeRuntime.ScopeFilterSelectSplitter">
+      <input id="Process_23_Data0" uid="50" schema="RetweetScore:long?,SeriesName:string,TweetScore:long?" />
+      <output id="SV9_Split_out0" uid="52" schema="TweetScore:long?,RetweetScore:long?,SeriesName2:string" outputIndex="0" numberOfOutputs="1" assemblyName="__ScopeCodeGen__.dll" className="SqlSplitOutputter_5" />
+      <output id="SV9_Split_out1" uid="53" schema="SeriesName:string,TweetScore:long?,RetweetScore:long?" outputIndex="1" numberOfOutputs="1" finalOutput="true" assemblyName="__ScopeCodeGen__.dll" className="SqlSplitOutputter_6" encoding="Text" args="" />
+    </operator>
+  </ScopeVertex>
+  <ScopeVertex id="SV10_Combine" cppReady="true" nativeOnly="true">
+    <operator id="HashJoin_12" uid="26" assemblyName="__ScopeCodeGen__.dll" className="HashCombine" args="-key SeriesName|SeriesName1">
+      <input id="SV1_Extract_out0" uid="8" schema="SeriesName:string" inputIndex="0" numberOfInputs="1" />
+      <input id="SV6_Split_out0" uid="24" schema="Score:long?,SeriesName1:string" inputIndex="1" numberOfInputs="1" />
+      <output id="HashJoin_12_Data0" uid="27" schema="SeriesName:string,Score:long?" />
+    </operator>
+    <operator id="HashJoin_25" uid="54" assemblyName="__ScopeCodeGen__.dll" className="HashCombine" args="-key SeriesName|SeriesName2">
+      <input id="HashJoin_12_Data0" uid="27" schema="SeriesName:string,Score:long?" />
+      <input id="SV9_Split_out0" uid="52" schema="TweetScore:long?,RetweetScore:long?,SeriesName2:string" inputIndex="2" numberOfInputs="1" />
+      <output id="HashJoin_25_Data0" uid="55" schema="SeriesName:string,Score:long?,TweetScore:long?,RetweetScore:long?" />
+    </operator>
+    <operator id="Process_26" uid="56" assemblyName="__ScopeCodeGen__.dll" className="ScopeSorter_6" args="-keys SeriesName,TweetScore,RetweetScore">
+      <input id="HashJoin_25_Data0" uid="55" schema="SeriesName:string,Score:long?,TweetScore:long?,RetweetScore:long?" />
+      <output id="Process_26_Data0" uid="57" schema="SeriesName:string,Score:long?,TweetScore:long?,RetweetScore:long?" />
+    </operator>
+    <operator id="Process_27" uid="58" assemblyName="__ScopeCodeGen__.dll" className="SqlFilterTransformer_17">
+      <input id="Process_26_Data0" uid="57" schema="SeriesName:string,Score:long?,TweetScore:long?,RetweetScore:long?" />
+      <output id="Process_27_Data0" uid="59" schema="SeriesName:string,TweetScore:long?,RetweetScore:long?,Expr_0:long?,Expr_1:long?" />
+    </operator>
+    <operator id="Process_28" uid="60" assemblyName="__ScopeCodeGen__.dll" className="SqlGrouper_5">
+      <input id="Process_27_Data0" uid="59" schema="SeriesName:string,TweetScore:long?,RetweetScore:long?,Expr_0:long?,Expr_1:long?" />
+      <output id="Process_28_Data0" uid="61" schema="SeriesName:string,TweetScore:long?,RetweetScore:long?,Expr_0:long?,Expr_1:long?" />
+    </operator>
+    <operator id="Process_29" uid="62" assemblyName="__ScopeCodeGen__.dll" className="SqlFilterTransformer_18">
+      <input id="Process_28_Data0" uid="61" schema="SeriesName:string,TweetScore:long?,RetweetScore:long?,Expr_0:long?,Expr_1:long?" />
+      <output id="Process_29_Data0" uid="63" schema="SeriesName:string,OverallScore:long?,RatingsScore:long?,TweetScore:long?,RetweetScore:long?" />
+    </operator>
+    <operator id="Output_30" uid="64" assemblyName="Microsoft.Analytics.Interfaces.dll" className="Microsoft.Analytics.Interfaces.IOutputter">
+      <input id="Process_29_Data0" uid="63" schema="SeriesName:string,OverallScore:long?,RatingsScore:long?,TweetScore:long?,RetweetScore:long?" />
+      <output id="SV10_Combine_out0" uid="64" schema="SeriesName:string,OverallScore:long?,RatingsScore:long?,TweetScore:long?,RetweetScore:long?" outputIndex="0" numberOfOutputs="1" finalOutput="true" />
+    </operator>
+  </ScopeVertex>
+</ScopeVertices>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vertexCommand command="Start" jobType="None" managedMemorySize="0" vertexArg="ScopeEngine.dll -scopeVertex SV1_Extract -vertexNumber 0">
+  <inputs>
+    <input name="GetSStream_0[0,0,0]" path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c63313b6-345d-40fc-8ca4-5b10764bce59\475aac1c-b116-4a85-bc16-83c3cfa48795.ss" blockAligned="True" globalStartOffset="0" localStartOffset="0" localEndOffset="6480" length="6480" />
+    <input name="GetSStream_0[1,0,0]" path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c63313b6-345d-40fc-8ca4-5b10764bce59\475aac1c-b116-4a85-bc16-83c3cfa48795.ss" blockAligned="True" globalStartOffset="0" localStartOffset="6480" localEndOffset="13494" length="13494" />
+  </inputs>
+  <outputs>
+    <output path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV1_Extract_out0" isFirstOutputPiece="False" />
+  </outputs>
+</vertexCommand>

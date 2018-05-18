@@ -1,0 +1,3224 @@
+{
+    "statuses": [
+        {
+            "created_at": "Sat May 12 19:23:40 +0000 2018",
+            "id": 995384027422093312,
+            "id_str": "995384027422093312",
+            "text": "#Eurovision2018 on a retrouvé Data  de Star trek Génération ???? https://t.co/G7jfH596SP",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "Eurovision2018",
+                        "indices": [
+                            0,
+                            15
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 995384007104827392,
+                        "id_str": "995384007104827392",
+                        "indices": [
+                            63,
+                            86
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBQew6WkAAtD56.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBQew6WkAAtD56.jpg",
+                        "url": "https://t.co/G7jfH596SP",
+                        "display_url": "pic.twitter.com/G7jfH596SP",
+                        "expanded_url": "https://twitter.com/hirodid/status/995384027422093312/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 993,
+                                "h": 661,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 453,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 993,
+                                "h": 661,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 995384007104827392,
+                        "id_str": "995384007104827392",
+                        "indices": [
+                            63,
+                            86
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBQew6WkAAtD56.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBQew6WkAAtD56.jpg",
+                        "url": "https://t.co/G7jfH596SP",
+                        "display_url": "pic.twitter.com/G7jfH596SP",
+                        "expanded_url": "https://twitter.com/hirodid/status/995384027422093312/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 993,
+                                "h": 661,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 453,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 993,
+                                "h": 661,
+                                "resize": "fit"
+                            }
+                        }
+                    },
+                    {
+                        "id": 995384016344944640,
+                        "id_str": "995384016344944640",
+                        "indices": [
+                            63,
+                            86
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBQfTVXkAAOPj-.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBQfTVXkAAOPj-.jpg",
+                        "url": "https://t.co/G7jfH596SP",
+                        "display_url": "pic.twitter.com/G7jfH596SP",
+                        "expanded_url": "https://twitter.com/hirodid/status/995384027422093312/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 880,
+                                "h": 660,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 510,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 880,
+                                "h": 660,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "fr",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 35170576,
+                "id_str": "35170576",
+                "name": "didier",
+                "screen_name": "hirodid",
+                "location": "",
+                "description": "Aimé Césaire : Le racisme commence avec la colonisation car il a fallu légitimer cette entreprise",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 280,
+                "friends_count": 845,
+                "listed_count": 8,
+                "created_at": "Sat Apr 25 07:20:26 +0000 2009",
+                "favourites_count": 3685,
+                "utc_offset": 7200,
+                "time_zone": "Paris",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 6695,
+                "lang": "fr",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "0099B9",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/970537533774925824/-78-FsSx_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/970537533774925824/-78-FsSx_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/35170576/1507524849",
+                "profile_link_color": "0099B9",
+                "profile_sidebar_border_color": "5ED4DC",
+                "profile_sidebar_fill_color": "95E8EC",
+                "profile_text_color": "3C3940",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "fr"
+        },
+        {
+            "created_at": "Sat May 12 19:23:02 +0000 2018",
+            "id": 995383867912617985,
+            "id_str": "995383867912617985",
+            "text": "RT @TrekCore: ICYMI: Our review of the second chapter of #StarTrek TNG -- THROUGH THE MIRROR as May's five-week comic marathon continues!…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "StarTrek",
+                        "indices": [
+                            57,
+                            66
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "TrekCore",
+                        "name": "TrekCore.com ??",
+                        "id": 38999070,
+                        "id_str": "38999070",
+                        "indices": [
+                            3,
+                            12
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 826191120,
+                "id_str": "826191120",
+                "name": "Jupiter Force",
+                "screen_name": "Jupiter_Force",
+                "location": "Star Trek Online",
+                "description": "Gaming Community and Social Group",
+                "url": "http://t.co/ErXggVOxJT",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/ErXggVOxJT",
+                                "expanded_url": "http://JupiterForce.org",
+                                "display_url": "JupiterForce.org",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 215,
+                "friends_count": 97,
+                "listed_count": 9,
+                "created_at": "Sun Sep 16 00:28:22 +0000 2012",
+                "favourites_count": 560,
+                "utc_offset": -18000,
+                "time_zone": "Central Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 1594,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/3291855731/d39e4ba58107a76e68b9d1698d7ae6d9_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/3291855731/d39e4ba58107a76e68b9d1698d7ae6d9_normal.png",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/826191120/1509410095",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Sat May 12 16:55:13 +0000 2018",
+                "id": 995346668555067392,
+                "id_str": "995346668555067392",
+                "text": "ICYMI: Our review of the second chapter of #StarTrek TNG -- THROUGH THE MIRROR as May's five-week comic marathon co… https://t.co/NmCW0zJxxR",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "StarTrek",
+                            "indices": [
+                                43,
+                                52
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/NmCW0zJxxR",
+                            "expanded_url": "https://twitter.com/i/web/status/995346668555067392",
+                            "display_url": "twitter.com/i/web/status/9…",
+                            "indices": [
+                                117,
+                                140
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 38999070,
+                    "id_str": "38999070",
+                    "name": "TrekCore.com ??",
+                    "screen_name": "TrekCore",
+                    "location": "Sector 001, Alpha Quadrant",
+                    "description": "The best source for 'Star Trek: Discovery' and 'Star Trek' movie news, Trek Blu-ray info, and our extensive Trek image, video, and audio archives!",
+                    "url": "https://t.co/7t9cmnUbY9",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/7t9cmnUbY9",
+                                    "expanded_url": "http://www.trekcore.com",
+                                    "display_url": "trekcore.com",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 30131,
+                    "friends_count": 338,
+                    "listed_count": 562,
+                    "created_at": "Sun May 10 04:54:17 +0000 2009",
+                    "favourites_count": 527,
+                    "utc_offset": -14400,
+                    "time_zone": "Eastern Time (US & Canada)",
+                    "geo_enabled": true,
+                    "verified": true,
+                    "statuses_count": 20593,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "807C6C",
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/12261427/background.jpg",
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/12261427/background.jpg",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/961372916867784705/tAIJf2e4_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/961372916867784705/tAIJf2e4_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/38999070/1526001619",
+                    "profile_link_color": "807C6C",
+                    "profile_sidebar_border_color": "D9B17E",
+                    "profile_sidebar_fill_color": "EADEAA",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": true,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 4,
+                "favorite_count": 12,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 4,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sat May 12 19:22:43 +0000 2018",
+            "id": 995383791144390657,
+            "id_str": "995383791144390657",
+            "text": "RT @seomac: Star Trek 3 : The Search for Spot #PutACatOrDogInAFilm https://t.co/d3Jnm7vgMs",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "PutACatOrDogInAFilm",
+                        "indices": [
+                            46,
+                            66
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "seomac",
+                        "name": "George Henderson",
+                        "id": 228145644,
+                        "id_str": "228145644",
+                        "indices": [
+                            3,
+                            10
+                        ]
+                    }
+                ],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 995323817215000576,
+                        "id_str": "995323817215000576",
+                        "indices": [
+                            67,
+                            90
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdAZvQGWAAAyq-1.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdAZvQGWAAAyq-1.jpg",
+                        "url": "https://t.co/d3Jnm7vgMs",
+                        "display_url": "pic.twitter.com/d3Jnm7vgMs",
+                        "expanded_url": "https://twitter.com/seomac/status/995323832578859008/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 188,
+                                "h": 267,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 188,
+                                "h": 267,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 188,
+                                "h": 267,
+                                "resize": "fit"
+                            }
+                        },
+                        "source_status_id": 995323832578859008,
+                        "source_status_id_str": "995323832578859008",
+                        "source_user_id": 228145644,
+                        "source_user_id_str": "228145644"
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 995323817215000576,
+                        "id_str": "995323817215000576",
+                        "indices": [
+                            67,
+                            90
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdAZvQGWAAAyq-1.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdAZvQGWAAAyq-1.jpg",
+                        "url": "https://t.co/d3Jnm7vgMs",
+                        "display_url": "pic.twitter.com/d3Jnm7vgMs",
+                        "expanded_url": "https://twitter.com/seomac/status/995323832578859008/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 188,
+                                "h": 267,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 188,
+                                "h": 267,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 188,
+                                "h": 267,
+                                "resize": "fit"
+                            }
+                        },
+                        "source_status_id": 995323832578859008,
+                        "source_status_id_str": "995323832578859008",
+                        "source_user_id": 228145644,
+                        "source_user_id_str": "228145644"
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 2300072955,
+                "id_str": "2300072955",
+                "name": "?? Diane ????",
+                "screen_name": "kitawny24",
+                "location": "Florida, USA",
+                "description": "Nascar, 18, 20, 24, 41, 42 GATORS?? Bronco's, love all animals?? Opinions r my own #ManicMonday #TongueOutTuesday  #ThirstyThursday #FangFriday creator ????????",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 5093,
+                "friends_count": 5598,
+                "listed_count": 551,
+                "created_at": "Thu Jan 23 21:28:41 +0000 2014",
+                "favourites_count": 165748,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 203548,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/791020052443201544/D6QylzNy_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/791020052443201544/D6QylzNy_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2300072955/1421349576",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Sat May 12 15:24:28 +0000 2018",
+                "id": 995323832578859008,
+                "id_str": "995323832578859008",
+                "text": "Star Trek 3 : The Search for Spot #PutACatOrDogInAFilm https://t.co/d3Jnm7vgMs",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "PutACatOrDogInAFilm",
+                            "indices": [
+                                34,
+                                54
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [],
+                    "media": [
+                        {
+                            "id": 995323817215000576,
+                            "id_str": "995323817215000576",
+                            "indices": [
+                                55,
+                                78
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/DdAZvQGWAAAyq-1.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/DdAZvQGWAAAyq-1.jpg",
+                            "url": "https://t.co/d3Jnm7vgMs",
+                            "display_url": "pic.twitter.com/d3Jnm7vgMs",
+                            "expanded_url": "https://twitter.com/seomac/status/995323832578859008/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "large": {
+                                    "w": 188,
+                                    "h": 267,
+                                    "resize": "fit"
+                                },
+                                "small": {
+                                    "w": 188,
+                                    "h": 267,
+                                    "resize": "fit"
+                                },
+                                "medium": {
+                                    "w": 188,
+                                    "h": 267,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "id": 995323817215000576,
+                            "id_str": "995323817215000576",
+                            "indices": [
+                                55,
+                                78
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/DdAZvQGWAAAyq-1.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/DdAZvQGWAAAyq-1.jpg",
+                            "url": "https://t.co/d3Jnm7vgMs",
+                            "display_url": "pic.twitter.com/d3Jnm7vgMs",
+                            "expanded_url": "https://twitter.com/seomac/status/995323832578859008/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "large": {
+                                    "w": 188,
+                                    "h": 267,
+                                    "resize": "fit"
+                                },
+                                "small": {
+                                    "w": 188,
+                                    "h": 267,
+                                    "resize": "fit"
+                                },
+                                "medium": {
+                                    "w": 188,
+                                    "h": 267,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 228145644,
+                    "id_str": "228145644",
+                    "name": "George Henderson",
+                    "screen_name": "seomac",
+                    "location": "Ireland",
+                    "description": "Springer Spaniel owner, loves Dogs Movies, Bond, Sci-Fi,Reading,  Music, Beatles Fan(atic),Retro T.V. Snooker and Chelsea F.C. No DM's please ????",
+                    "url": null,
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 1049,
+                    "friends_count": 1028,
+                    "listed_count": 15,
+                    "created_at": "Sat Dec 18 21:23:36 +0000 2010",
+                    "favourites_count": 24602,
+                    "utc_offset": 3600,
+                    "time_zone": "Dublin",
+                    "geo_enabled": true,
+                    "verified": false,
+                    "statuses_count": 16052,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "ACDED6",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/1538486669/027__640x479___2__normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1538486669/027__640x479___2__normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/228145644/1497446627",
+                    "profile_link_color": "038543",
+                    "profile_sidebar_border_color": "EEEEEE",
+                    "profile_sidebar_fill_color": "F6F6F6",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 19,
+                "favorite_count": 48,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 19,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sat May 12 19:22:22 +0000 2018",
+            "id": 995383702308847616,
+            "id_str": "995383702308847616",
+            "text": "I love this - it’s the love song between Spock’s parents from “Star Trek Discovery: The Musical”, right? #Eurovision",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "Eurovision",
+                        "indices": [
+                            105,
+                            116
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": 995383213429219328,
+            "in_reply_to_status_id_str": "995383213429219328",
+            "in_reply_to_user_id": 12514,
+            "in_reply_to_user_id_str": "12514",
+            "in_reply_to_screen_name": "tomcoates",
+            "user": {
+                "id": 12514,
+                "id_str": "12514",
+                "name": "Tom Coates",
+                "screen_name": "tomcoates",
+                "location": "San Francisco, CA",
+                "description": "The personal Twitter account of Tom Coates - technologist, designer and occasional writer. Prev: Thington, BBC, Yahoo Brickhouse, Time Out etc. #blockedbytrump",
+                "url": "https://t.co/BDXNnT6ljK",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/BDXNnT6ljK",
+                                "expanded_url": "http://www.plasticbag.org/",
+                                "display_url": "plasticbag.org",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 36417,
+                "friends_count": 938,
+                "listed_count": 1388,
+                "created_at": "Wed Nov 15 14:44:26 +0000 2006",
+                "favourites_count": 38450,
+                "utc_offset": -25200,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 128132,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "DBDBDB",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/286127813/x28167ac04f89c3e8318fa68a3462873.jpg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/286127813/x28167ac04f89c3e8318fa68a3462873.jpg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/459820658327683072/I_qV0WKP_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/459820658327683072/I_qV0WKP_normal.png",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/12514/1398194403",
+                "profile_link_color": "005866",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "ABE5E0",
+                "profile_text_color": "345157",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": {
+                "id": "5a110d312052166f",
+                "url": "https://api.twitter.com/1.1/geo/id/5a110d312052166f.json",
+                "place_type": "city",
+                "name": "San Francisco",
+                "full_name": "San Francisco, CA",
+                "country_code": "US",
+                "country": "United States",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -122.514926,
+                                37.708075
+                            ],
+                            [
+                                -122.357031,
+                                37.708075
+                            ],
+                            [
+                                -122.357031,
+                                37.833238
+                            ],
+                            [
+                                -122.514926,
+                                37.833238
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {}
+            },
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 1,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sat May 12 19:22:18 +0000 2018",
+            "id": 995383685573763072,
+            "id_str": "995383685573763072",
+            "text": "@JamesSACorey I was 18 when NBC canceled Star Trek TOS. This feels like that.",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "JamesSACorey",
+                        "name": "James S.A. Corey",
+                        "id": 550270216,
+                        "id_str": "550270216",
+                        "indices": [
+                            0,
+                            13
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": 995047312698179584,
+            "in_reply_to_status_id_str": "995047312698179584",
+            "in_reply_to_user_id": 550270216,
+            "in_reply_to_user_id_str": "550270216",
+            "in_reply_to_screen_name": "JamesSACorey",
+            "user": {
+                "id": 53013796,
+                "id_str": "53013796",
+                "name": "Anthony Quaglieri",
+                "screen_name": "TonyQTampa",
+                "location": "Tampa, Florida, USA",
+                "description": "",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 25,
+                "friends_count": 153,
+                "listed_count": 0,
+                "created_at": "Thu Jul 02 08:55:47 +0000 2009",
+                "favourites_count": 106,
+                "utc_offset": -14400,
+                "time_zone": "Eastern Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 273,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "1A1B1F",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1037455865/me.6.11.10_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1037455865/me.6.11.10_normal.jpg",
+                "profile_link_color": "2FC2EF",
+                "profile_sidebar_border_color": "181A1E",
+                "profile_sidebar_fill_color": "252429",
+                "profile_text_color": "666666",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sat May 12 19:22:17 +0000 2018",
+            "id": 995383682289623040,
+            "id_str": "995383682289623040",
+            "text": "RT @Firstplacelast: I can't tell if he is channeling Dracula all Data from Star Trek the Next Generation #ukr\n#Eurovision #Eurovision2018 h…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "ukr",
+                        "indices": [
+                            105,
+                            109
+                        ]
+                    },
+                    {
+                        "text": "Eurovision",
+                        "indices": [
+                            110,
+                            121
+                        ]
+                    },
+                    {
+                        "text": "Eurovision2018",
+                        "indices": [
+                            122,
+                            137
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "Firstplacelast",
+                        "name": "Firstplacelast??",
+                        "id": 3422038791,
+                        "id_str": "3422038791",
+                        "indices": [
+                            3,
+                            18
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://www.trekonomics.com\" rel=\"nofollow\">trknmcsBOT</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 758779716157308928,
+                "id_str": "758779716157308928",
+                "name": "trekonomics trekbot",
+                "screen_name": "trekonomicsbot",
+                "location": "Alpha Quadrant, Sector 001",
+                "description": "mostly machine-curated semi-random #StarTrek RTs from @Trekonomics author Manu Saadia | all trekkers/trekkies welcome and followed back ??",
+                "url": "https://t.co/1nlfidfQlY",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/1nlfidfQlY",
+                                "expanded_url": "http://amzn.to/1UjeOoY",
+                                "display_url": "amzn.to/1UjeOoY",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2656,
+                "friends_count": 707,
+                "listed_count": 558,
+                "created_at": "Thu Jul 28 21:42:36 +0000 2016",
+                "favourites_count": 3157,
+                "utc_offset": -25200,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 172803,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/758781930494005248/2NVHgfr-_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/758781930494005248/2NVHgfr-_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/758779716157308928/1469742771",
+                "profile_link_color": "FF691F",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Sat May 12 19:20:01 +0000 2018",
+                "id": 995383111813881856,
+                "id_str": "995383111813881856",
+                "text": "I can't tell if he is channeling Dracula all Data from Star Trek the Next Generation #ukr\n#Eurovision… https://t.co/128ddIV3NA",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "ukr",
+                            "indices": [
+                                85,
+                                89
+                            ]
+                        },
+                        {
+                            "text": "Eurovision",
+                            "indices": [
+                                90,
+                                101
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/128ddIV3NA",
+                            "expanded_url": "https://twitter.com/i/web/status/995383111813881856",
+                            "display_url": "twitter.com/i/web/status/9…",
+                            "indices": [
+                                103,
+                                126
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 3422038791,
+                    "id_str": "3422038791",
+                    "name": "Firstplacelast??",
+                    "screen_name": "Firstplacelast",
+                    "location": "England, United Kingdom",
+                    "description": "Voice actor, YouTube manager, Film maker, musician, writer, blogger, vlogger, hogger and sometimes table dancer.",
+                    "url": null,
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 2557,
+                    "friends_count": 639,
+                    "listed_count": 23,
+                    "created_at": "Fri Aug 14 12:32:01 +0000 2015",
+                    "favourites_count": 1438,
+                    "utc_offset": -25200,
+                    "time_zone": "Pacific Time (US & Canada)",
+                    "geo_enabled": false,
+                    "verified": false,
+                    "statuses_count": 10318,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "000000",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/941948714909863937/8trQwdLu_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/941948714909863937/8trQwdLu_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/3422038791/1484508131",
+                    "profile_link_color": "E81C4F",
+                    "profile_sidebar_border_color": "000000",
+                    "profile_sidebar_fill_color": "000000",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": false,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "regular"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 1,
+                "favorite_count": 0,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sat May 12 19:22:14 +0000 2018",
+            "id": 995383668125454336,
+            "id_str": "995383668125454336",
+            "text": "Just watching Star Trek: Discovery S01E10 https://t.co/MAs68hUy6x",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 995383665021669377,
+                        "id_str": "995383665021669377",
+                        "indices": [
+                            42,
+                            65
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBQK2jX0AE12K1.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBQK2jX0AE12K1.jpg",
+                        "url": "https://t.co/MAs68hUy6x",
+                        "display_url": "pic.twitter.com/MAs68hUy6x",
+                        "expanded_url": "https://twitter.com/Remaith/status/995383668125454336/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 522,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 277,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 489,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 995383665021669377,
+                        "id_str": "995383665021669377",
+                        "indices": [
+                            42,
+                            65
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBQK2jX0AE12K1.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBQK2jX0AE12K1.jpg",
+                        "url": "https://t.co/MAs68hUy6x",
+                        "display_url": "pic.twitter.com/MAs68hUy6x",
+                        "expanded_url": "https://twitter.com/Remaith/status/995383668125454336/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 522,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 277,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 489,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://www.betaseries.com\" rel=\"nofollow\">BetaSeries</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 360614042,
+                "id_str": "360614042",
+                "name": "Remaith (???' )",
+                "screen_name": "Remaith",
+                "location": "La Plaine Saint-Denis",
+                "description": "Un fils, un frère, un ami, un amant, un mari, un père. What's next ?",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 164,
+                "friends_count": 518,
+                "listed_count": 10,
+                "created_at": "Tue Aug 23 13:56:12 +0000 2011",
+                "favourites_count": 11443,
+                "utc_offset": 7200,
+                "time_zone": "Paris",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 15276,
+                "lang": "fr",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "022330",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/483510628829503488/zq2YsRox.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/483510628829503488/zq2YsRox.jpeg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/944863933785083904/FxkX62Mj_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/944863933785083904/FxkX62Mj_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/360614042/1463571013",
+                "profile_link_color": "DD2E44",
+                "profile_sidebar_border_color": "A8C7F7",
+                "profile_sidebar_fill_color": "C0DFEC",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sat May 12 19:22:14 +0000 2018",
+            "id": 995383667970146304,
+            "id_str": "995383667970146304",
+            "text": "RT @MrsFBoo: Yer man looks like Data from Star Trek #ukr #eurovision2018 https://t.co/Yg66CqA9zf",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "ukr",
+                        "indices": [
+                            52,
+                            56
+                        ]
+                    },
+                    {
+                        "text": "eurovision2018",
+                        "indices": [
+                            57,
+                            72
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "MrsFBoo",
+                        "name": "Fran Puddick",
+                        "id": 21860844,
+                        "id_str": "21860844",
+                        "indices": [
+                            3,
+                            11
+                        ]
+                    }
+                ],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 995383171234615298,
+                        "id_str": "995383171234615298",
+                        "indices": [
+                            73,
+                            96
+                        ],
+                        "media_url": "http://pbs.twimg.com/tweet_video_thumb/DdBPuHDXUAIDccj.jpg",
+                        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DdBPuHDXUAIDccj.jpg",
+                        "url": "https://t.co/Yg66CqA9zf",
+                        "display_url": "pic.twitter.com/Yg66CqA9zf",
+                        "expanded_url": "https://twitter.com/MrsFBoo/status/995383196895318016/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 498,
+                                "h": 446,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 498,
+                                "h": 446,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 498,
+                                "h": 446,
+                                "resize": "fit"
+                            }
+                        },
+                        "source_status_id": 995383196895318016,
+                        "source_status_id_str": "995383196895318016",
+                        "source_user_id": 21860844,
+                        "source_user_id_str": "21860844"
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 995383171234615298,
+                        "id_str": "995383171234615298",
+                        "indices": [
+                            73,
+                            96
+                        ],
+                        "media_url": "http://pbs.twimg.com/tweet_video_thumb/DdBPuHDXUAIDccj.jpg",
+                        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DdBPuHDXUAIDccj.jpg",
+                        "url": "https://t.co/Yg66CqA9zf",
+                        "display_url": "pic.twitter.com/Yg66CqA9zf",
+                        "expanded_url": "https://twitter.com/MrsFBoo/status/995383196895318016/photo/1",
+                        "type": "animated_gif",
+                        "sizes": {
+                            "large": {
+                                "w": 498,
+                                "h": 446,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 498,
+                                "h": 446,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 498,
+                                "h": 446,
+                                "resize": "fit"
+                            }
+                        },
+                        "source_status_id": 995383196895318016,
+                        "source_status_id_str": "995383196895318016",
+                        "source_user_id": 21860844,
+                        "source_user_id_str": "21860844",
+                        "video_info": {
+                            "aspect_ratio": [
+                                249,
+                                223
+                            ],
+                            "variants": [
+                                {
+                                    "bitrate": 0,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/tweet_video/DdBPuHDXUAIDccj.mp4"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://www.trekonomics.com\" rel=\"nofollow\">trknmcsBOT</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 758779716157308928,
+                "id_str": "758779716157308928",
+                "name": "trekonomics trekbot",
+                "screen_name": "trekonomicsbot",
+                "location": "Alpha Quadrant, Sector 001",
+                "description": "mostly machine-curated semi-random #StarTrek RTs from @Trekonomics author Manu Saadia | all trekkers/trekkies welcome and followed back ??",
+                "url": "https://t.co/1nlfidfQlY",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/1nlfidfQlY",
+                                "expanded_url": "http://amzn.to/1UjeOoY",
+                                "display_url": "amzn.to/1UjeOoY",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2656,
+                "friends_count": 707,
+                "listed_count": 558,
+                "created_at": "Thu Jul 28 21:42:36 +0000 2016",
+                "favourites_count": 3157,
+                "utc_offset": -25200,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 172803,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/758781930494005248/2NVHgfr-_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/758781930494005248/2NVHgfr-_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/758779716157308928/1469742771",
+                "profile_link_color": "FF691F",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Sat May 12 19:20:22 +0000 2018",
+                "id": 995383196895318016,
+                "id_str": "995383196895318016",
+                "text": "Yer man looks like Data from Star Trek #ukr #eurovision2018 https://t.co/Yg66CqA9zf",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "ukr",
+                            "indices": [
+                                39,
+                                43
+                            ]
+                        },
+                        {
+                            "text": "eurovision2018",
+                            "indices": [
+                                44,
+                                59
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [],
+                    "media": [
+                        {
+                            "id": 995383171234615298,
+                            "id_str": "995383171234615298",
+                            "indices": [
+                                60,
+                                83
+                            ],
+                            "media_url": "http://pbs.twimg.com/tweet_video_thumb/DdBPuHDXUAIDccj.jpg",
+                            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DdBPuHDXUAIDccj.jpg",
+                            "url": "https://t.co/Yg66CqA9zf",
+                            "display_url": "pic.twitter.com/Yg66CqA9zf",
+                            "expanded_url": "https://twitter.com/MrsFBoo/status/995383196895318016/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "large": {
+                                    "w": 498,
+                                    "h": 446,
+                                    "resize": "fit"
+                                },
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "small": {
+                                    "w": 498,
+                                    "h": 446,
+                                    "resize": "fit"
+                                },
+                                "medium": {
+                                    "w": 498,
+                                    "h": 446,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "id": 995383171234615298,
+                            "id_str": "995383171234615298",
+                            "indices": [
+                                60,
+                                83
+                            ],
+                            "media_url": "http://pbs.twimg.com/tweet_video_thumb/DdBPuHDXUAIDccj.jpg",
+                            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DdBPuHDXUAIDccj.jpg",
+                            "url": "https://t.co/Yg66CqA9zf",
+                            "display_url": "pic.twitter.com/Yg66CqA9zf",
+                            "expanded_url": "https://twitter.com/MrsFBoo/status/995383196895318016/photo/1",
+                            "type": "animated_gif",
+                            "sizes": {
+                                "large": {
+                                    "w": 498,
+                                    "h": 446,
+                                    "resize": "fit"
+                                },
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "small": {
+                                    "w": 498,
+                                    "h": 446,
+                                    "resize": "fit"
+                                },
+                                "medium": {
+                                    "w": 498,
+                                    "h": 446,
+                                    "resize": "fit"
+                                }
+                            },
+                            "video_info": {
+                                "aspect_ratio": [
+                                    249,
+                                    223
+                                ],
+                                "variants": [
+                                    {
+                                        "bitrate": 0,
+                                        "content_type": "video/mp4",
+                                        "url": "https://video.twimg.com/tweet_video/DdBPuHDXUAIDccj.mp4"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 21860844,
+                    "id_str": "21860844",
+                    "name": "Fran Puddick",
+                    "screen_name": "MrsFBoo",
+                    "location": "Chesterfield, UK",
+                    "description": "Frantic mum w sideline in comms and marketing. Defensive about netball & hockey. Cruise industry newbie. All views my very own.",
+                    "url": null,
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 415,
+                    "friends_count": 1142,
+                    "listed_count": 8,
+                    "created_at": "Wed Feb 25 12:43:34 +0000 2009",
+                    "favourites_count": 489,
+                    "utc_offset": 3600,
+                    "time_zone": "London",
+                    "geo_enabled": true,
+                    "verified": false,
+                    "statuses_count": 3096,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "FFF04D",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme19/bg.gif",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme19/bg.gif",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/947640102859300865/YyPMAgrB_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/947640102859300865/YyPMAgrB_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/21860844/1485544297",
+                    "profile_link_color": "0099CC",
+                    "profile_sidebar_border_color": "FFF8AD",
+                    "profile_sidebar_fill_color": "F6FFD1",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": true,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": {
+                    "id": "37a7a3220f8e2174",
+                    "url": "https://api.twitter.com/1.1/geo/id/37a7a3220f8e2174.json",
+                    "place_type": "city",
+                    "name": "Chesterfield",
+                    "full_name": "Chesterfield, England",
+                    "country_code": "GB",
+                    "country": "United Kingdom",
+                    "contained_within": [],
+                    "bounding_box": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    -1.484163,
+                                    53.213151
+                                ],
+                                [
+                                    -1.394032,
+                                    53.213151
+                                ],
+                                [
+                                    -1.394032,
+                                    53.28656
+                                ],
+                                [
+                                    -1.484163,
+                                    53.28656
+                                ]
+                            ]
+                        ]
+                    },
+                    "attributes": {}
+                },
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 1,
+                "favorite_count": 2,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sat May 12 19:22:12 +0000 2018",
+            "id": 995383661603295234,
+            "id_str": "995383661603295234",
+            "text": "Just watching Star Trek: Discovery S01E09 https://t.co/ScznXN6GdN",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 995383658897960960,
+                        "id_str": "995383658897960960",
+                        "indices": [
+                            42,
+                            65
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBQKfvXcAAkpLG.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBQKfvXcAAkpLG.jpg",
+                        "url": "https://t.co/ScznXN6GdN",
+                        "display_url": "pic.twitter.com/ScznXN6GdN",
+                        "expanded_url": "https://twitter.com/Remaith/status/995383661603295234/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 522,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 277,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 489,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 995383658897960960,
+                        "id_str": "995383658897960960",
+                        "indices": [
+                            42,
+                            65
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBQKfvXcAAkpLG.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBQKfvXcAAkpLG.jpg",
+                        "url": "https://t.co/ScznXN6GdN",
+                        "display_url": "pic.twitter.com/ScznXN6GdN",
+                        "expanded_url": "https://twitter.com/Remaith/status/995383661603295234/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 522,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 277,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 489,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://www.betaseries.com\" rel=\"nofollow\">BetaSeries</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 360614042,
+                "id_str": "360614042",
+                "name": "Remaith (???' )",
+                "screen_name": "Remaith",
+                "location": "La Plaine Saint-Denis",
+                "description": "Un fils, un frère, un ami, un amant, un mari, un père. What's next ?",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 164,
+                "friends_count": 518,
+                "listed_count": 10,
+                "created_at": "Tue Aug 23 13:56:12 +0000 2011",
+                "favourites_count": 11443,
+                "utc_offset": 7200,
+                "time_zone": "Paris",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 15276,
+                "lang": "fr",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "022330",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/483510628829503488/zq2YsRox.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/483510628829503488/zq2YsRox.jpeg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/944863933785083904/FxkX62Mj_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/944863933785083904/FxkX62Mj_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/360614042/1463571013",
+                "profile_link_color": "DD2E44",
+                "profile_sidebar_border_color": "A8C7F7",
+                "profile_sidebar_fill_color": "C0DFEC",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sat May 12 19:22:09 +0000 2018",
+            "id": 995383649334906881,
+            "id_str": "995383649334906881",
+            "text": "Just watching Star Trek: Discovery S01E08 https://t.co/DYKQezdkpj",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 995383646801547264,
+                        "id_str": "995383646801547264",
+                        "indices": [
+                            42,
+                            65
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBQJyrW0AAXcBx.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBQJyrW0AAXcBx.jpg",
+                        "url": "https://t.co/DYKQezdkpj",
+                        "display_url": "pic.twitter.com/DYKQezdkpj",
+                        "expanded_url": "https://twitter.com/Remaith/status/995383649334906881/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 522,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 277,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 489,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 995383646801547264,
+                        "id_str": "995383646801547264",
+                        "indices": [
+                            42,
+                            65
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBQJyrW0AAXcBx.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBQJyrW0AAXcBx.jpg",
+                        "url": "https://t.co/DYKQezdkpj",
+                        "display_url": "pic.twitter.com/DYKQezdkpj",
+                        "expanded_url": "https://twitter.com/Remaith/status/995383649334906881/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 522,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 277,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 489,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://www.betaseries.com\" rel=\"nofollow\">BetaSeries</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 360614042,
+                "id_str": "360614042",
+                "name": "Remaith (???' )",
+                "screen_name": "Remaith",
+                "location": "La Plaine Saint-Denis",
+                "description": "Un fils, un frère, un ami, un amant, un mari, un père. What's next ?",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 164,
+                "friends_count": 518,
+                "listed_count": 10,
+                "created_at": "Tue Aug 23 13:56:12 +0000 2011",
+                "favourites_count": 11443,
+                "utc_offset": 7200,
+                "time_zone": "Paris",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 15276,
+                "lang": "fr",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "022330",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/483510628829503488/zq2YsRox.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/483510628829503488/zq2YsRox.jpeg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/944863933785083904/FxkX62Mj_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/944863933785083904/FxkX62Mj_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/360614042/1463571013",
+                "profile_link_color": "DD2E44",
+                "profile_sidebar_border_color": "A8C7F7",
+                "profile_sidebar_fill_color": "C0DFEC",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sat May 12 19:22:08 +0000 2018",
+            "id": 995383643538427904,
+            "id_str": "995383643538427904",
+            "text": "Just watching Star Trek: Discovery S01E07 https://t.co/2mmV0wUtlV",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 995383640107421698,
+                        "id_str": "995383640107421698",
+                        "indices": [
+                            42,
+                            65
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBQJZvWkAIWAyw.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBQJZvWkAIWAyw.jpg",
+                        "url": "https://t.co/2mmV0wUtlV",
+                        "display_url": "pic.twitter.com/2mmV0wUtlV",
+                        "expanded_url": "https://twitter.com/Remaith/status/995383643538427904/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 522,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 277,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 489,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 995383640107421698,
+                        "id_str": "995383640107421698",
+                        "indices": [
+                            42,
+                            65
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBQJZvWkAIWAyw.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBQJZvWkAIWAyw.jpg",
+                        "url": "https://t.co/2mmV0wUtlV",
+                        "display_url": "pic.twitter.com/2mmV0wUtlV",
+                        "expanded_url": "https://twitter.com/Remaith/status/995383643538427904/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 522,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 277,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 489,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://www.betaseries.com\" rel=\"nofollow\">BetaSeries</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 360614042,
+                "id_str": "360614042",
+                "name": "Remaith (???' )",
+                "screen_name": "Remaith",
+                "location": "La Plaine Saint-Denis",
+                "description": "Un fils, un frère, un ami, un amant, un mari, un père. What's next ?",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 164,
+                "friends_count": 518,
+                "listed_count": 10,
+                "created_at": "Tue Aug 23 13:56:12 +0000 2011",
+                "favourites_count": 11443,
+                "utc_offset": 7200,
+                "time_zone": "Paris",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 15276,
+                "lang": "fr",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "022330",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/483510628829503488/zq2YsRox.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/483510628829503488/zq2YsRox.jpeg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/944863933785083904/FxkX62Mj_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/944863933785083904/FxkX62Mj_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/360614042/1463571013",
+                "profile_link_color": "DD2E44",
+                "profile_sidebar_border_color": "A8C7F7",
+                "profile_sidebar_fill_color": "C0DFEC",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sat May 12 19:22:00 +0000 2018",
+            "id": 995383610705408000,
+            "id_str": "995383610705408000",
+            "text": "RT @PicardsRecorder: @TheJayceeRivers My favorite of the original Star Trek women circa me at 14 (Mirror, Mirror) https://t.co/VElFE5W72R",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "PicardsRecorder",
+                        "name": "HydraSteveRogers",
+                        "id": 974585021091676163,
+                        "id_str": "974585021091676163",
+                        "indices": [
+                            3,
+                            19
+                        ]
+                    },
+                    {
+                        "screen_name": "TheJayceeRivers",
+                        "name": "Jaycee Rivers",
+                        "id": 2614914854,
+                        "id_str": "2614914854",
+                        "indices": [
+                            21,
+                            37
+                        ]
+                    }
+                ],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 995383366584238081,
+                        "id_str": "995383366584238081",
+                        "indices": [
+                            114,
+                            137
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBP5eyWAAEsXEo.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBP5eyWAAEsXEo.jpg",
+                        "url": "https://t.co/VElFE5W72R",
+                        "display_url": "pic.twitter.com/VElFE5W72R",
+                        "expanded_url": "https://twitter.com/PicardsRecorder/status/995383371239952384/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 645,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 741,
+                                "h": 703,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 741,
+                                "h": 703,
+                                "resize": "fit"
+                            }
+                        },
+                        "source_status_id": 995383371239952384,
+                        "source_status_id_str": "995383371239952384",
+                        "source_user_id": 974585021091676163,
+                        "source_user_id_str": "974585021091676163"
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 995383366584238081,
+                        "id_str": "995383366584238081",
+                        "indices": [
+                            114,
+                            137
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBP5eyWAAEsXEo.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBP5eyWAAEsXEo.jpg",
+                        "url": "https://t.co/VElFE5W72R",
+                        "display_url": "pic.twitter.com/VElFE5W72R",
+                        "expanded_url": "https://twitter.com/PicardsRecorder/status/995383371239952384/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 645,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 741,
+                                "h": 703,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 741,
+                                "h": 703,
+                                "resize": "fit"
+                            }
+                        },
+                        "source_status_id": 995383371239952384,
+                        "source_status_id_str": "995383371239952384",
+                        "source_user_id": 974585021091676163,
+                        "source_user_id_str": "974585021091676163"
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://www.trekonomics.com\" rel=\"nofollow\">trknmcsBOT</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 758779716157308928,
+                "id_str": "758779716157308928",
+                "name": "trekonomics trekbot",
+                "screen_name": "trekonomicsbot",
+                "location": "Alpha Quadrant, Sector 001",
+                "description": "mostly machine-curated semi-random #StarTrek RTs from @Trekonomics author Manu Saadia | all trekkers/trekkies welcome and followed back ??",
+                "url": "https://t.co/1nlfidfQlY",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/1nlfidfQlY",
+                                "expanded_url": "http://amzn.to/1UjeOoY",
+                                "display_url": "amzn.to/1UjeOoY",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2656,
+                "friends_count": 707,
+                "listed_count": 558,
+                "created_at": "Thu Jul 28 21:42:36 +0000 2016",
+                "favourites_count": 3157,
+                "utc_offset": -25200,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 172803,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/758781930494005248/2NVHgfr-_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/758781930494005248/2NVHgfr-_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/758779716157308928/1469742771",
+                "profile_link_color": "FF691F",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Sat May 12 19:21:03 +0000 2018",
+                "id": 995383371239952384,
+                "id_str": "995383371239952384",
+                "text": "@TheJayceeRivers My favorite of the original Star Trek women circa me at 14 (Mirror, Mirror) https://t.co/VElFE5W72R",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [
+                        {
+                            "screen_name": "TheJayceeRivers",
+                            "name": "Jaycee Rivers",
+                            "id": 2614914854,
+                            "id_str": "2614914854",
+                            "indices": [
+                                0,
+                                16
+                            ]
+                        }
+                    ],
+                    "urls": [],
+                    "media": [
+                        {
+                            "id": 995383366584238081,
+                            "id_str": "995383366584238081",
+                            "indices": [
+                                93,
+                                116
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/DdBP5eyWAAEsXEo.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/DdBP5eyWAAEsXEo.jpg",
+                            "url": "https://t.co/VElFE5W72R",
+                            "display_url": "pic.twitter.com/VElFE5W72R",
+                            "expanded_url": "https://twitter.com/PicardsRecorder/status/995383371239952384/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "small": {
+                                    "w": 680,
+                                    "h": 645,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 741,
+                                    "h": 703,
+                                    "resize": "fit"
+                                },
+                                "medium": {
+                                    "w": 741,
+                                    "h": 703,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "id": 995383366584238081,
+                            "id_str": "995383366584238081",
+                            "indices": [
+                                93,
+                                116
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/DdBP5eyWAAEsXEo.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/DdBP5eyWAAEsXEo.jpg",
+                            "url": "https://t.co/VElFE5W72R",
+                            "display_url": "pic.twitter.com/VElFE5W72R",
+                            "expanded_url": "https://twitter.com/PicardsRecorder/status/995383371239952384/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "small": {
+                                    "w": 680,
+                                    "h": 645,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 741,
+                                    "h": 703,
+                                    "resize": "fit"
+                                },
+                                "medium": {
+                                    "w": 741,
+                                    "h": 703,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
+                "in_reply_to_status_id": 995050645601341440,
+                "in_reply_to_status_id_str": "995050645601341440",
+                "in_reply_to_user_id": 2614914854,
+                "in_reply_to_user_id_str": "2614914854",
+                "in_reply_to_screen_name": "TheJayceeRivers",
+                "user": {
+                    "id": 974585021091676163,
+                    "id_str": "974585021091676163",
+                    "name": "HydraSteveRogers",
+                    "screen_name": "PicardsRecorder",
+                    "location": "Midwest",
+                    "description": "",
+                    "url": null,
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 5,
+                    "friends_count": 29,
+                    "listed_count": 0,
+                    "created_at": "Fri Mar 16 09:55:50 +0000 2018",
+                    "favourites_count": 252,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": false,
+                    "verified": false,
+                    "statuses_count": 86,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "F5F8FA",
+                    "profile_background_image_url": null,
+                    "profile_background_image_url_https": null,
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/974609327720976385/5Wskpir7_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/974609327720976385/5Wskpir7_normal.jpg",
+                    "profile_link_color": "1DA1F2",
+                    "profile_sidebar_border_color": "C0DEED",
+                    "profile_sidebar_fill_color": "DDEEF6",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": false,
+                    "default_profile": true,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 1,
+                "favorite_count": 0,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sat May 12 19:21:55 +0000 2018",
+            "id": 995383588878241792,
+            "id_str": "995383588878241792",
+            "text": "RT @NerdyBitchesPod: SURPRISE! It's a Classic Movie Review you didn't see coming, but resistance is futile! Celebrate #Comicpalooza guests…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "Comicpalooza",
+                        "indices": [
+                            118,
+                            131
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "NerdyBitchesPod",
+                        "name": "Nerdy Bitches",
+                        "id": 2866357886,
+                        "id_str": "2866357886",
+                        "indices": [
+                            3,
+                            19
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 709740047625535488,
+                "id_str": "709740047625535488",
+                "name": "Launching The Pilot",
+                "screen_name": "LaunchingTPilot",
+                "location": "UK",
+                "description": "Podcast Reviewing TV pilots, old and newish. Facebook/ Launching The Pilot. iTunes, Podbean, Tunein and Stitcher\nlaunchingthepilot@gmail.com",
+                "url": "https://t.co/yUe96pWMca",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/yUe96pWMca",
+                                "expanded_url": "http://launchingthepilot.podbean.com/",
+                                "display_url": "launchingthepilot.podbean.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 1688,
+                "friends_count": 1517,
+                "listed_count": 53,
+                "created_at": "Tue Mar 15 13:56:28 +0000 2016",
+                "favourites_count": 10276,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 11801,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/934131766222295045/NWk9J1d3_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/934131766222295045/NWk9J1d3_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/709740047625535488/1477790171",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Fri May 11 06:05:25 +0000 2018",
+                "id": 994820754490429440,
+                "id_str": "994820754490429440",
+                "text": "SURPRISE! It's a Classic Movie Review you didn't see coming, but resistance is futile! Celebrate #Comicpalooza gues… https://t.co/B8SATS9USc",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "Comicpalooza",
+                            "indices": [
+                                97,
+                                110
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/B8SATS9USc",
+                            "expanded_url": "https://twitter.com/i/web/status/994820754490429440",
+                            "display_url": "twitter.com/i/web/status/9…",
+                            "indices": [
+                                117,
+                                140
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 2866357886,
+                    "id_str": "2866357886",
+                    "name": "Nerdy Bitches",
+                    "screen_name": "NerdyBitchesPod",
+                    "location": "",
+                    "description": "Co-hosts Liz and Heather are two nerdy bitches podcasting their way through Geek Culture. Proud members #Comicpalooza #LadyPodSquad #Castaways",
+                    "url": "https://t.co/I9cFCLm4oY",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/I9cFCLm4oY",
+                                    "expanded_url": "http://nerdybitches.com",
+                                    "display_url": "nerdybitches.com",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 3157,
+                    "friends_count": 2860,
+                    "listed_count": 67,
+                    "created_at": "Mon Oct 20 04:00:24 +0000 2014",
+                    "favourites_count": 5307,
+                    "utc_offset": -18000,
+                    "time_zone": "Central Time (US & Canada)",
+                    "geo_enabled": true,
+                    "verified": false,
+                    "statuses_count": 5859,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "EBEBEB",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/779673147322736640/1c2AgJkU_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/779673147322736640/1c2AgJkU_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2866357886/1521145014",
+                    "profile_link_color": "990000",
+                    "profile_sidebar_border_color": "DFDFDF",
+                    "profile_sidebar_fill_color": "F3F3F3",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 24,
+                "favorite_count": 22,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 24,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sat May 12 19:21:48 +0000 2018",
+            "id": 995383558075273217,
+            "id_str": "995383558075273217",
+            "text": "@mishacollins I'm guessing CW owns everything so that creators can't do what they want with their own creations; li… https://t.co/EUBe7EKoXP",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "mishacollins",
+                        "name": "Misha Collins",
+                        "id": 39689218,
+                        "id_str": "39689218",
+                        "indices": [
+                            0,
+                            13
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/EUBe7EKoXP",
+                        "expanded_url": "https://twitter.com/i/web/status/995383558075273217",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": 995381285383110656,
+            "in_reply_to_status_id_str": "995381285383110656",
+            "in_reply_to_user_id": 39689218,
+            "in_reply_to_user_id_str": "39689218",
+            "in_reply_to_screen_name": "mishacollins",
+            "user": {
+                "id": 831270470,
+                "id_str": "831270470",
+                "name": "Chris Stargazer",
+                "screen_name": "ChrisStargazer",
+                "location": "USA",
+                "description": "Normal is just an average. Think Different. I don't condense my thoughts very well.  CG Artist.. Socially Awkward.Hermit.  #ActuallyAutistic  #PTSD #CloseTheJRC",
+                "url": "https://t.co/J7iwG1EfCC",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/J7iwG1EfCC",
+                                "expanded_url": "http://normalisjustanaverage.wordpress.com/",
+                                "display_url": "normalisjustanaverage.wordpress.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 312,
+                "friends_count": 746,
+                "listed_count": 12,
+                "created_at": "Tue Sep 18 15:20:40 +0000 2012",
+                "favourites_count": 5723,
+                "utc_offset": -25200,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 9616,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "131516",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/642462976834949121/yHcPcs6k_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/642462976834949121/yHcPcs6k_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/831270470/1443003296",
+                "profile_link_color": "009999",
+                "profile_sidebar_border_color": "EEEEEE",
+                "profile_sidebar_fill_color": "EFEFEF",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sat May 12 19:21:03 +0000 2018",
+            "id": 995383371239952384,
+            "id_str": "995383371239952384",
+            "text": "@TheJayceeRivers My favorite of the original Star Trek women circa me at 14 (Mirror, Mirror) https://t.co/VElFE5W72R",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "TheJayceeRivers",
+                        "name": "Jaycee Rivers",
+                        "id": 2614914854,
+                        "id_str": "2614914854",
+                        "indices": [
+                            0,
+                            16
+                        ]
+                    }
+                ],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 995383366584238081,
+                        "id_str": "995383366584238081",
+                        "indices": [
+                            93,
+                            116
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBP5eyWAAEsXEo.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBP5eyWAAEsXEo.jpg",
+                        "url": "https://t.co/VElFE5W72R",
+                        "display_url": "pic.twitter.com/VElFE5W72R",
+                        "expanded_url": "https://twitter.com/PicardsRecorder/status/995383371239952384/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 645,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 741,
+                                "h": 703,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 741,
+                                "h": 703,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 995383366584238081,
+                        "id_str": "995383366584238081",
+                        "indices": [
+                            93,
+                            116
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DdBP5eyWAAEsXEo.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DdBP5eyWAAEsXEo.jpg",
+                        "url": "https://t.co/VElFE5W72R",
+                        "display_url": "pic.twitter.com/VElFE5W72R",
+                        "expanded_url": "https://twitter.com/PicardsRecorder/status/995383371239952384/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 645,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 741,
+                                "h": 703,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 741,
+                                "h": 703,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
+            "in_reply_to_status_id": 995050645601341440,
+            "in_reply_to_status_id_str": "995050645601341440",
+            "in_reply_to_user_id": 2614914854,
+            "in_reply_to_user_id_str": "2614914854",
+            "in_reply_to_screen_name": "TheJayceeRivers",
+            "user": {
+                "id": 974585021091676163,
+                "id_str": "974585021091676163",
+                "name": "HydraSteveRogers",
+                "screen_name": "PicardsRecorder",
+                "location": "Midwest",
+                "description": "",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 5,
+                "friends_count": 29,
+                "listed_count": 0,
+                "created_at": "Fri Mar 16 09:55:50 +0000 2018",
+                "favourites_count": 252,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 86,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/974609327720976385/5Wskpir7_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/974609327720976385/5Wskpir7_normal.jpg",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        }
+    ],
+    "search_metadata": {
+        "completed_in": 0.094,
+        "max_id": 995384027422093312,
+        "max_id_str": "995384027422093312",
+        "next_results": "?max_id=995383371239952383&q=star%20trek&include_entities=1",
+        "query": "star+trek",
+        "refresh_url": "?since_id=995384027422093312&q=star%20trek&include_entities=1",
+        "count": 15,
+        "since_id": 0,
+        "since_id_str": "0"
+    }
+}

@@ -1,0 +1,3436 @@
+{
+    "statuses": [
+        {
+            "created_at": "Sun Apr 29 23:15:07 +0000 2018",
+            "id": 990731232240656385,
+            "id_str": "990731232240656385",
+            "text": "Can someone please make a music video for @LordHuron's #VideNoir using clips from #StarTrek? This is what I need in my life rn.",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "VideNoir",
+                        "indices": [
+                            55,
+                            64
+                        ]
+                    },
+                    {
+                        "text": "StarTrek",
+                        "indices": [
+                            82,
+                            91
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "LordHuron",
+                        "name": "Lord Huron",
+                        "id": 188245869,
+                        "id_str": "188245869",
+                        "indices": [
+                            42,
+                            52
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 865722014048411652,
+                "id_str": "865722014048411652",
+                "name": "Carlin Gr",
+                "screen_name": "carlingr_Tech",
+                "location": "NYC",
+                "description": "Full Time Nerd, Theatrical Technician, Programmer, Gardner, Electronic Prototyper",
+                "url": "https://t.co/w1PGgYTETG",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/w1PGgYTETG",
+                                "expanded_url": "http://carlingr.tech",
+                                "display_url": "carlingr.tech",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 19,
+                "friends_count": 78,
+                "listed_count": 0,
+                "created_at": "Sat May 20 00:13:07 +0000 2017",
+                "favourites_count": 445,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 256,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/977241749750984704/7gFSAeUr_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/977241749750984704/7gFSAeUr_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/865722014048411652/1497311000",
+                "profile_link_color": "19CF86",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:14:50 +0000 2018",
+            "id": 990731160668942336,
+            "id_str": "990731160668942336",
+            "text": "RT @AdamRackoff: RT if you want to see #StarTrek #DeepSpaceNine in high definition. This proof-of-concept shows what an HD battle scene cou…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "StarTrek",
+                        "indices": [
+                            39,
+                            48
+                        ]
+                    },
+                    {
+                        "text": "DeepSpaceNine",
+                        "indices": [
+                            49,
+                            63
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "AdamRackoff",
+                        "name": "Adam Rackoff",
+                        "id": 2193578047,
+                        "id_str": "2193578047",
+                        "indices": [
+                            3,
+                            15
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 3250437175,
+                "id_str": "3250437175",
+                "name": "Troy Schulz",
+                "screen_name": "LordZedd15",
+                "location": "Olympia, WA",
+                "description": "Looks like an art major. Compelled by @KyleKashuv to get a haircut. Filmmaker. Cinephile Supreme #NeverAgain #TimesUp #ROSEARMY",
+                "url": "https://t.co/RosUOG29KW",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/RosUOG29KW",
+                                "expanded_url": "https://letterboxd.com/LordZedd15/",
+                                "display_url": "letterboxd.com/LordZedd15/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 484,
+                "friends_count": 3621,
+                "listed_count": 13,
+                "created_at": "Sat Jun 20 05:40:19 +0000 2015",
+                "favourites_count": 33544,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 9680,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/985007213566545925/hp3gSRnT_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/985007213566545925/hp3gSRnT_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/3250437175/1523144960",
+                "profile_link_color": "19CF86",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Sun Feb 04 19:19:59 +0000 2018",
+                "id": 960231479216427008,
+                "id_str": "960231479216427008",
+                "text": "RT if you want to see #StarTrek #DeepSpaceNine in high definition. This proof-of-concept shows what an HD battle sc… https://t.co/wWh3POoTJ7",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "StarTrek",
+                            "indices": [
+                                22,
+                                31
+                            ]
+                        },
+                        {
+                            "text": "DeepSpaceNine",
+                            "indices": [
+                                32,
+                                46
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/wWh3POoTJ7",
+                            "expanded_url": "https://twitter.com/i/web/status/960231479216427008",
+                            "display_url": "twitter.com/i/web/status/9…",
+                            "indices": [
+                                117,
+                                140
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 2193578047,
+                    "id_str": "2193578047",
+                    "name": "Adam Rackoff",
+                    "screen_name": "AdamRackoff",
+                    "location": "New York City",
+                    "description": "Filmmaker, illustrator, marketing manager, film festival juror, crowdfunding expert, husband, dad. Ex-Apple. Guest host of @WrongReel.",
+                    "url": "https://t.co/RJ8KglfRCl",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/RJ8KglfRCl",
+                                    "expanded_url": "https://vimeo.com/cincodedospeliculas",
+                                    "display_url": "vimeo.com/cincodedospeli…",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 6279,
+                    "friends_count": 6318,
+                    "listed_count": 83,
+                    "created_at": "Thu Nov 14 05:29:02 +0000 2013",
+                    "favourites_count": 9969,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": true,
+                    "verified": false,
+                    "statuses_count": 4912,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "000000",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/378800000737711108/da622a4b323e1e469c0393adeebb0dde_normal.jpeg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000737711108/da622a4b323e1e469c0393adeebb0dde_normal.jpeg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2193578047/1478823708",
+                    "profile_link_color": "F26722",
+                    "profile_sidebar_border_color": "000000",
+                    "profile_sidebar_fill_color": "000000",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": false,
+                    "has_extended_profile": true,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 4006,
+                "favorite_count": 5350,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 4006,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:14:49 +0000 2018",
+            "id": 990731156361445376,
+            "id_str": "990731156361445376",
+            "text": "Sunday Nights were made for #StarTrek https://t.co/6RrS5US7MV",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "StarTrek",
+                        "indices": [
+                            28,
+                            37
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 990731138191839233,
+                        "id_str": "990731138191839233",
+                        "indices": [
+                            38,
+                            61
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/Db_IuJfX0AELzeF.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/Db_IuJfX0AELzeF.jpg",
+                        "url": "https://t.co/6RrS5US7MV",
+                        "display_url": "pic.twitter.com/6RrS5US7MV",
+                        "expanded_url": "https://twitter.com/KidHelium/status/990731156361445376/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 2048,
+                                "h": 1382,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 810,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 459,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 990731138191839233,
+                        "id_str": "990731138191839233",
+                        "indices": [
+                            38,
+                            61
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/Db_IuJfX0AELzeF.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/Db_IuJfX0AELzeF.jpg",
+                        "url": "https://t.co/6RrS5US7MV",
+                        "display_url": "pic.twitter.com/6RrS5US7MV",
+                        "expanded_url": "https://twitter.com/KidHelium/status/990731156361445376/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 2048,
+                                "h": 1382,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 810,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 459,
+                                "resize": "fit"
+                            }
+                        }
+                    },
+                    {
+                        "id": 990731138200166401,
+                        "id_str": "990731138200166401",
+                        "indices": [
+                            38,
+                            61
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/Db_IuJhW4AEUbt8.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/Db_IuJhW4AEUbt8.jpg",
+                        "url": "https://t.co/6RrS5US7MV",
+                        "display_url": "pic.twitter.com/6RrS5US7MV",
+                        "expanded_url": "https://twitter.com/KidHelium/status/990731156361445376/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 482,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 850,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 2048,
+                                "h": 1450,
+                                "resize": "fit"
+                            }
+                        }
+                    },
+                    {
+                        "id": 990731138191843328,
+                        "id_str": "990731138191843328",
+                        "indices": [
+                            38,
+                            61
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/Db_IuJfX4AApCgC.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/Db_IuJfX4AApCgC.jpg",
+                        "url": "https://t.co/6RrS5US7MV",
+                        "display_url": "pic.twitter.com/6RrS5US7MV",
+                        "expanded_url": "https://twitter.com/KidHelium/status/990731156361445376/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 451,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 2048,
+                                "h": 1360,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 797,
+                                "resize": "fit"
+                            }
+                        }
+                    },
+                    {
+                        "id": 990731138200162305,
+                        "id_str": "990731138200162305",
+                        "indices": [
+                            38,
+                            61
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/Db_IuJhW0AESqav.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/Db_IuJhW0AESqav.jpg",
+                        "url": "https://t.co/6RrS5US7MV",
+                        "display_url": "pic.twitter.com/6RrS5US7MV",
+                        "expanded_url": "https://twitter.com/KidHelium/status/990731156361445376/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 2048,
+                                "h": 1456,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 853,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 483,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 936194707235000321,
+                "id_str": "936194707235000321",
+                "name": "LuckyDog316",
+                "screen_name": "KidHelium",
+                "location": "THE Motor City",
+                "description": "???? ???? #TheResistance ????",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 79,
+                "friends_count": 74,
+                "listed_count": 0,
+                "created_at": "Thu Nov 30 11:26:26 +0000 2017",
+                "favourites_count": 4483,
+                "utc_offset": -25200,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 2811,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/988201075407699969/B1VIM9tg_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/988201075407699969/B1VIM9tg_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/936194707235000321/1524056481",
+                "profile_link_color": "1B95E0",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:14:47 +0000 2018",
+            "id": 990731150778949633,
+            "id_str": "990731150778949633",
+            "text": "RT @StarTrek: This #StarTrek series is the one a new fan should start with ... #Fandom #StarTrekSunday https://t.co/VK1Xsnt83U https://t.co…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "StarTrek",
+                        "indices": [
+                            19,
+                            28
+                        ]
+                    },
+                    {
+                        "text": "Fandom",
+                        "indices": [
+                            79,
+                            86
+                        ]
+                    },
+                    {
+                        "text": "StarTrekSunday",
+                        "indices": [
+                            87,
+                            102
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "StarTrek",
+                        "name": "Star Trek",
+                        "id": 130491582,
+                        "id_str": "130491582",
+                        "indices": [
+                            3,
+                            12
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/VK1Xsnt83U",
+                        "expanded_url": "http://bit.ly/NewTrekFan",
+                        "display_url": "bit.ly/NewTrekFan",
+                        "indices": [
+                            103,
+                            126
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 576144150,
+                "id_str": "576144150",
+                "name": "Johnny V. Caffiné ????",
+                "screen_name": "TrekkieGemini",
+                "location": "Risa",
+                "description": "#StarTrek #WeAreStarfleet #CaptainAmerica #TeamCap #HarryPotter #FantasticBeasts",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2267,
+                "friends_count": 980,
+                "listed_count": 853,
+                "created_at": "Thu May 10 08:31:51 +0000 2012",
+                "favourites_count": 5013,
+                "utc_offset": 7200,
+                "time_zone": "Berlin",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 376012,
+                "lang": "de",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "100699",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/457252126515666944/OoX6_aaz.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/457252126515666944/OoX6_aaz.jpeg",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/976800258159206400/C9DXwR6K_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/976800258159206400/C9DXwR6K_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/576144150/1521722393",
+                "profile_link_color": "100699",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Sun Apr 29 22:20:06 +0000 2018",
+                "id": 990717386075594752,
+                "id_str": "990717386075594752",
+                "text": "This #StarTrek series is the one a new fan should start with ... #Fandom #StarTrekSunday https://t.co/VK1Xsnt83U https://t.co/C0i0W21Lf8",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "StarTrek",
+                            "indices": [
+                                5,
+                                14
+                            ]
+                        },
+                        {
+                            "text": "Fandom",
+                            "indices": [
+                                65,
+                                72
+                            ]
+                        },
+                        {
+                            "text": "StarTrekSunday",
+                            "indices": [
+                                73,
+                                88
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/VK1Xsnt83U",
+                            "expanded_url": "http://bit.ly/NewTrekFan",
+                            "display_url": "bit.ly/NewTrekFan",
+                            "indices": [
+                                89,
+                                112
+                            ]
+                        }
+                    ],
+                    "media": [
+                        {
+                            "id": 990717383923912705,
+                            "id_str": "990717383923912705",
+                            "indices": [
+                                113,
+                                136
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/Db-8Ni2W0AED3JW.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/Db-8Ni2W0AED3JW.jpg",
+                            "url": "https://t.co/C0i0W21Lf8",
+                            "display_url": "pic.twitter.com/C0i0W21Lf8",
+                            "expanded_url": "https://twitter.com/StarTrek/status/990717386075594752/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "small": {
+                                    "w": 680,
+                                    "h": 340,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 1024,
+                                    "h": 512,
+                                    "resize": "fit"
+                                },
+                                "medium": {
+                                    "w": 1024,
+                                    "h": 512,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "id": 990717383923912705,
+                            "id_str": "990717383923912705",
+                            "indices": [
+                                113,
+                                136
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/Db-8Ni2W0AED3JW.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/Db-8Ni2W0AED3JW.jpg",
+                            "url": "https://t.co/C0i0W21Lf8",
+                            "display_url": "pic.twitter.com/C0i0W21Lf8",
+                            "expanded_url": "https://twitter.com/StarTrek/status/990717386075594752/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "small": {
+                                    "w": 680,
+                                    "h": 340,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 1024,
+                                    "h": 512,
+                                    "resize": "fit"
+                                },
+                                "medium": {
+                                    "w": 1024,
+                                    "h": 512,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 130491582,
+                    "id_str": "130491582",
+                    "name": "Star Trek",
+                    "screen_name": "StarTrek",
+                    "location": "",
+                    "description": "Welcome to the OFFICIAL Star Trek Twitter page!",
+                    "url": "http://t.co/JKtDWLeGvw",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "http://t.co/JKtDWLeGvw",
+                                    "expanded_url": "http://www.StarTrek.com",
+                                    "display_url": "StarTrek.com",
+                                    "indices": [
+                                        0,
+                                        22
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 365770,
+                    "friends_count": 252,
+                    "listed_count": 3923,
+                    "created_at": "Wed Apr 07 12:53:57 +0000 2010",
+                    "favourites_count": 3234,
+                    "utc_offset": -14400,
+                    "time_zone": "Eastern Time (US & Canada)",
+                    "geo_enabled": true,
+                    "verified": true,
+                    "statuses_count": 24316,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "131516",
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/750882866/daab31344c17107665d9b47b2356defa.png",
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/750882866/daab31344c17107665d9b47b2356defa.png",
+                    "profile_background_tile": true,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/816992658803474433/bdPvNDGV_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/816992658803474433/bdPvNDGV_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/130491582/1505249964",
+                    "profile_link_color": "009999",
+                    "profile_sidebar_border_color": "FFFFFF",
+                    "profile_sidebar_fill_color": "EFEFEF",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 16,
+                "favorite_count": 100,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 16,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:14:42 +0000 2018",
+            "id": 990731128393871360,
+            "id_str": "990731128393871360",
+            "text": "@StarTrek The DS9 Reunited talk was simply awesome. Even after 25 years the chemistry between the cast members is s… https://t.co/sfDgSXuGII",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "StarTrek",
+                        "name": "Star Trek",
+                        "id": 130491582,
+                        "id_str": "130491582",
+                        "indices": [
+                            0,
+                            9
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/sfDgSXuGII",
+                        "expanded_url": "https://twitter.com/i/web/status/990731128393871360",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": 130491582,
+            "in_reply_to_user_id_str": "130491582",
+            "in_reply_to_screen_name": "StarTrek",
+            "user": {
+                "id": 44863176,
+                "id_str": "44863176",
+                "name": "Wolf Ferry Hilbl",
+                "screen_name": "whilbl",
+                "location": "Hessen, Deutschland",
+                "description": "I am a (mostly) harmless nerd with a great affinity to pixels, bytes and electronic gadgets. Additionally I consume to much SF and fantasy.",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 42,
+                "friends_count": 166,
+                "listed_count": 9,
+                "created_at": "Fri Jun 05 10:17:50 +0000 2009",
+                "favourites_count": 1032,
+                "utc_offset": 7200,
+                "time_zone": "Berlin",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 1926,
+                "lang": "de",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "FFFFFF",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme2/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme2/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/2245705643/image_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/2245705643/image_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/44863176/1349204916",
+                "profile_link_color": "1F98C7",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "FFFFFF",
+                "profile_text_color": "555555",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:14:36 +0000 2018",
+            "id": 990731104981278720,
+            "id_str": "990731104981278720",
+            "text": "RT @TrekMovie: NEW! Watch: Star Trek–The Orthodontal Experience + More Great Links, including an awkward moment with #SebastianStan. #StarT…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "SebastianStan",
+                        "indices": [
+                            117,
+                            131
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "TrekMovie",
+                        "name": "TrekMovie.com",
+                        "id": 15846682,
+                        "id_str": "15846682",
+                        "indices": [
+                            3,
+                            13
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 576144150,
+                "id_str": "576144150",
+                "name": "Johnny V. Caffiné ????",
+                "screen_name": "TrekkieGemini",
+                "location": "Risa",
+                "description": "#StarTrek #WeAreStarfleet #CaptainAmerica #TeamCap #HarryPotter #FantasticBeasts",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2267,
+                "friends_count": 980,
+                "listed_count": 853,
+                "created_at": "Thu May 10 08:31:51 +0000 2012",
+                "favourites_count": 5013,
+                "utc_offset": 7200,
+                "time_zone": "Berlin",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 376012,
+                "lang": "de",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "100699",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/457252126515666944/OoX6_aaz.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/457252126515666944/OoX6_aaz.jpeg",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/976800258159206400/C9DXwR6K_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/976800258159206400/C9DXwR6K_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/576144150/1521722393",
+                "profile_link_color": "100699",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Sun Apr 29 22:32:23 +0000 2018",
+                "id": 990720476891832320,
+                "id_str": "990720476891832320",
+                "text": "NEW! Watch: Star Trek–The Orthodontal Experience + More Great Links, including an awkward moment with… https://t.co/dV9JO79RBF",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/dV9JO79RBF",
+                            "expanded_url": "https://twitter.com/i/web/status/990720476891832320",
+                            "display_url": "twitter.com/i/web/status/9…",
+                            "indices": [
+                                103,
+                                126
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 15846682,
+                    "id_str": "15846682",
+                    "name": "TrekMovie.com",
+                    "screen_name": "TrekMovie",
+                    "location": "Los Angeles, CA",
+                    "description": "Headlines & commentary from the leading independent Star Trek website. The source for Star Trek Beyond & Star Trek: Discovery news. Home of Shuttle Pod podcast.",
+                    "url": "https://t.co/9vAwBVhB1z",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/9vAwBVhB1z",
+                                    "expanded_url": "http://www.trekmovie.com",
+                                    "display_url": "trekmovie.com",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 49177,
+                    "friends_count": 1691,
+                    "listed_count": 1536,
+                    "created_at": "Thu Aug 14 04:29:08 +0000 2008",
+                    "favourites_count": 6396,
+                    "utc_offset": -25200,
+                    "time_zone": "Pacific Time (US & Canada)",
+                    "geo_enabled": false,
+                    "verified": false,
+                    "statuses_count": 31655,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "9AE4E8",
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/2879316/stxi_1600_science.jpg",
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/2879316/stxi_1600_science.jpg",
+                    "profile_background_tile": true,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/770487752341291008/Kc3XPnkw_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/770487752341291008/Kc3XPnkw_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15846682/1472533557",
+                    "profile_link_color": "0000FF",
+                    "profile_sidebar_border_color": "87BC44",
+                    "profile_sidebar_fill_color": "E0FF92",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 1,
+                "favorite_count": 4,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:13:29 +0000 2018",
+            "id": 990730822066962433,
+            "id_str": "990730822066962433",
+            "text": "RT @ylinstitute: Hey #Fresno! Come out this Monday evening for a special screening of this documentary, @nimoycopdfilm about the one and on…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "Fresno",
+                        "indices": [
+                            21,
+                            28
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "ylinstitute",
+                        "name": "YouthLeadership Inst",
+                        "id": 115781195,
+                        "id_str": "115781195",
+                        "indices": [
+                            3,
+                            15
+                        ]
+                    },
+                    {
+                        "screen_name": "nimoycopdfilm",
+                        "name": "Remembering Leonard",
+                        "id": 3313775353,
+                        "id_str": "3313775353",
+                        "indices": [
+                            104,
+                            118
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 32652080,
+                "id_str": "32652080",
+                "name": "Julie Nimoy",
+                "screen_name": "Chefjen21",
+                "location": "",
+                "description": "",
+                "url": "https://t.co/8ZI7CKJ24x",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/8ZI7CKJ24x",
+                                "expanded_url": "http://rememberingleonardfilm.com",
+                                "display_url": "rememberingleonardfilm.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2164,
+                "friends_count": 93,
+                "listed_count": 23,
+                "created_at": "Fri Apr 17 23:16:58 +0000 2009",
+                "favourites_count": 2321,
+                "utc_offset": -25200,
+                "time_zone": "Arizona",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 1197,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/791074259464441856/YJZ6p8DL_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/791074259464441856/YJZ6p8DL_normal.jpg",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Sat Apr 28 19:53:09 +0000 2018",
+                "id": 990318017916551168,
+                "id_str": "990318017916551168",
+                "text": "Hey #Fresno! Come out this Monday evening for a special screening of this documentary, @nimoycopdfilm about the one… https://t.co/zFfS8TAv7O",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "Fresno",
+                            "indices": [
+                                4,
+                                11
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [
+                        {
+                            "screen_name": "nimoycopdfilm",
+                            "name": "Remembering Leonard",
+                            "id": 3313775353,
+                            "id_str": "3313775353",
+                            "indices": [
+                                87,
+                                101
+                            ]
+                        }
+                    ],
+                    "urls": [
+                        {
+                            "url": "https://t.co/zFfS8TAv7O",
+                            "expanded_url": "https://twitter.com/i/web/status/990318017916551168",
+                            "display_url": "twitter.com/i/web/status/9…",
+                            "indices": [
+                                117,
+                                140
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 115781195,
+                    "id_str": "115781195",
+                    "name": "YouthLeadership Inst",
+                    "screen_name": "ylinstitute",
+                    "location": "SF, Fresno, Merced, San Mateo, Marin",
+                    "description": "We are YLI youth leaders -- the young people who are standing up, speaking out, and making the changes we want to see in our communities. Join us!",
+                    "url": "http://t.co/t3jbQQUrWg",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "http://t.co/t3jbQQUrWg",
+                                    "expanded_url": "http://www.yli.org",
+                                    "display_url": "yli.org",
+                                    "indices": [
+                                        0,
+                                        22
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 1137,
+                    "friends_count": 1276,
+                    "listed_count": 48,
+                    "created_at": "Fri Feb 19 23:00:38 +0000 2010",
+                    "favourites_count": 558,
+                    "utc_offset": -25200,
+                    "time_zone": "Pacific Time (US & Canada)",
+                    "geo_enabled": false,
+                    "verified": false,
+                    "statuses_count": 1253,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "594C4C",
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/76761568/Storefront-silhouette.gif",
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/76761568/Storefront-silhouette.gif",
+                    "profile_background_tile": true,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/910616702492188672/bH9tCAQz_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/910616702492188672/bH9tCAQz_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/115781195/1505942882",
+                    "profile_link_color": "0084B4",
+                    "profile_sidebar_border_color": "C0DEED",
+                    "profile_sidebar_fill_color": "DDEEF6",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": false,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 3,
+                "favorite_count": 5,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 3,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:13:14 +0000 2018",
+            "id": 990730757512441857,
+            "id_str": "990730757512441857",
+            "text": "RT @TrekMovie: Remembering Madge Sinclair on her birthday, who played Geordi La Forge's mother on #StarTrek #TNG (\"Interface\") and the firs…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "StarTrek",
+                        "indices": [
+                            98,
+                            107
+                        ]
+                    },
+                    {
+                        "text": "TNG",
+                        "indices": [
+                            108,
+                            112
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "TrekMovie",
+                        "name": "TrekMovie.com",
+                        "id": 15846682,
+                        "id_str": "15846682",
+                        "indices": [
+                            3,
+                            13
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 2894361398,
+                "id_str": "2894361398",
+                "name": "Richard Neufell",
+                "screen_name": "neufell",
+                "location": "",
+                "description": "Father of two, husband, gigantic nerd, crafter of homebrew RPG",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 41,
+                "friends_count": 281,
+                "listed_count": 3,
+                "created_at": "Sun Nov 09 04:36:12 +0000 2014",
+                "favourites_count": 6276,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 693,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/531304318662483969/a495-WmQ_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/531304318662483969/a495-WmQ_normal.jpeg",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Sat Apr 28 14:50:09 +0000 2018",
+                "id": 990241765499293696,
+                "id_str": "990241765499293696",
+                "text": "Remembering Madge Sinclair on her birthday, who played Geordi La Forge's mother on #StarTrek #TNG (\"Interface\") and… https://t.co/s7lCdNPjfW",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "StarTrek",
+                            "indices": [
+                                83,
+                                92
+                            ]
+                        },
+                        {
+                            "text": "TNG",
+                            "indices": [
+                                93,
+                                97
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/s7lCdNPjfW",
+                            "expanded_url": "https://twitter.com/i/web/status/990241765499293696",
+                            "display_url": "twitter.com/i/web/status/9…",
+                            "indices": [
+                                117,
+                                140
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 15846682,
+                    "id_str": "15846682",
+                    "name": "TrekMovie.com",
+                    "screen_name": "TrekMovie",
+                    "location": "Los Angeles, CA",
+                    "description": "Headlines & commentary from the leading independent Star Trek website. The source for Star Trek Beyond & Star Trek: Discovery news. Home of Shuttle Pod podcast.",
+                    "url": "https://t.co/9vAwBVhB1z",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/9vAwBVhB1z",
+                                    "expanded_url": "http://www.trekmovie.com",
+                                    "display_url": "trekmovie.com",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 49177,
+                    "friends_count": 1691,
+                    "listed_count": 1536,
+                    "created_at": "Thu Aug 14 04:29:08 +0000 2008",
+                    "favourites_count": 6396,
+                    "utc_offset": -25200,
+                    "time_zone": "Pacific Time (US & Canada)",
+                    "geo_enabled": false,
+                    "verified": false,
+                    "statuses_count": 31655,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "9AE4E8",
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/2879316/stxi_1600_science.jpg",
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/2879316/stxi_1600_science.jpg",
+                    "profile_background_tile": true,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/770487752341291008/Kc3XPnkw_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/770487752341291008/Kc3XPnkw_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15846682/1472533557",
+                    "profile_link_color": "0000FF",
+                    "profile_sidebar_border_color": "87BC44",
+                    "profile_sidebar_fill_color": "E0FF92",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 72,
+                "favorite_count": 355,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 72,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:13:03 +0000 2018",
+            "id": 990730713602412544,
+            "id_str": "990730713602412544",
+            "text": "RT @variantnewssrce: SW FL SpaceCon Announcements and Update up now!\n\nhttps://t.co/KFVP4786nf\n#SWFLSpaceCon, #ComicBooks, #StarTrek, #Space…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "SWFLSpaceCon",
+                        "indices": [
+                            94,
+                            107
+                        ]
+                    },
+                    {
+                        "text": "ComicBooks",
+                        "indices": [
+                            109,
+                            120
+                        ]
+                    },
+                    {
+                        "text": "StarTrek",
+                        "indices": [
+                            122,
+                            131
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "variantnewssrce",
+                        "name": "joshua onimus",
+                        "id": 973261250816892928,
+                        "id_str": "973261250816892928",
+                        "indices": [
+                            3,
+                            19
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/KFVP4786nf",
+                        "expanded_url": "http://thevariantnewssource.com/2018/03/13/873/",
+                        "display_url": "thevariantnewssource.com/2018/03/13/873/",
+                        "indices": [
+                            70,
+                            93
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 990729370783412224,
+                "id_str": "990729370783412224",
+                "name": "janice onimus",
+                "screen_name": "JaniceOnims",
+                "location": "Pompano Beach, FL",
+                "description": "",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 0,
+                "friends_count": 1,
+                "listed_count": 0,
+                "created_at": "Sun Apr 29 23:07:43 +0000 2018",
+                "favourites_count": 60,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 61,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": true,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Tue Mar 13 17:33:47 +0000 2018",
+                "id": 973613103786201091,
+                "id_str": "973613103786201091",
+                "text": "SW FL SpaceCon Announcements and Update up now!\n\nhttps://t.co/KFVP4786nf\n#SWFLSpaceCon, #ComicBooks, #StarTrek,… https://t.co/fiLmbGNCbg",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "SWFLSpaceCon",
+                            "indices": [
+                                73,
+                                86
+                            ]
+                        },
+                        {
+                            "text": "ComicBooks",
+                            "indices": [
+                                88,
+                                99
+                            ]
+                        },
+                        {
+                            "text": "StarTrek",
+                            "indices": [
+                                101,
+                                110
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/KFVP4786nf",
+                            "expanded_url": "http://thevariantnewssource.com/2018/03/13/873/",
+                            "display_url": "thevariantnewssource.com/2018/03/13/873/",
+                            "indices": [
+                                49,
+                                72
+                            ]
+                        },
+                        {
+                            "url": "https://t.co/fiLmbGNCbg",
+                            "expanded_url": "https://twitter.com/i/web/status/973613103786201091",
+                            "display_url": "twitter.com/i/web/status/9…",
+                            "indices": [
+                                113,
+                                136
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 973261250816892928,
+                    "id_str": "973261250816892928",
+                    "name": "joshua onimus",
+                    "screen_name": "variantnewssrce",
+                    "location": "Boynton Beach, FL",
+                    "description": "South Florida's Premiere Convention and Geek Website.",
+                    "url": "https://t.co/ReH9xvJJ0Z",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/ReH9xvJJ0Z",
+                                    "expanded_url": "http://www.thevariantnewssource.com",
+                                    "display_url": "thevariantnewssource.com",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 6,
+                    "friends_count": 8,
+                    "listed_count": 0,
+                    "created_at": "Mon Mar 12 18:15:39 +0000 2018",
+                    "favourites_count": 9,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": true,
+                    "verified": false,
+                    "statuses_count": 63,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "000000",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/973262483875155968/8AZTawox_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/973262483875155968/8AZTawox_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/973261250816892928/1520878751",
+                    "profile_link_color": "ABB8C2",
+                    "profile_sidebar_border_color": "000000",
+                    "profile_sidebar_fill_color": "000000",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": false,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 1,
+                "favorite_count": 0,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:13:02 +0000 2018",
+            "id": 990730707004805120,
+            "id_str": "990730707004805120",
+            "text": "RT @AdamRackoff: RT if you want to see #StarTrek #DeepSpaceNine in high definition. This proof-of-concept shows what an HD battle scene cou…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "StarTrek",
+                        "indices": [
+                            39,
+                            48
+                        ]
+                    },
+                    {
+                        "text": "DeepSpaceNine",
+                        "indices": [
+                            49,
+                            63
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "AdamRackoff",
+                        "name": "Adam Rackoff",
+                        "id": 2193578047,
+                        "id_str": "2193578047",
+                        "indices": [
+                            3,
+                            15
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 19747084,
+                "id_str": "19747084",
+                "name": "Bob Digi",
+                "screen_name": "BobDigi69",
+                "location": "",
+                "description": "comics movies and current events",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 533,
+                "friends_count": 695,
+                "listed_count": 17,
+                "created_at": "Fri Jan 30 01:17:26 +0000 2009",
+                "favourites_count": 45872,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 27420,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/628916840/4n3pm7ennfdt5i2vlst3.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/628916840/4n3pm7ennfdt5i2vlst3.jpeg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/969606236692873216/hbXOzPny_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/969606236692873216/hbXOzPny_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/19747084/1512794875",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Sun Feb 04 19:19:59 +0000 2018",
+                "id": 960231479216427008,
+                "id_str": "960231479216427008",
+                "text": "RT if you want to see #StarTrek #DeepSpaceNine in high definition. This proof-of-concept shows what an HD battle sc… https://t.co/wWh3POoTJ7",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "StarTrek",
+                            "indices": [
+                                22,
+                                31
+                            ]
+                        },
+                        {
+                            "text": "DeepSpaceNine",
+                            "indices": [
+                                32,
+                                46
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/wWh3POoTJ7",
+                            "expanded_url": "https://twitter.com/i/web/status/960231479216427008",
+                            "display_url": "twitter.com/i/web/status/9…",
+                            "indices": [
+                                117,
+                                140
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 2193578047,
+                    "id_str": "2193578047",
+                    "name": "Adam Rackoff",
+                    "screen_name": "AdamRackoff",
+                    "location": "New York City",
+                    "description": "Filmmaker, illustrator, marketing manager, film festival juror, crowdfunding expert, husband, dad. Ex-Apple. Guest host of @WrongReel.",
+                    "url": "https://t.co/RJ8KglfRCl",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/RJ8KglfRCl",
+                                    "expanded_url": "https://vimeo.com/cincodedospeliculas",
+                                    "display_url": "vimeo.com/cincodedospeli…",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 6279,
+                    "friends_count": 6318,
+                    "listed_count": 83,
+                    "created_at": "Thu Nov 14 05:29:02 +0000 2013",
+                    "favourites_count": 9969,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": true,
+                    "verified": false,
+                    "statuses_count": 4912,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "000000",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/378800000737711108/da622a4b323e1e469c0393adeebb0dde_normal.jpeg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000737711108/da622a4b323e1e469c0393adeebb0dde_normal.jpeg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2193578047/1478823708",
+                    "profile_link_color": "F26722",
+                    "profile_sidebar_border_color": "000000",
+                    "profile_sidebar_fill_color": "000000",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": false,
+                    "has_extended_profile": true,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 4006,
+                "favorite_count": 5350,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 4006,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:13:00 +0000 2018",
+            "id": 990730700331606022,
+            "id_str": "990730700331606022",
+            "text": "RT @variantnewssrce: 2018 Comic Book/Anime/Gaming Convention Calendar is up now! \n\nhttps://t.co/dDkI5ZCLot\n#comicbooks,#ComicCon,#ComicConv…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "comicbooks",
+                        "indices": [
+                            107,
+                            118
+                        ]
+                    },
+                    {
+                        "text": "ComicCon",
+                        "indices": [
+                            119,
+                            128
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "variantnewssrce",
+                        "name": "joshua onimus",
+                        "id": 973261250816892928,
+                        "id_str": "973261250816892928",
+                        "indices": [
+                            3,
+                            19
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/dDkI5ZCLot",
+                        "expanded_url": "http://thevariantnewssource.com/2018/03/13/2018-19-fl-con-coverage/",
+                        "display_url": "thevariantnewssource.com/2018/03/13/201…",
+                        "indices": [
+                            83,
+                            106
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 990729370783412224,
+                "id_str": "990729370783412224",
+                "name": "janice onimus",
+                "screen_name": "JaniceOnims",
+                "location": "Pompano Beach, FL",
+                "description": "",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 0,
+                "friends_count": 1,
+                "listed_count": 0,
+                "created_at": "Sun Apr 29 23:07:43 +0000 2018",
+                "favourites_count": 60,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 61,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": true,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Tue Mar 13 19:59:18 +0000 2018",
+                "id": 973649723440685056,
+                "id_str": "973649723440685056",
+                "text": "2018 Comic Book/Anime/Gaming Convention Calendar is up now! \n\nhttps://t.co/dDkI5ZCLot\n#comicbooks,#ComicCon,… https://t.co/3nEKGbnfIQ",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "comicbooks",
+                            "indices": [
+                                86,
+                                97
+                            ]
+                        },
+                        {
+                            "text": "ComicCon",
+                            "indices": [
+                                98,
+                                107
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/dDkI5ZCLot",
+                            "expanded_url": "http://thevariantnewssource.com/2018/03/13/2018-19-fl-con-coverage/",
+                            "display_url": "thevariantnewssource.com/2018/03/13/201…",
+                            "indices": [
+                                62,
+                                85
+                            ]
+                        },
+                        {
+                            "url": "https://t.co/3nEKGbnfIQ",
+                            "expanded_url": "https://twitter.com/i/web/status/973649723440685056",
+                            "display_url": "twitter.com/i/web/status/9…",
+                            "indices": [
+                                110,
+                                133
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 973261250816892928,
+                    "id_str": "973261250816892928",
+                    "name": "joshua onimus",
+                    "screen_name": "variantnewssrce",
+                    "location": "Boynton Beach, FL",
+                    "description": "South Florida's Premiere Convention and Geek Website.",
+                    "url": "https://t.co/ReH9xvJJ0Z",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/ReH9xvJJ0Z",
+                                    "expanded_url": "http://www.thevariantnewssource.com",
+                                    "display_url": "thevariantnewssource.com",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 6,
+                    "friends_count": 8,
+                    "listed_count": 0,
+                    "created_at": "Mon Mar 12 18:15:39 +0000 2018",
+                    "favourites_count": 9,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": true,
+                    "verified": false,
+                    "statuses_count": 63,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "000000",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/973262483875155968/8AZTawox_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/973262483875155968/8AZTawox_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/973261250816892928/1520878751",
+                    "profile_link_color": "ABB8C2",
+                    "profile_sidebar_border_color": "000000",
+                    "profile_sidebar_fill_color": "000000",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": false,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 1,
+                "favorite_count": 2,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:12:57 +0000 2018",
+            "id": 990730688751177728,
+            "id_str": "990730688751177728",
+            "text": "RT @variantnewssrce: Megacon 2018 announces more exciting guests!\n\nhttps://t.co/BJKDZm4t5s\n#Megacon2018, #Megacon, #ComicConventions, #Comi…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "Megacon2018",
+                        "indices": [
+                            91,
+                            103
+                        ]
+                    },
+                    {
+                        "text": "Megacon",
+                        "indices": [
+                            105,
+                            113
+                        ]
+                    },
+                    {
+                        "text": "ComicConventions",
+                        "indices": [
+                            115,
+                            132
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "variantnewssrce",
+                        "name": "joshua onimus",
+                        "id": 973261250816892928,
+                        "id_str": "973261250816892928",
+                        "indices": [
+                            3,
+                            19
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/BJKDZm4t5s",
+                        "expanded_url": "http://thevariantnewssource.com/2018/03/13/megacon-2018-updates/",
+                        "display_url": "thevariantnewssource.com/2018/03/13/meg…",
+                        "indices": [
+                            67,
+                            90
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 990729370783412224,
+                "id_str": "990729370783412224",
+                "name": "janice onimus",
+                "screen_name": "JaniceOnims",
+                "location": "Pompano Beach, FL",
+                "description": "",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 0,
+                "friends_count": 1,
+                "listed_count": 0,
+                "created_at": "Sun Apr 29 23:07:43 +0000 2018",
+                "favourites_count": 60,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 61,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": true,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Tue Mar 13 21:23:37 +0000 2018",
+                "id": 973670942055583749,
+                "id_str": "973670942055583749",
+                "text": "Megacon 2018 announces more exciting guests!\n\nhttps://t.co/BJKDZm4t5s\n#Megacon2018, #Megacon, #ComicConventions,… https://t.co/LO2WR8xqUl",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "Megacon2018",
+                            "indices": [
+                                70,
+                                82
+                            ]
+                        },
+                        {
+                            "text": "Megacon",
+                            "indices": [
+                                84,
+                                92
+                            ]
+                        },
+                        {
+                            "text": "ComicConventions",
+                            "indices": [
+                                94,
+                                111
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/BJKDZm4t5s",
+                            "expanded_url": "http://thevariantnewssource.com/2018/03/13/megacon-2018-updates/",
+                            "display_url": "thevariantnewssource.com/2018/03/13/meg…",
+                            "indices": [
+                                46,
+                                69
+                            ]
+                        },
+                        {
+                            "url": "https://t.co/LO2WR8xqUl",
+                            "expanded_url": "https://twitter.com/i/web/status/973670942055583749",
+                            "display_url": "twitter.com/i/web/status/9…",
+                            "indices": [
+                                114,
+                                137
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 973261250816892928,
+                    "id_str": "973261250816892928",
+                    "name": "joshua onimus",
+                    "screen_name": "variantnewssrce",
+                    "location": "Boynton Beach, FL",
+                    "description": "South Florida's Premiere Convention and Geek Website.",
+                    "url": "https://t.co/ReH9xvJJ0Z",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/ReH9xvJJ0Z",
+                                    "expanded_url": "http://www.thevariantnewssource.com",
+                                    "display_url": "thevariantnewssource.com",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 6,
+                    "friends_count": 8,
+                    "listed_count": 0,
+                    "created_at": "Mon Mar 12 18:15:39 +0000 2018",
+                    "favourites_count": 9,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": true,
+                    "verified": false,
+                    "statuses_count": 63,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "000000",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/973262483875155968/8AZTawox_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/973262483875155968/8AZTawox_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/973261250816892928/1520878751",
+                    "profile_link_color": "ABB8C2",
+                    "profile_sidebar_border_color": "000000",
+                    "profile_sidebar_fill_color": "000000",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": false,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 1,
+                "favorite_count": 1,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:12:42 +0000 2018",
+            "id": 990730626511732736,
+            "id_str": "990730626511732736",
+            "text": "If you're a #StarTrek fan Paradox will transport you to classic 1968  space adventure and a DNA mystery.… https://t.co/ZKfUKvchF8",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "StarTrek",
+                        "indices": [
+                            12,
+                            21
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/ZKfUKvchF8",
+                        "expanded_url": "https://twitter.com/i/web/status/990730626511732736",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            106,
+                            129
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 771136856,
+                "id_str": "771136856",
+                "name": "Helping Books Go Social",
+                "screen_name": "findnewbooks",
+                "location": "Dublin, Ireland",
+                "description": "Amazon best selling author, now helping other authors get discovered.",
+                "url": "https://t.co/FeKF2nBf1k",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/FeKF2nBf1k",
+                                "expanded_url": "http://yourbookpromoter.com",
+                                "display_url": "yourbookpromoter.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 97004,
+                "friends_count": 75223,
+                "listed_count": 1266,
+                "created_at": "Tue Aug 21 08:57:19 +0000 2012",
+                "favourites_count": 12249,
+                "utc_offset": 7200,
+                "time_zone": "Amsterdam",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 104799,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/648253050/2wn5r06pynfjet8pehh6.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/648253050/2wn5r06pynfjet8pehh6.jpeg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/972069779501666304/fhukZMbX_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/972069779501666304/fhukZMbX_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/771136856/1520594511",
+                "profile_link_color": "4A913C",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:12:21 +0000 2018",
+            "id": 990730538670546945,
+            "id_str": "990730538670546945",
+            "text": "RT @AdamRackoff: RT if you want to see #StarTrek #DeepSpaceNine in high definition. This proof-of-concept shows what an HD battle scene cou…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "StarTrek",
+                        "indices": [
+                            39,
+                            48
+                        ]
+                    },
+                    {
+                        "text": "DeepSpaceNine",
+                        "indices": [
+                            49,
+                            63
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "AdamRackoff",
+                        "name": "Adam Rackoff",
+                        "id": 2193578047,
+                        "id_str": "2193578047",
+                        "indices": [
+                            3,
+                            15
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 710047975389667328,
+                "id_str": "710047975389667328",
+                "name": "Jack Burton......Me!",
+                "screen_name": "mas_critical",
+                "location": "The Internet",
+                "description": "Fan of anything Geeky. LOVER of Film. Aspiring Filmmaker. Follow on Instagram @mascritical",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 629,
+                "friends_count": 945,
+                "listed_count": 11,
+                "created_at": "Wed Mar 16 10:20:04 +0000 2016",
+                "favourites_count": 15026,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 19370,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/872647209266933765/6A44nW5X_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/872647209266933765/6A44nW5X_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/710047975389667328/1524465700",
+                "profile_link_color": "1B95E0",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Sun Feb 04 19:19:59 +0000 2018",
+                "id": 960231479216427008,
+                "id_str": "960231479216427008",
+                "text": "RT if you want to see #StarTrek #DeepSpaceNine in high definition. This proof-of-concept shows what an HD battle sc… https://t.co/wWh3POoTJ7",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "StarTrek",
+                            "indices": [
+                                22,
+                                31
+                            ]
+                        },
+                        {
+                            "text": "DeepSpaceNine",
+                            "indices": [
+                                32,
+                                46
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/wWh3POoTJ7",
+                            "expanded_url": "https://twitter.com/i/web/status/960231479216427008",
+                            "display_url": "twitter.com/i/web/status/9…",
+                            "indices": [
+                                117,
+                                140
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 2193578047,
+                    "id_str": "2193578047",
+                    "name": "Adam Rackoff",
+                    "screen_name": "AdamRackoff",
+                    "location": "New York City",
+                    "description": "Filmmaker, illustrator, marketing manager, film festival juror, crowdfunding expert, husband, dad. Ex-Apple. Guest host of @WrongReel.",
+                    "url": "https://t.co/RJ8KglfRCl",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/RJ8KglfRCl",
+                                    "expanded_url": "https://vimeo.com/cincodedospeliculas",
+                                    "display_url": "vimeo.com/cincodedospeli…",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 6279,
+                    "friends_count": 6318,
+                    "listed_count": 83,
+                    "created_at": "Thu Nov 14 05:29:02 +0000 2013",
+                    "favourites_count": 9969,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": true,
+                    "verified": false,
+                    "statuses_count": 4912,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "000000",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/378800000737711108/da622a4b323e1e469c0393adeebb0dde_normal.jpeg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000737711108/da622a4b323e1e469c0393adeebb0dde_normal.jpeg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2193578047/1478823708",
+                    "profile_link_color": "F26722",
+                    "profile_sidebar_border_color": "000000",
+                    "profile_sidebar_fill_color": "000000",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": false,
+                    "has_extended_profile": true,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 4006,
+                "favorite_count": 5350,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 4006,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Sun Apr 29 23:12:19 +0000 2018",
+            "id": 990730526356099072,
+            "id_str": "990730526356099072",
+            "text": "RT @StarTrek: This #StarTrek series is the one a new fan should start with ... #Fandom #StarTrekSunday https://t.co/VK1Xsnt83U https://t.co…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "StarTrek",
+                        "indices": [
+                            19,
+                            28
+                        ]
+                    },
+                    {
+                        "text": "Fandom",
+                        "indices": [
+                            79,
+                            86
+                        ]
+                    },
+                    {
+                        "text": "StarTrekSunday",
+                        "indices": [
+                            87,
+                            102
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "StarTrek",
+                        "name": "Star Trek",
+                        "id": 130491582,
+                        "id_str": "130491582",
+                        "indices": [
+                            3,
+                            12
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/VK1Xsnt83U",
+                        "expanded_url": "http://bit.ly/NewTrekFan",
+                        "display_url": "bit.ly/NewTrekFan",
+                        "indices": [
+                            103,
+                            126
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 12294132,
+                "id_str": "12294132",
+                "name": "Hazem A. M. Awad,PhD",
+                "screen_name": "hazem_awad",
+                "location": "Dubai, United Arab Emirates",
+                "description": "3x Founder with 2 exits ? CEO/CxO ? Investor ? Consultant to Fortune 500 companies & many startups ? PhD EE ? Published Author ? Lover of #Tech #Space #SciFi",
+                "url": "https://t.co/lwX2Sx4KEf",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/lwX2Sx4KEf",
+                                "expanded_url": "https://ae.linkedin.com/in/hazemawad",
+                                "display_url": "ae.linkedin.com/in/hazemawad",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 1069,
+                "friends_count": 599,
+                "listed_count": 269,
+                "created_at": "Tue Jan 15 20:40:18 +0000 2008",
+                "favourites_count": 35414,
+                "utc_offset": -14400,
+                "time_zone": "Eastern Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 25415,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/506846040570339328/TZUYxfqj_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/506846040570339328/TZUYxfqj_normal.jpeg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/12294132/1450055175",
+                "profile_link_color": "3B94D9",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Sun Apr 29 22:20:06 +0000 2018",
+                "id": 990717386075594752,
+                "id_str": "990717386075594752",
+                "text": "This #StarTrek series is the one a new fan should start with ... #Fandom #StarTrekSunday https://t.co/VK1Xsnt83U https://t.co/C0i0W21Lf8",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "StarTrek",
+                            "indices": [
+                                5,
+                                14
+                            ]
+                        },
+                        {
+                            "text": "Fandom",
+                            "indices": [
+                                65,
+                                72
+                            ]
+                        },
+                        {
+                            "text": "StarTrekSunday",
+                            "indices": [
+                                73,
+                                88
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/VK1Xsnt83U",
+                            "expanded_url": "http://bit.ly/NewTrekFan",
+                            "display_url": "bit.ly/NewTrekFan",
+                            "indices": [
+                                89,
+                                112
+                            ]
+                        }
+                    ],
+                    "media": [
+                        {
+                            "id": 990717383923912705,
+                            "id_str": "990717383923912705",
+                            "indices": [
+                                113,
+                                136
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/Db-8Ni2W0AED3JW.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/Db-8Ni2W0AED3JW.jpg",
+                            "url": "https://t.co/C0i0W21Lf8",
+                            "display_url": "pic.twitter.com/C0i0W21Lf8",
+                            "expanded_url": "https://twitter.com/StarTrek/status/990717386075594752/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "small": {
+                                    "w": 680,
+                                    "h": 340,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 1024,
+                                    "h": 512,
+                                    "resize": "fit"
+                                },
+                                "medium": {
+                                    "w": 1024,
+                                    "h": 512,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "id": 990717383923912705,
+                            "id_str": "990717383923912705",
+                            "indices": [
+                                113,
+                                136
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/Db-8Ni2W0AED3JW.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/Db-8Ni2W0AED3JW.jpg",
+                            "url": "https://t.co/C0i0W21Lf8",
+                            "display_url": "pic.twitter.com/C0i0W21Lf8",
+                            "expanded_url": "https://twitter.com/StarTrek/status/990717386075594752/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "small": {
+                                    "w": 680,
+                                    "h": 340,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 1024,
+                                    "h": 512,
+                                    "resize": "fit"
+                                },
+                                "medium": {
+                                    "w": 1024,
+                                    "h": 512,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 130491582,
+                    "id_str": "130491582",
+                    "name": "Star Trek",
+                    "screen_name": "StarTrek",
+                    "location": "",
+                    "description": "Welcome to the OFFICIAL Star Trek Twitter page!",
+                    "url": "http://t.co/JKtDWLeGvw",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "http://t.co/JKtDWLeGvw",
+                                    "expanded_url": "http://www.StarTrek.com",
+                                    "display_url": "StarTrek.com",
+                                    "indices": [
+                                        0,
+                                        22
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 365770,
+                    "friends_count": 252,
+                    "listed_count": 3923,
+                    "created_at": "Wed Apr 07 12:53:57 +0000 2010",
+                    "favourites_count": 3234,
+                    "utc_offset": -14400,
+                    "time_zone": "Eastern Time (US & Canada)",
+                    "geo_enabled": true,
+                    "verified": true,
+                    "statuses_count": 24316,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "131516",
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/750882866/daab31344c17107665d9b47b2356defa.png",
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/750882866/daab31344c17107665d9b47b2356defa.png",
+                    "profile_background_tile": true,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/816992658803474433/bdPvNDGV_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/816992658803474433/bdPvNDGV_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/130491582/1505249964",
+                    "profile_link_color": "009999",
+                    "profile_sidebar_border_color": "FFFFFF",
+                    "profile_sidebar_fill_color": "EFEFEF",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 16,
+                "favorite_count": 100,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 16,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        }
+    ],
+    "search_metadata": {
+        "completed_in": 0.062,
+        "max_id": 990731232240656385,
+        "max_id_str": "990731232240656385",
+        "next_results": "?max_id=990730526356099071&q=startrek&include_entities=1",
+        "query": "startrek",
+        "refresh_url": "?since_id=990731232240656385&q=startrek&include_entities=1",
+        "count": 15,
+        "since_id": 0,
+        "since_id_str": "0"
+    }
+}

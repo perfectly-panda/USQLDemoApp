@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vertexCommand command="Start" jobType="None" managedMemorySize="0" vertexArg="ScopeEngine.dll -scopeVertex SV9_Split -vertexNumber 0">
+  <inputs>
+    <input name="SV8_Extract_Split_out0" path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV8_Extract_Split_out0" blockAligned="True" globalStartOffset="0" localStartOffset="0" localEndOffset="470" length="470" />
+  </inputs>
+  <outputs>
+    <output path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV9_Split_out0" isFirstOutputPiece="False" />
+    <output path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV9_Split_out1" isFirstOutputPiece="True" />
+  </outputs>
+</vertexCommand>

@@ -1,0 +1,57 @@
+﻿USE DATABASE StarTrekData;
+
+REFERENCE ASSEMBLY [Newtonsoft.Json];
+REFERENCE ASSEMBLY [USQLDemoAssembly];
+
+DECLARE @input string = "Source/Star Trek Synonyms.json";
+//DECLARE @output string = "Output/Temp.csv";
+
+@json =
+    EXTRACT 
+        SeriesName string,
+        Synonyms string
+    FROM @input
+    USING new USQLDemo.JsonExtractor("data.[*]");
+
+
+//Load Series Names
+@seriesNames =
+    SELECT  SeriesName
+    FROM (VALUES("Unknown")) AS T(SeriesName)
+    UNION
+    SELECT SeriesName
+    FROM @json;
+
+INSERT INTO dbo.StarTrekSeries
+(
+    SeriesName
+)
+SELECT SeriesName
+FROM @seriesNames;
+
+
+//Load Synonyms
+@synonyms =
+    SELECT SeriesName,
+           USQLDemo.JsonFunctions.JsonTuple(Synonyms) AS SynonymMap
+    FROM @json;
+
+@result =
+    SELECT SeriesName,
+           Synonym
+    FROM @synonyms
+         CROSS APPLY
+             EXPLODE(SynonymMap.Values) AS A(Synonym);
+
+INSERT INTO dbo.SeriesSynonyms
+(
+    SeriesName,
+    Synonym
+)
+SELECT 
+    SeriesName,
+    Synonym
+FROM @result;
+
+
+    

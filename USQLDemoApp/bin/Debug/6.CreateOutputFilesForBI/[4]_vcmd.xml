@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vertexCommand command="Start" jobType="None" managedMemorySize="0" vertexArg="ScopeEngine.dll -scopeVertex SV8_Extract_Split -vertexNumber 0">
+  <inputs>
+    <input name="GetSStream_13[0,0,0]" path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c3d38532-6bf4-44a9-8913-11e3029178c6\4a8da529-c536-4425-af0c-5acef3b8bc5f.ss" blockAligned="True" globalStartOffset="0" localStartOffset="0" localEndOffset="12021" length="12021" />
+    <input name="GetSStream_13[1,0,0]" path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c3d38532-6bf4-44a9-8913-11e3029178c6\4a8da529-c536-4425-af0c-5acef3b8bc5f.ss" blockAligned="True" globalStartOffset="0" localStartOffset="12021" localEndOffset="22509" length="22509" />
+  </inputs>
+  <outputs>
+    <output path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV8_Extract_Split_out0" isFirstOutputPiece="False" />
+    <output path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV8_Extract_Split_out1" isFirstOutputPiece="True" />
+  </outputs>
+</vertexCommand>

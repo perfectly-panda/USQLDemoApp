@@ -1,0 +1,6 @@
+<SStreams>
+  <SStream id="GetSStream_0" path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c63313b6-345d-40fc-8ca4-5b10764bce59\475aac1c-b116-4a85-bc16-83c3cfa48795.ss" processingGroupInfo="{{0:6480},{6480:13494}}" />
+  <SStream id="GetSStream_4" path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\553953da-2f74-48b2-ba2a-5282b510e8af\7622242d-70ba-48ed-843b-a35d1e417f6b.ss" processingGroupInfo="{{0:7096},{7096:14763}}" />
+  <SStream id="GetSStream_6" path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\553953da-2f74-48b2-ba2a-5282b510e8af\2f0c15cf-edb8-4b7b-a1c0-1920734059ac.ss" processingGroupInfo="{{0:7096},{7096:14763}}" />
+  <SStream id="GetSStream_13" path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c3d38532-6bf4-44a9-8913-11e3029178c6\4a8da529-c536-4425-af0c-5acef3b8bc5f.ss" processingGroupInfo="{{0:12021},{12021:22509}}" />
+</SStreams>

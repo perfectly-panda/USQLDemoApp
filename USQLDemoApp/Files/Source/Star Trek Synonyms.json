@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "SeriesName": "Star Trek: The Original Series",
+      "Synonyms": [
+        "Star Trek: The Original Series",
+        "TOS",
+        "Original Series",
+        "OriginalSeries"
+      ]
+    },
+  {
+    "SeriesName": "Star Trek: The Animated Series",
+    "Synonyms": [
+      "Star Trek: The Animated Series",
+      "Animated Series",
+      "AnimatedSeries"
+    ]
+  },
+  {
+    "SeriesName": "Star Trek: The Next Generation",
+    "Synonyms": [
+      "Star Trek: The Next Generation",
+      "TNG",
+      "Next Generation",
+      "NextGeneration"
+    ]
+  },
+  {
+    "SeriesName": "Star Trek: Deep Space Nine",
+    "Synonyms": [
+      "Star Trek: Deep Space Nine",
+      "DS9",
+      "Deep Space Nine",
+      "Deep Space 9",
+      "DeepSpaceNine",
+      "DeepSpace9"
+    ]
+  },
+  { 
+    "SeriesName": "Star Trek: Voyager",
+    "Synonyms": [
+      "Star Trek: Voyager",
+      "STVOY",
+      "VOY",
+      "Voyager",
+      "StarTrekVoyager"
+    ]
+  },
+  {
+    "SeriesName": "Star Trek: Enterprise",
+    "Synonyms": [
+      "Star Trek: Enterprise",
+      "ENT",
+      "Enterprise",
+      "StarTrekEnterprise"
+    ]
+  },
+  {
+    "SeriesName": "Star Trek: Discovery",
+    "Synonyms": [
+      "Star Trek: Discovery",
+      "DIS",
+      "Discovery",
+      "StarTrekDiscovery"
+    ]
+  }
+  ]
+}

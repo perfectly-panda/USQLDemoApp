@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>528f0bd5-0e69-48a2-a650-31dbeb89dd39</ProjectGuid>
+    <OutputType>File</OutputType>
+    <AssemblyName>Algebra.xml</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <Name>USQLDemoApp</Name>
+    <RootNamespace>USQLDemoApp</RootNamespace>
+    <RuntimeVersion>default</RuntimeVersion>
+    <OutputStreamPath>C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files</OutputStreamPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Script Include="1.CreateDatabase.usql" />
+    <Script Include="5.LoadTwitterData.usql" />
+    <Script Include="3.LoadRedditData.usql" />
+    <Script Include="4.LoadRatingData.usql" />
+    <Script Include="2.LoadSeriesData.usql" />
+    <Script Include="6.CreateOutputFilesForBI.usql" />
+    <Script Include="7.Cleanup.usql" />
+    <ScriptCode Include="1.CreateDatabase.usql.cs">
+      <DependentUpon>1.CreateDatabase.usql</DependentUpon>
+    </ScriptCode>
+    <ScriptCode Include="5.LoadTwitterData.usql.cs">
+      <DependentUpon>5.LoadTwitterData.usql</DependentUpon>
+    </ScriptCode>
+    <ScriptCode Include="3.LoadRedditData.usql.cs">
+      <DependentUpon>3.LoadRedditData.usql</DependentUpon>
+    </ScriptCode>
+    <ScriptCode Include="4.LoadRatingData.usql.cs">
+      <DependentUpon>4.LoadRatingData.usql</DependentUpon>
+    </ScriptCode>
+    <ScriptCode Include="2.LoadSeriesData.usql.cs">
+      <DependentUpon>2.LoadSeriesData.usql</DependentUpon>
+    </ScriptCode>
+    <ScriptCode Include="6.CreateOutputFilesForBI.usql.cs">
+      <DependentUpon>6.CreateOutputFilesForBI.usql</DependentUpon>
+    </ScriptCode>
+    <ScriptCode Include="7.Cleanup.usql.cs">
+      <DependentUpon>7.Cleanup.usql</DependentUpon>
+    </ScriptCode>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="localrunmetadata">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(AppData)\Microsoft\DataLake\MsBuild\1.0\Usql.targets" Condition="'$(BuildingInsideVisualStudio)' == 'true'" />
+  <!--target for CICD command line build added by project migration tool-->
+  <Import Project="USqlSDKBuild.targets" Condition="'$(BuildingInsideVisualStudio)' != 'true' And  Exists('USqlSDKBuild.targets')" />
+  <Import Project="$(USQLSDKPath)\USqlSDKBuild.targets" Condition="'$(BuildingInsideVisualStudio)' != 'true' And !Exists('USqlSDKBuild.targets') And '$(USQLSDKPath)' != '' And Exists('$(USQLSDKPath)\USqlSDKBuild.targets')" />
+</Project>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptAndGraph GraphType="VertexCommands">
+  <Vertices count="10">
+    <Vertex index="1" command="-scopeVertex SV1_Extract  -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c63313b6-345d-40fc-8ca4-5b10764bce59\475aac1c-b116-4a85-bc16-83c3cfa48795.ss[0:6480]&quot; -ichannel GetSStream_0[0,0,0] -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c63313b6-345d-40fc-8ca4-5b10764bce59\475aac1c-b116-4a85-bc16-83c3cfa48795.ss[6480:13494]&quot; -ichannel GetSStream_0[1,0,0]  -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV1_Extract_out0&quot;" />
+    <Vertex index="2" command="-scopeVertex SV2_Process  -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV1_Extract_out0&quot; -ichannel SV1_Extract_out0  -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV2_Process_out0(WITH_HEADER)&quot;" />
+    <Vertex index="3" command="-scopeVertex SV3_Extract  -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\553953da-2f74-48b2-ba2a-5282b510e8af\7622242d-70ba-48ed-843b-a35d1e417f6b.ss[0:7096]&quot; -ichannel GetSStream_4[0,0,0] -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\553953da-2f74-48b2-ba2a-5282b510e8af\7622242d-70ba-48ed-843b-a35d1e417f6b.ss[7096:14763]&quot; -ichannel GetSStream_4[1,0,0]  -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV3_Extract_out0&quot;" />
+    <Vertex index="4" command="-scopeVertex SV4_Extract  -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\553953da-2f74-48b2-ba2a-5282b510e8af\2f0c15cf-edb8-4b7b-a1c0-1920734059ac.ss[0:7096]&quot; -ichannel GetSStream_6[0,0,0] -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\553953da-2f74-48b2-ba2a-5282b510e8af\2f0c15cf-edb8-4b7b-a1c0-1920734059ac.ss[7096:14763]&quot; -ichannel GetSStream_6[1,0,0]  -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV4_Extract_out0&quot;" />
+    <Vertex index="5" command="-scopeVertex SV5_Combine  -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV3_Extract_out0&quot; -ichannel SV3_Extract_out0 -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV4_Extract_out0&quot; -ichannel SV4_Extract_out0  -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV5_Combine_out0&quot;" />
+    <Vertex index="6" command="-scopeVertex SV6_Split  -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV5_Combine_out0&quot; -ichannel SV5_Combine_out0  -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV6_Split_out0&quot; -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV6_Split_out1(WITH_HEADER)&quot;" />
+    <Vertex index="7" command="-scopeVertex SV7_Process  -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV5_Combine_out0&quot; -ichannel SV5_Combine_out0  -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV7_Process_out0(WITH_HEADER)&quot;" />
+    <Vertex index="8" command="-scopeVertex SV8_Extract_Split  -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c3d38532-6bf4-44a9-8913-11e3029178c6\4a8da529-c536-4425-af0c-5acef3b8bc5f.ss[0:12021]&quot; -ichannel GetSStream_13[0,0,0] -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c3d38532-6bf4-44a9-8913-11e3029178c6\4a8da529-c536-4425-af0c-5acef3b8bc5f.ss[12021:22509]&quot; -ichannel GetSStream_13[1,0,0]  -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV8_Extract_Split_out0&quot; -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV8_Extract_Split_out1(WITH_HEADER)&quot;" />
+    <Vertex index="9" command="-scopeVertex SV9_Split  -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV8_Extract_Split_out0&quot; -ichannel SV8_Extract_Split_out0  -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV9_Split_out0&quot; -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV9_Split_out1(WITH_HEADER)&quot;" />
+    <Vertex index="10" command="-scopeVertex SV10_Combine  -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV1_Extract_out0&quot; -ichannel SV1_Extract_out0 -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV6_Split_out0&quot; -ichannel SV6_Split_out0 -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV9_Split_out0&quot; -ichannel SV9_Split_out0  -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV10_Combine_out0(WITH_HEADER)&quot;" />
+    <Vertex command="-concatenate -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV2_Process_out0&quot; -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\Series.csv&quot;" />
+    <Vertex command="-concatenate -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV6_Split_out1&quot; -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\ScoredRatings.csv&quot;" />
+    <Vertex command="-concatenate -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV7_Process_out0&quot; -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\Ratings.csv&quot;" />
+    <Vertex command="-concatenate -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV8_Extract_Split_out1&quot; -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\Twitter.csv&quot;" />
+    <Vertex command="-concatenate -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV9_Split_out1&quot; -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\ScoredTwitter.csv&quot;" />
+    <Vertex command="-concatenate -i &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\bin\Debug\6.CreateOutputFilesForBI\_TMP\scopetmpfile._SV10_Combine_out0&quot; -o &quot;C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\Analysis.csv&quot;" />
+  </Vertices>
+  <Outputs>
+    <Output path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\Analysis.csv" isBinary="False" schema="SeriesName:string,OverallScore:long?,RatingsScore:long?,TweetScore:long?,RetweetScore:long?" />
+    <Output path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\Ratings.csv" isBinary="False" schema="SeriesName:string,RatingName:string,Rating:float" />
+    <Output path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\ScoredRatings.csv" isBinary="False" schema="SeriesName:string,Score:long?" />
+    <Output path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\ScoredTwitter.csv" isBinary="False" schema="SeriesName:string,TweetScore:long?,RetweetScore:long?" />
+    <Output path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\Series.csv" isBinary="False" schema="SeriesName:string" />
+    <Output path="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\Twitter.csv" isBinary="False" schema="SeriesName:string,Tweet:string,RetweetCount:int,Sentiment:string" />
+  </Outputs>
+  <graph serveForThirdParty="True" JsonErrors="True" JobType="BatchSqlIp" MaxPercentInputUnavailability="0" SStreamInfoFilePath="__SStreamInfo__.xml" vertexExecutable="scopehost.exe" BroadcastCopyThroughCommandLine="ScopeEngine.dll -scopeVertex SV_CopyThrough">
+    <process id="SV1_Extract" command="ScopeEngine.dll -scopeVertex SV1_Extract" nativeOnly="true" managedMemorySize="0" nativeIOMemorySize="67108867" nativeExecutionMemorySize="5851054077" DummyVertexOptimization="AllInputsEmptyImpliesOutputsEmpty|RunAtLeastOneVertex" trustedVertex="True">
+      <input id="GetSStream_0[ALL,ALL,ALL]" usqlTableName="localcomputeaccount.StarTrekData.dbo.SeriesSynonyms" structuredStream="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c63313b6-345d-40fc-8ca4-5b10764bce59\475aac1c-b116-4a85-bc16-83c3cfa48795.ss" />
+      <output id="SV1_Extract_out0" />
+    </process>
+    <process id="SV2_Process" command="ScopeEngine.dll -scopeVertex SV2_Process" nativeOnly="true" managedMemorySize="0" nativeIOMemorySize="33554434" nativeExecutionMemorySize="4194304" DummyVertexOptimization="AllInputsEmptyImpliesOutputsEmpty|RunAtLeastOneVertex" trustedVertex="True">
+      <input id="SV1_Extract_out0" />
+      <output id="SV2_Process_out0" cosmosStream="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\Series.csv" />
+    </process>
+    <process id="SV3_Extract" command="ScopeEngine.dll -scopeVertex SV3_Extract" nativeOnly="true" managedMemorySize="0" nativeIOMemorySize="67108867" nativeExecutionMemorySize="5851054077" DummyVertexOptimization="AllInputsEmptyImpliesOutputsEmpty|RunAtLeastOneVertex" trustedVertex="True">
+      <input id="GetSStream_4[ALL,ALL,ALL]" usqlTableName="localcomputeaccount.StarTrekData.dbo.Ratings" structuredStream="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\553953da-2f74-48b2-ba2a-5282b510e8af\7622242d-70ba-48ed-843b-a35d1e417f6b.ss" />
+      <output id="SV3_Extract_out0" />
+    </process>
+    <process id="SV4_Extract" command="ScopeEngine.dll -scopeVertex SV4_Extract" nativeOnly="true" managedMemorySize="0" nativeIOMemorySize="67108867" nativeExecutionMemorySize="5851054077" DummyVertexOptimization="AllInputsEmptyImpliesOutputsEmpty|RunAtLeastOneVertex" trustedVertex="True">
+      <input id="GetSStream_6[ALL,ALL,ALL]" usqlTableName="localcomputeaccount.StarTrekData.dbo.Ratings" structuredStream="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\553953da-2f74-48b2-ba2a-5282b510e8af\2f0c15cf-edb8-4b7b-a1c0-1920734059ac.ss" />
+      <output id="SV4_Extract_out0" />
+    </process>
+    <process id="SV5_Combine" command="ScopeEngine.dll -scopeVertex SV5_Combine" nativeOnly="true" managedMemorySize="0" nativeIOMemorySize="41943043" nativeExecutionMemorySize="20971520" DummyVertexOptimization="AllInputsEmptyImpliesOutputsEmpty" trustedVertex="True">
+      <input id="SV3_Extract_out0" />
+      <input id="SV4_Extract_out0" />
+      <output id="SV5_Combine_out0" />
+    </process>
+    <process id="SV6_Split" command="ScopeEngine.dll -scopeVertex SV6_Split" nativeOnly="true" managedMemorySize="0" nativeIOMemorySize="58720259" nativeExecutionMemorySize="12582912" DummyVertexOptimization="AllInputsEmptyImpliesOutputsEmpty|RunAtLeastOneVertex" trustedVertex="True">
+      <input id="SV5_Combine_out0" />
+      <output id="SV6_Split_out0" />
+      <output id="SV6_Split_out1" cosmosStream="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\ScoredRatings.csv" />
+    </process>
+    <process id="SV7_Process" command="ScopeEngine.dll -scopeVertex SV7_Process" nativeOnly="true" managedMemorySize="0" nativeIOMemorySize="33554434" nativeExecutionMemorySize="4194304" DummyVertexOptimization="AllInputsEmptyImpliesOutputsEmpty|RunAtLeastOneVertex" trustedVertex="True">
+      <input id="SV5_Combine_out0" />
+      <output id="SV7_Process_out0" cosmosStream="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\Ratings.csv" />
+    </process>
+    <process id="SV8_Extract_Split" command="ScopeEngine.dll -scopeVertex SV8_Extract_Split" nativeOnly="true" managedMemorySize="0" nativeIOMemorySize="92274692" nativeExecutionMemorySize="5825888252" DummyVertexOptimization="AllInputsEmptyImpliesOutputsEmpty|RunAtLeastOneVertex" trustedVertex="True">
+      <input id="GetSStream_13[ALL,ALL,ALL]" usqlTableName="localcomputeaccount.StarTrekData.dbo.TwitterResults" structuredStream="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\_catalog_\database\b103d8cd-b218-459b-b77f-65fe81ffa693\schema\86629638-e292-414d-ba10-5e3359f73d1f\table\c3d38532-6bf4-44a9-8913-11e3029178c6\4a8da529-c536-4425-af0c-5acef3b8bc5f.ss" />
+      <output id="SV8_Extract_Split_out0" />
+      <output id="SV8_Extract_Split_out1" cosmosStream="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\Twitter.csv" />
+    </process>
+    <process id="SV9_Split" command="ScopeEngine.dll -scopeVertex SV9_Split" nativeOnly="true" managedMemorySize="0" nativeIOMemorySize="109051909" nativeExecutionMemorySize="5809111035" DummyVertexOptimization="AllInputsEmptyImpliesOutputsEmpty|RunAtLeastOneVertex" trustedVertex="True">
+      <input id="SV8_Extract_Split_out0" />
+      <output id="SV9_Split_out0" />
+      <output id="SV9_Split_out1" cosmosStream="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\ScoredTwitter.csv" />
+    </process>
+    <process id="SV10_Combine" command="ScopeEngine.dll -scopeVertex SV10_Combine" nativeOnly="true" managedMemorySize="0" nativeIOMemorySize="75497477" nativeExecutionMemorySize="5842665467" DummyVertexOptimization="AllInputsEmptyImpliesOutputsEmpty|RunAtLeastOneVertex" trustedVertex="True">
+      <input id="SV1_Extract_out0" />
+      <input id="SV6_Split_out0" />
+      <input id="SV9_Split_out0" />
+      <output id="SV10_Combine_out0" cosmosStream="C:\Source\Repos\Data Lake SQL Saturday\USQLDemoApp\USQLDemoApp\Files\Output\Analysis.csv" />
+    </process>
+  </graph>
+  <Scopescript>// Auto-generated header code
+
+// Auto-generated header code ended
+// User script
+
+USE DATABASE StarTrekData;
+
+DECLARE @outputSeries string = "Output/Series.csv";
+DECLARE @outputRatings string = "Output/Ratings.csv";
+DECLARE @outputTwitter string = "Output/Twitter.csv";
+DECLARE @outputScoredTwitter string = "Output/ScoredTwitter.csv";
+DECLARE @outputScoredRatings string = "Output/ScoredRatings.csv";
+DECLARE @outputFinalAnalysis string = "Output/Analysis.csv";
+
+//get data
+@series =
+    SELECT DISTINCT SeriesName
+    FROM dbo.SeriesSynonyms;
+
+@ratings =
+    SELECT DISTINCT SeriesName,
+           RatingName,
+           Rating
+    FROM dbo.Ratings;
+
+@twitter =
+    SELECT DISTINCT SeriesName, 
+        Tweet,
+        RetweetCount,
+        Sentiment
+    FROM dbo.TwitterResults
+    WHERE SeriesName != "Unknown";
+
+//find an overall winner
+@scoredRatings =
+    SELECT
+        SeriesName,
+        ROW_NUMBER() OVER(PARTITION BY RatingName ORDER BY Rating) AS Score
+FROM @ratings;
+
+@sumTweets =
+    SELECT
+        SeriesName,
+        COUNT(Tweet) AS TweetCount,
+        SUM(RetweetCount) AS RetweetCount
+        FROM @twitter
+        GROUP BY SeriesName;
+
+@scoredTweets =
+    SELECT SeriesName,
+           ROW_NUMBER() OVER(ORDER BY TweetCount) AS TweetScore,
+           ROW_NUMBER() OVER(ORDER BY RetweetCount) AS RetweetScore
+    FROM @sumTweets;
+        
+
+@groupResults =
+    SELECT s.SeriesName,
+           SUM(Score) == null? 0 : SUM(Score) AS RatingsScore,
+           TweetScore == null? 0 : TweetScore AS TweetScore,
+           RetweetScore == null? 0 : RetweetScore AS RetweetScore
+    FROM @series AS s
+         LEFT JOIN
+             @scoredRatings AS r
+         ON s.SeriesName == r.SeriesName
+         LEFT JOIN
+             @scoredTweets AS t
+         ON s.SeriesName == t.SeriesName
+    GROUP BY s.SeriesName,
+            TweetScore,
+           RetweetScore;
+
+@finalResults =
+    SELECT SeriesName,
+           RatingsScore + TweetScore + RetweetScore AS OverallScore,
+           RatingsScore,
+           TweetScore,
+           RetweetScore
+    FROM @groupResults;
+
+
+
+
+OUTPUT @series
+TO @outputSeries
+USING Outputters.Csv(outputHeader: true);
+
+OUTPUT @ratings
+TO @outputRatings
+USING Outputters.Csv(outputHeader: true);
+
+OUTPUT @twitter
+TO @outputTwitter
+USING Outputters.Csv(outputHeader: true);
+
+OUTPUT @scoredTweets
+TO @outputScoredTwitter
+USING Outputters.Csv(outputHeader: true);
+
+OUTPUT @scoredRatings
+TO @outputScoredRatings
+USING Outputters.Csv(outputHeader: true);
+
+OUTPUT @finalResults
+TO  @outputFinalAnalysis
+USING Outputters.Csv(outputHeader: true);
+
+// User script ended
+// Auto-generated footer code
+
+// Auto-generated footer code ended
+
+</Scopescript>
+  <Optimization succeeded="true" time="00:00:01.1091404" latency="-1" totalCost="-1" />
+  <ScopeVertexAnnotations>
+    <ScopeVertex name="SV2_Process">
+      <Operation annotation="OUTPUT USING IOutputter" />
+    </ScopeVertex>
+    <ScopeVertex name="SV7_Process">
+      <Operation annotation="OUTPUT USING IOutputter" />
+    </ScopeVertex>
+    <ScopeVertex name="SV10_Combine">
+      <Operation annotation="OUTPUT USING IOutputter" />
+    </ScopeVertex>
+  </ScopeVertexAnnotations>
+</ScriptAndGraph>
